@@ -38,7 +38,7 @@ function LoadContent() {
 			notes: [],
 			other: [],
 		};
-		const chapterNodes = fs.readdirSync(`${physicsPath}\\${chapter}`);
+		const chapterNodes = fs.readdirSync(path.join(physicsPath, chapter));
 		for (const node of chapterNodes) {
 			const item = node.toLowerCase();
 			if (item.includes("separator")) continue;
@@ -62,7 +62,7 @@ function LoadContent() {
 			notes: [],
 			other: [],
 		};
-		const chapterNodes = fs.readdirSync(`${chemistryPath}\\${chapter}`);
+		const chapterNodes = fs.readdirSync(path.join(chemistryPath, chapter));
 		for (const node of chapterNodes) {
 			const item = node.toLowerCase();
 			if (item.includes("separator")) continue;
@@ -86,7 +86,7 @@ function LoadContent() {
 			notes: [],
 			other: [],
 		};
-		const chapterNodes = fs.readdirSync(`${biologyPath}\\${chapter}`);
+		const chapterNodes = fs.readdirSync(path.join(biologyPath, chapter));
 		for (const node of chapterNodes) {
 			const item = node.toLowerCase();
 			if (item.includes("separator")) continue;
