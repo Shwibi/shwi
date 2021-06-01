@@ -1,0 +1,29 @@
+{
+  "name": "study",
+  "version": "1.0.3",
+  "description": "Study material (NEET)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npm run open && npm run dev",
+    "open": "sleepms 2000ms && start http://www.shwibi.com:7875",
+    "dev": "nodemon index.js",
+    "build": "npm run open && node index.js"
+  },
+  "author": "Shwibi",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "sleep-ms": "^2.0.1"
+  },
+  "_moduleAliases": {
+      "@pages": "views/pages",
+      "@styles": "public/styles",
+      "@routes": "routes",
+      "@source": "."
+  }
+}

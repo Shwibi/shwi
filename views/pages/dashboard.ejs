@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Study Material
+        </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.png">
+        <style>
+            body {
+                background-color: rgb(30, 38, 73);
+                color: rgb(235, 204, 204);
+            }
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                color: wheat;
+                border-bottom: 2px solid rgba(255, 255, 255, 0);
+                margin-bottom: 20px;
+                display: inline-block;
+                width: 1000px;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 50px;
+                background-color: rgb(36, 60, 61);
+                border-radius: 10px;
+                transition-duration: 150ms;
+            }
+            a:hover {
+                background-color: teal;
+            }
+            input {
+                border: none;
+                border-right: 2px solid transparent;
+                border-left: 2px solid transparent;
+                border-bottom: 2px solid black;
+                background-color: transparent;
+                padding: 10px;
+                width: 500px;
+                height: 35px;
+                font-size: large;
+                transition-duration: 300ms;
+                border-radius: 12px;
+            }
+            input:focus {
+                background-color: wheat;
+                outline: none;
+            }
+            button {
+                padding: 20px;
+                border: none;
+                background-color: teal;
+                color: white;
+                border-radius: 10px;
+                width: 200px;
+                cursor: pointer;
+                transition-duration: 200ms;
+            }
+            button:hover {
+                background-color:rgb(70, 112, 204);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size: 40px;">
+            Study Material
+        </h1>
+        <br>
+        <input type="text" id="input" onkeyup="search()" placeholder="Search..." autocomplete="off">
+        <button onclick="window.location.reload()"> Reload List </button>
+       <ul style="list-style-type: none; margin: 0;" id="listing">
+           <li>
+                <h1>Physics</h1>
+                <% for(let p = 0; p < physics.length; p++) { %>
+                    <li>    
+                        <h2>
+                            Physics/<%= physics[p].chapter %> 
+                        </h2>
+                        <% if(physics[p].dpps.length !== 0) {%>
+                            <h3>
+                                Physics/<%= physics[p].chapter %>/DPPs
+                            </h3>
+                            <% for(let pd = 0; pd < physics[p].dpps.length; pd++) {%>
+                                <li>
+				                    <a href="dashboard/physics/<%= physics[p].chapter %>/<%= physics[p].dpps[pd] %>"><%= physics[p].dpps[pd] %> (<%= physics[p].chapter %>) [Physics]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                        <% if(physics[p].notes.length !== 0) {%>
+                            <h3>
+                                Physics/<%= physics[p].chapter %>/Notes
+                            </h3>
+                            <% for(let pn = 0; pn < physics[p].notes.length; pn++) {%>
+                                <li>
+                                    <a href="dashboard/physics/<%= physics[p].chapter %>/<%= physics[p].notes[pn] %>"><%= physics[p].notes[pn] %> (<%= physics[p].chapter %>) [Physics]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                        <% if(physics[p].other.length !== 0) {%> 
+                            <h3>
+                                Physics/<%= physics[p].chapter %>/Other
+                            </h3>
+                            <% for(let pn = 0; pn < physics[p].other.length; pn++) {%>
+                                <li>
+                                    <a href="dashboard/physics/<%= physics[p].chapter %>/<%= physics[p].other[pn] %>"><%= physics[p].other[pn] %> (<%= physics[p].chapter %>) [Physics]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                    </li>
+                <% } %>
+           </li>
+           <li>
+                <h1>Chemistry</h1>
+                <% for(let p = 0; p < chemistry.length; p++) { %>
+                    <li>    
+                        <h2>
+                            Chemistry/<%= chemistry[p].chapter %> 
+                        </h2>
+                        <% if(chemistry[p].dpps.length !== 0) {%>
+                            <h3>
+                                Chemistry/<%= chemistry[p].chapter %>/DPPs
+                            </h3>
+                            <% for(let pd = 0; pd < chemistry[p].dpps.length; pd++) {%>
+                                <li>
+                                    <a href="dashboard/chemistry/<%= chemistry[p].chapter %>/<%= chemistry[p].dpps[pd] %>"><%= chemistry[p].dpps[pd] %> (<%= chemistry[p].chapter %>) [Chemistry]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                        <% if(chemistry[p].notes.length !== 0) {%>
+                            <h3>
+                                Chemistry/<%= chemistry[p].chapter %>/Notes
+                            </h3>
+                            <% for(let pn = 0; pn < chemistry[p].notes.length; pn++) {%>
+                                <li>
+                                    <a href="dashboard/chemistry/<%= chemistry[p].chapter %>/<%= chemistry[p].notes[pn] %>"><%= chemistry[p].notes[pn] %> (<%= chemistry[p].chapter %>) [Chemistry]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                        <% if(chemistry[p].other.length !== 0) {%> 
+                            <h3>
+                                Chemistry/<%= chemistry[p].chapter %>/Other
+                            </h3>
+                            <% for(let pn = 0; pn < chemistry[p].other.length; pn++) {%>
+                                <li>
+                                    <a href="dashboard/chemistry/<%= chemistry[p].chapter %>/<%= chemistry[p].other[pn] %>"><%= chemistry[p].other[pn] %> (<%= chemistry[p].chapter %>) [Chemistry]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                    </li>
+                <% } %>
+           </li>
+            <li>
+                <h1>Biology</h1>
+                <% for(let p = 0; p < biology.length; p++) { %>
+                    <li>    
+                        <h2>
+                            Biology/<%= biology[p].chapter %> 
+                        </h2>
+                        <% if(biology[p].dpps.length !== 0) {%>
+                            <h3>
+                                Biology/<%= biology[p].chapter %>/DPPs
+                            </h3>
+                            <% for(let pd = 0; pd < biology[p].dpps.length; pd++) {%>
+                                <li>
+                                    <a href="dashboard/biology/<%= biology[p].chapter %>/<%= biology[p].dpps[pd] %>"><%= biology[p].dpps[pd] %> (<%= biology[p].chapter %>) [Biology]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                        <% if(biology[p].notes.length !== 0) {%>
+                            <h3>
+                                Biology/<%= biology[p].chapter %>/Notes
+                            </h3>
+                            <% for(let pn = 0; pn < biology[p].notes.length; pn++) {%>
+                                <li>
+                                    <a href="dashboard/biology/<%= biology[p].chapter %>/<%= biology[p].notes[pn] %>"><%= biology[p].notes[pn] %> (<%= biology[p].chapter %>) [Biology]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                        <% if(biology[p].other.length !== 0) {%> 
+                            <h3>
+                                Biology/<%= biology[p].chapter %>/Other
+                            </h3>
+                            <% for(let pn = 0; pn < biology[p].other.length; pn++) {%>
+                                <li>
+                                    <a href="dashboard/biology/<%= biology[p].chapter %>/<%= biology[p].other[pn] %>"><%= biology[p].other[pn] %> (<%= biology[p].chapter %>) [Biology]</a>
+                                </li> 
+                            <% } %>
+                        <% } %>
+                    </li>
+                <% } %>
+           </li>
+       </ul> 
+       <script>
+            function search() {
+                // Declare variables
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById('input');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("listing");
+                li = ul.getElementsByTagName('li');
+
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    check(li[i]);
+                    let liChildA = li[i].getElementsByTagName("li");
+                    if(liChildA.length !== 0) {
+                        for(let a = 0; a < liChildA.length; a++) {
+                            check(liChildA[a]);
+                            let liChildB = liChildA[a].getElementsByTagName("li");
+                            if(liChildB.length !== 0) {
+                                check(liChildB);
+                            }
+                        }
+                    }
+                }
+            }
+            function check(inlet) {
+                filter = input.value.toUpperCase();
+                txtValue = inlet.getElementsByTagName("a")[0] ? inlet.getElementsByTagName("a")[0].textContent : "";
+                if (txtValue.toUpperCase().includes(filter)) {
+                    inlet.style.display = "";
+                } else {
+                    inlet.style.display = "none";
+                }
+            }
+       </script>
+    </body>
+</html>
