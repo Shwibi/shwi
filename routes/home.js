@@ -4,7 +4,7 @@ const express = require("express");
 const fs = require("fs");
 
 // Paths
-const dirPath = "C:\\Kavya (SAMERAKA)\\Synced (HP Probook 19.04.2021)";
+const dirPath = "content";
 const physicsPath = dirPath + "\\NEET Physics";
 const chemistryPath = dirPath + "\\NEET Chemistry";
 const biologyPath = dirPath + "\\NEET Biology";
@@ -124,7 +124,9 @@ homeRouter.get("/dashboard/:subject/:chapter/:file", (req, res) => {
 	const subject = Field[req.params.subject];
 	const chapter = req.params.chapter;
 	const file = req.params.file;
-	res.sendFile(dirPath + `\\${subject}\\${chapter}\\${file}`);
+	const filePath = `${__dirname}/../${dirPath}/${subject}/${chapter}/${file}`;
+	console.log(filePath);
+	res.sendFile(filePath);
 });
 global.Files = { physics, chemistry, biology };
 module.exports = homeRouter;
