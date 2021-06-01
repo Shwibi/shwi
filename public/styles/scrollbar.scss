@@ -1,0 +1,21 @@
+$track: grey;
+$thumb: rgb(56, 56, 56);
+$width: 5px;
+$radius: 7px;
+
+body::-webkit-scrollbar {
+	width: $width;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: $thumb;
+}
+
+body::-webkit-scrollbar-corner {
+	border-radius: $radius;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: $track;
+	opacity: 0.5;
+}

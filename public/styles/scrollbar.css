@@ -1,0 +1,17 @@
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #383838;
+}
+
+body::-webkit-scrollbar-corner {
+  border-radius: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: grey;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=scrollbar.css.map */

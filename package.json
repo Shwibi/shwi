@@ -7,7 +7,8 @@
 	"scripts": {
 		"test": "npm start",
 		"dev": "nodemon index.js",
-		"start": "node index.js"
+		"start": "node index.js",
+		"gp+": "git push -u origin main"
 	},
 	"author": "Shwibi",
 	"license": "ISC",
