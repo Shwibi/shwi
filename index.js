@@ -23,7 +23,7 @@ app.use("/", require("./routes/home"));
 app.use("/api", require("./routes/api"));
 
 // Listen to ip/port
-app.listen(process.env.PORT, process.env.IP, (err) => {
+app.listen(process.env.PORT || 7875, (err) => {
 	if (err) utils.log(`[Error/Listening to port] `.red + err);
 });
 utils.log(
