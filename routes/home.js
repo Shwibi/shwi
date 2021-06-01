@@ -2,6 +2,7 @@ const utils = require("../utils");
 const colors = require("colors");
 const express = require("express");
 const fs = require("fs");
+const path = require("path");
 
 // Paths
 const dirPath = "content";
@@ -124,7 +125,13 @@ homeRouter.get("/dashboard/:subject/:chapter/:file", (req, res) => {
 	const subject = Field[req.params.subject];
 	const chapter = req.params.chapter;
 	const file = req.params.file;
-	const filePath = `${__dirname}/../${dirPath}/${subject}/${chapter}/${file}`;
+	const filePath = path.join(
+		__dirname,
+		`../${dirPath}`,
+		subject,
+		chapter,
+		file
+	);
 	console.log(filePath);
 	res.sendFile(filePath);
 });
