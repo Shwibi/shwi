@@ -6,9 +6,9 @@ const path = require("path");
 
 // Paths
 const dirPath = "content";
-const physicsPath = dirPath + "\\NEET Physics";
-const chemistryPath = dirPath + "\\NEET Chemistry";
-const biologyPath = dirPath + "\\NEET Biology";
+const physicsPath = path.join(__dirname, `../${dirPath}`, "NEET Physics");
+const chemistryPath = path.join(__dirname, `../${dirPath}`, "NEET Chemistry");
+const biologyPath = path.join(__dirname, `../${dirPath}`, "NEET Biology");
 
 // Fields
 const Field = {
