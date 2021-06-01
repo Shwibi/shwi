@@ -22,6 +22,12 @@ app.use("/", require("./routes/home"));
 // API route
 app.use("/api", require("./routes/api"));
 
+// 404 model
+app.get("*", (req, res, next) => {
+	res.status(404);
+	res.render("pages/404", { path: req.path });
+});
+
 // Listen to ip/port
 app.listen(process.env.PORT || 7875, (err) => {
 	if (err) utils.log(`[Error/Listening to port] `.red + err);

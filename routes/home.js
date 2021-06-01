@@ -132,7 +132,6 @@ homeRouter.get("/dashboard/:subject/:chapter/:file", (req, res) => {
 		chapter,
 		file
 	);
-	console.log(filePath);
 	res.sendFile(filePath);
 });
 global.Files = { physics, chemistry, biology };

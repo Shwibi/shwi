@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Oops! 404: Page not found</title>
+		<style>
+			@import url("https://fonts.googleapis.com/css?family=Antic+Slab");
+			body {
+				font-family: "Antic Slab";
+				background-color: antiquewhite;
+				background-image: url("images/wave-bg-404-2.png");
+				margin: 0;
+				background-color: #3b4035;
+				overflow: hidden;
+			}
+
+			button {
+				border: none;
+				padding: 10px;
+				border-radius: 10px;
+				color: black;
+				background-color: grey;
+				transition-duration: 200ms;
+				width: 200px;
+				height: 50px;
+			}
+			button:hover {
+				background-color: brown;
+				outline: none;
+				cursor: pointer;
+			}
+
+			.wave-container {
+				position: relative;
+				text-align: center;
+				overflow: hidden;
+			}
+
+			.wave-container svg {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wave-container">
+			<h1>The page you're looking for doesn't exist!</h1>
+			<p>
+				<%= typeof path != 'undefined' ? path.split("/").join("->") :
+				"That-path" %> doesn't exist!
+				<br />
+				<br />
+				<button onclick="window.history.back()">Go back?</button>
+			</p>
+
+			<!-- Wave -->
+			<svg
+				width="1440"
+				height="620"
+				viewBox="0 0 1440 620"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M0 0C60.8333 137.833 251.8 390.8 529 300C875.5 186.5 1016 462 1053.5 522C1091 582 1226 639.5 1317.5 562C1409 484.5 1406.5 504 1455.5 497.5V620H0V0Z"
+					fill="#262626"
+				/>
+			</svg>
+		</div>
+	</body>
+</html>
