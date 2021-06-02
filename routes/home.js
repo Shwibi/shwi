@@ -118,6 +118,13 @@ homeRouter.get("/dashboard", (req, res) => {
 		chemistry: chemistry,
 		biology: biology,
 		load: LoadContent,
+		all: {
+			physics,
+			chemistry,
+			biology
+		},
+		subjects: ["Physics", "Chemistry", "Biology"],
+		types: ["DPPs", "Notes", "Other"],
 	});
 });
 
@@ -134,5 +141,9 @@ homeRouter.get("/dashboard/:subject/:chapter/:file", (req, res) => {
 	);
 	res.sendFile(filePath);
 });
-global.Files = { physics, chemistry, biology };
+global.Files = {
+	physics,
+	chemistry,
+	biology
+};
 module.exports = homeRouter;
