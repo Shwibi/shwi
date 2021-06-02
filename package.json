@@ -9,7 +9,9 @@
 		"dev": "nodemon index.js",
 		"start": "node index.js",
 		"gp+": "git push -u origin main",
-		"ga+": "git add ."
+		"ga+": "git add .",
+		"gc+": "git commit -a",
+		"g+": "npm run ga+ && npm run gc+ && npm run gp+"
 	},
 	"author": "Shwibi",
 	"license": "ISC",
