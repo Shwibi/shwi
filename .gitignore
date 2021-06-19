@@ -1,6 +1,17 @@
+# Nodes
 node_modules/
 .env
 request.http
+
+# Vim
 *.un~
 *~
+
+# Ignorers
 ignore*
+
+# Readers
+reader.js
+
+# content
+content
