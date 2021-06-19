@@ -2,7 +2,6 @@ const utils = require("../utils");
 const colors = require("colors");
 const express = require("express");
 // const subjectData = require("../subData.json");
-const reader = require("../reader.js");
 const subjectData = require("../subData.json");
 global.Files = {
 	physics: subjectData.physics,
@@ -121,7 +120,6 @@ homeRouter.get("/dashboard", (req, res) => {
 		physics: subjectData.physics,
 		chemistry: subjectData.chemistry,
 		biology: subjectData.biology,
-		load: reader.LoadContent,
 		all: {
 			physics: subjectData.physics,
 			chemistry: subjectData.chemistry,
