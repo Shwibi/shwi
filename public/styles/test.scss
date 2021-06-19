@@ -1,9 +1,0 @@
-$red : red;
-
-@mixin redder {
-    color: $red;
-}
-
-body {
-    @include redder();
-}
