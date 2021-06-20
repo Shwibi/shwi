@@ -1,375 +1,383 @@
 {
-	"physics": [
-		{
-			"id": 1,
-			"chapter": "Basic Maths",
-			"dpps": [
-				"DPP 01 Basic Maths DPP 01 - 1. TRIGONOMETRY_DPP-1_Arjuna (NEET).pdf",
-				"DPP 02 Basic Maths DPP 02 - 2. Graph_DPP-2_Arjuna (NEET).pdf",
-				"DPP 03 Basic Maths DPP-03 - Differentiation_DPP-3_Arjuna (NEET) .pdf",
-				"DPP 04 Basic Maths - Integration.pdf",
-				"DPP-SOL 01 Basic Maths DPP Solution 01 - DPP 1 Arjuna NEET solutions.pdf",
-				"DPP-SOL 02 Basic Maths DPP 02 Solution - DPP 2 Arjuna NEET solutions.pdf",
-				"DPP-SOL 03 Basic Maths _ DPP 03 Discussion - dpp3 arjuna neet correction_merged.pdf"
-			],
-			"notes": [
-				"NOTES 01 Basic Maths 01 Classnotes - trigonometry -1_compressed.pdf",
-				"NOTES 02 Basic Maths Lec-02 Classnotes - class 2 arjuna l2.pdf",
-				"NOTES 02.2 Extra Lecture of Basic Maths - Extra baic math _1.pdf",
-				"NOTES 03 Basic Maths 03 Classnotes - basic math graph.pdf",
-				"NOTES 03.2 Basics Maths 03_ Graphs Part-02 Classnotes - basic math graph extra lec..pdf",
-				"NOTES 04 Basic Maths 04 Classnotes - differentiation basic math.pdf",
-				"NOTES 05 Basic Maths 05 classnotes - basic math diffrenciatio lec 5.pdf",
-				"NOTES 05.2 Basic Maths Differentiation Extra Lecture Classnotes - differentiation extra lec.pdf",
-				"NOTES 06 Basic Maths 06_ Integration - integration lec 6.pdf",
-				"NOTES 06.2 Basic Maths Classnotes.pdf",
-				"REVISION Revision of Basic Maths By Manish Raj Sir Classnotes - revision of basic ,math.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 2,
-			"chapter": "Kinematics",
-			"dpps": ["DPP Ch-Kinematics DPP 01(of Lect-01) - YCh02DPP01.pdf"],
-			"notes": [
-				"NOTES Ch-Kinematics Lec 01 Notes - LECT 01 kinematics final (1) notes.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 3,
-			"chapter": "Kinematics MR Sir",
-			"dpps": [
-				"DPP 01 Kinematics DPP 01 - Kinematics_DPP-1_Arjuna (NEET).pdf",
-				"DPP 02 Kinematics DPP 02 - Kinematics_DPP-2_Arjuna (NEET).pdf",
-				"DPP 03 Kinematics DPP 03 - Kinematics_DPP-3_Arjuna (NEET).pdf",
-				"DPP 04 Kinematics DPP 04 - Kinematics_DPP-4_Arjuna (NEET).pdf"
-			],
-			"notes": [
-				"NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
-				"NOTES 01.2 Kinematics 01 Extra Lecture Classnotes - kinematicds lecture 1 extra.pdf",
-				"NOTES 02 Kinematics 02 Classnotes - kinematics _2_compressed.pdf",
-				"NOTES 03 Kinematics 03 Classnotes - kinematics3_compressed.pdf",
-				"NOTES 04 Kinematics 04 Classnotes - kinematics4_compressed (1).pdf"
-			],
-			"other": [
-				"ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
-			]
-		},
-		{
-			"id": 4,
-			"chapter": "Other",
-			"dpps": [],
-			"notes": [],
-			"other": [
-				"Class-XI NEET Study Material Sample (Physics) - Physics PDF.pdf"
-			]
-		},
-		{
-			"id": 5,
-			"chapter": "Units and Dimensions",
-			"dpps": [
-				"DPP 01 Units and Dimensions.pdf",
-				"DPP 02 Units and Dimensions.pdf",
-				"DPP 03 Unit and Dimensions DPP-03 - Unit and Measurement_DPP-3_Arjuna (NEET).pdf",
-				"DPP 04 Unit and Dimensions DPP-04 - Unit and Measurement_DPP-4_Arjuna (NEET).pdf",
-				"DPP 05 Unit and Dimensions DPP-05 - Unit and Measurement_DPP-5_Arjuna (NEET).pdf",
-				"DPP 06 Unit and Dimensions DPP-06 - Unit and Measurement_DPP-6_Arjuna (NEET).pdf",
-				"DPP 07 Unit and Dimensions DPP-07 - Unit and Measurement_DPP-7_Arjuna (NEET).pdf"
-			],
-			"notes": [
-				"NOTES 01 Units and Dimensions.pdf",
-				"NOTES 02 Units and Dimensions.pdf",
-				"NOTES 03 Unit and Dimensions 03 Classnotes - udm lec3.pdf",
-				"NOTES 03.2 Unit and Dimensions Extra Lecture Classnotes - udm 3 extra.pdf",
-				"NOTES 04 Unit and Dimensions 04 - PSS on dimensional analysis Classnotes - udm 4 ques on dimention.pdf",
-				"NOTES 05 Unit and Dimensions 05 Classnotes - udm 5_compressed.pdf",
-				"NOTES 06 Unit and Dimensions 06 Classnotes - instrument.pdf",
-				"NOTES 07 Unit and Dimensions 07 Classnotes - udm lec 7.pdf"
-			],
-			"other": [
-				"ASSIGNMENT 01 Unit and Measurement Assignment-01 - 1. Unit and Measurement_Arjuna Batch_Assignment.pdf"
-			]
-		},
-		{
-			"id": 6,
-			"chapter": "Units and Dimensions PW Module",
-			"dpps": [],
-			"notes": [],
-			"other": [
-				"doubts",
-				"Module 01- Unit and Dimensions Answer Key and Solutions - Answers and Solutions-1-Unit and Measurements PDF (1).pdf",
-				"Module 01- Unit and Dimensions Multi-Concept Questions - Multi-Conept Questions-Unit and Measurements PDF (1).pdf",
-				"Module 01- Unit and Dimensions NCERT Based Questions - Libraey Plus-1-Unit and Measurements PDF (1).pdf",
-				"Module 01- Unit and Dimensions Past 10 Questions - NEET Last 10 Years Questions-1-Unit and Measurements PDF (1).pdf",
-				"Module 01- Unit and Dimensions Theory and Explanation - Theory and Explanation-1-Unit and Measurements PDF (1).pdf",
-				"Module 01- Unit and Dimensions Topic Wise Questions - Topic wise Questions-1-Unit and Measurements PDF (1).pdf"
-			]
-		}
-	],
-	"chemistry": [
-		{
-			"id": 1,
-			"chapter": "Mole Concept",
-			"dpps": [
-				"DPP 01 DPP-01_PC.pdf",
-				"SHEET DPP 01 MoleConceptA4.pdf",
-				"SHEET DPP-SOL 01 SOLUTIONofMoleConceptsheet.pdf"
-			],
-			"notes": [],
-			"other": []
-		},
-		{
-			"id": 2,
-			"chapter": "Other",
-			"dpps": [],
-			"notes": [],
-			"other": [
-				"Class-XI NEET Study Material Sample (Chemistry) - Chemistry PDF.pdf"
-			]
-		},
-		{
-			"id": 3,
-			"chapter": "Periodic Properties",
-			"dpps": [],
-			"notes": [
-				"NOTES R1 Periodicpropertiesragister.pdf",
-				"NOTES R2 Perodictable.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 4,
-			"chapter": "PR Series",
-			"dpps": [],
-			"notes": [],
-			"other": ["Series.txt"]
-		},
-		{
-			"id": 5,
-			"chapter": "Quantum Number",
-			"dpps": [],
-			"notes": [
-				"NOTES 01 Quantum_Number__Part_I_with_anno.pdf",
-				"NOTES 02 Quantum_Number__Part_II_with_anno.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 6,
-			"chapter": "S-block",
-			"dpps": [],
-			"notes": [
-				"NOTES 01.pdf",
-				"NOTES 02 Physical_Properties_of_Alkali_Metals_with_anno.pdf",
-				"NOTES 03 Diagonal_Relationship_with_anno.pdf",
-				"NOTES 04 Covalent_Charter_of_Ionic_Compound_and_Doubt_Clearing_Session_with_anno.pdf",
-				"NOTES 05 Reaction_with_Oxygen_Hydrogen_and_Nitrogen_with_anno.pdf",
-				"NOTES 06 Reaction_with_Liquid_Ammonia_with_anno.pdf",
-				"NOTES 07 Physical_Properties_of_Alkaline_Earth_Metals_with_anno.pdf",
-				"NOTES 08 Chemical_Properties_of_Alkaline_Earth_Metals_with_anno.pdf",
-				"NOTES S-blockregister.pdf"
-			],
-			"other": [
-				"Links.txt",
-				"Nurture_ Course on Inorganic Chemistry for Class 11 _ Unacademy.html",
-				"Nurture_ Course on Inorganic Chemistry for Class 11 _ Unacademy_files",
-				"SHEET s-BlockElementssheet.pdf"
-			]
-		},
-		{
-			"id": 7,
-			"chapter": "Some Basic Concepts of Chemistry Physics Wallah",
-			"dpps": [
-				"DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
-				"DPP 02 Some Basics Concepts of Chemistry DPP-02 - Arjuna (NEET)_DPP 2_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
-				"DPP 03 Some Basics Concepts of Chemistry DPP-03 - Arjuna (NEET)_DPP 3_Some Basic Concepts of Che_(10-05-2001)_Dolly Mam.pdf",
-				"DPP 04 Some Basics Concepts of Chemistry DPP-04 - Some basic concepts of Chemistry_DPP-4_Arjuna (NEET) (1).pdf",
-				"DPP 05 Some Basics Concepts of Chemistry DPP-05 - Arjuna (NEET)_DPP 5_Some Basic Concepts of Chemistry_(24-05-2021)_Dolly Mam_Mohit .pdf",
-				"DPP 06 Some Basics Concepts of Chemistry DPP-06 - Arjuna (NEET)_DPP 6_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam_Mohit DTP.pdf"
-			],
-			"notes": [
-				"NOTES 01 Some Basics Concepts of Chemistry 01 Classnotes - basic concept of chemistry.pdf",
-				"NOTES 02 Some Basics Concepts of Chemistry 02 Classnotes - 02.pdf",
-				"NOTES 03 Some Basic Concepts of Chemistry 03 Classnotes - @3.pdf",
-				"NOTES 04 Some Basic Concepts of Chemistry 04 Classnotes - Laws of Chemical combination Lec-4 (Dolly mam)Arjuna Neet_compressed.pdf",
-				"NOTES 05 Some Basic Concepts of Chemistry 05 Classnotes - Some basic concept of chemistry lec5 arjuna neet.pdf",
-				"NOTES 06 Some Basic concept of Chemistry 06 Classnotes - Some Basic Concept Lec-6 (Dolly mam) Arjuna Neet.pdf",
-				"NOTES 07 Some Basic Concepts of Chemistry 07 Classnotes - Some Basic concepts of Chemistry Lec-7 Homework (Dolly mam) Arjuna NEET.pdf",
-				"NOTES 08 Some Basic Concepts of Chemistry 08 Classnotes - Some Basic Concept Lec-8 (Dolly mam) Arjuna Neet_compressed.pdf",
-				"NOTES 10 Some Basic Concepts of Chemistry 10 Classnotes - Some Basic Concept (Dolly mam) Arjuna Neet Lec-10_compressed (1).pdf",
-				"NOTES 14 Some Basics Concepts of Chemistry 14 Classnotes - Some basic concept of chemistry leC-14 (Dolly mam)arjuna neet_compressed.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 8,
-			"chapter": "Some Basic Concepts of Chemistry PW Module",
-			"dpps": [],
-			"notes": [],
-			"other": [
-				"Module 01- Some Basic Concepts of Chemistry Multi-Concept Questions - Multi-Concept Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
-				"Module 01- Some Basic Concepts of Chemistry NCERT Based Questions - NCERT Based Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
-				"Module 01- Some Basic Concepts of Chemistry Theory and  Explanation - Theory and Explanation of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
-				"Module 01- Some Basic Concepts of Chemistry Topic Wise Questions - Topicwise Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf"
-			]
-		},
-		{
-			"id": 9,
-			"chapter": "Some Basic Concepts of Chemistry Unacademy",
-			"dpps": [
-				"DPP 01 DPP-01_PC.pdf",
-				"DPP 02 Dpp-2Question.pdf",
-				"DPP-SOL 01 DPP-01-WithAns.pdf",
-				"DPP-SOL 02 Dpp-2Solution.pdf"
-			],
-			"notes": ["NOTES 01 Introduction_of_Concentration_Terms_with_anno.pdf"],
-			"other": [
-				"SHEET CONCENTRATIONTERMSA4.pdf",
-				"SHEET SOLUTIONConcentrationTerms.pdf"
-			]
-		},
-		{
-			"id": 10,
-			"chapter": "State of Matter PW Dolly mam",
-			"dpps": [
-				"DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
-			],
-			"notes": [
-				"NOTES 01 State of Matter 01 Classnotes - State of matter lec-1 Dolly mamArjuna neet_compressed.pdf"
-			],
-			"other": []
-		}
-	],
-	"biology": [
-		{
-			"id": 1,
-			"chapter": "Cell The Unit of Life",
-			"dpps": [
-				"DPP 01 Cell The Unit of Life.pdf",
-				"DPP 02 Cell The Unit of Life.pdf",
-				"DPP 03 Cell The Unit of Life.pdf",
-				"DPP 04 Cell_ Unit of Life DPP-04 - DPP-04_Arjuna (NEET)_Cell-the unit of life_(28-05-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 05 Cell_ Unit of Life DPP-05 - DPP-05_Arjuna (NEET)_Cell-the unit of life_(31-05-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 06 Cell_ Unit of Life DPP-06 - DPP-06_Arjuna (NEET)_Cell-the unit of life_(01-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 07 Cell_ Unit of Life DPP-07 - DPP-07_Arjuna (NEET)_Cell-the unit of life_(03-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 08 Cell_ Unit of Life DPP-08 - DPP-08_Arjuna (NEET)_Cell-the unit of life_(04-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 09 Cell_ Unit of Life DPP-09 - DPP-09_Arjuna (NEET)_Cell-the unit of life_(07-06-2021)_Biswajit Sir_Mohit DTP (1).pdf",
-				"DPP 10 Cell_ Unit of Life DPP 10 - DPP-10_Arjuna (NEET)_Cell-the unit of life_(08-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 11 Cell_ Unit of Life DPP 11 - ryy.pdf",
-				"DPP 12 Cell_ Unit of Life DPP 12 - DPP-12_Arjuna (NEET)_Cell-the unit of life_(11-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 13 Cell_ Unit of Life DPP 13 - DPP-13_Arjuna (NEET)_Cell-the unit of life_(14-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 14 Cell_ Unit of Life DPP 14 - DPP-14_Arjuna (NEET)_Cell-the unit of life_(15-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP 15 Cell_ Unit of Life DPP 15 - DPP-15_Arjuna (NEET)_Cell-the unit of life_(17-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"DPP-SOL 01 Cell The Unit of Life.pdf",
-				"DPP-SOL 02 Cell The Unit of Life.pdf",
-				"DPP-SOL 03 Cell_ Unit of Life DPP-03 Discussion - DPP 3 SOLUTION.pdf"
-			],
-			"notes": [
-				"DPP-SOL 04 Cell_ Unit of Life DPP 04 Discussion Classnotes - PPT_DPP-04_Arjuna (NEET)_Cell-the unit of life_(28-05-2021)_Biswajit Sir_Mohit DTP.pdf",
-				"NOTE H6 Cell_ Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
-				"NOTES 01 Cell The Unit of Life.pdf",
-				"NOTES 02 Cell The Unit of Life.pdf",
-				"NOTES 03 Cell_ Unit of Life 03 Classnotes - Plasma Membrane Part-1 (Biswajit sir) Arjuna Neet_compressed.pdf",
-				"NOTES 04 Cell_ Unit of Life 04 Classnotes - Cell unit of life Lec-4 (Biswajit sir) Arjuna Neet_compressed.pdf",
-				"NOTES 05 Cell unit of life 05 - Transport across plasma membrane, movement of lipids and proteins in plasma membrane Classnotes - Unit Cell of Life Lec-5 (Biswaji.pdf",
-				"NOTES 06 Cell_ Unit of Life 06 Classnotes - Transport Across Plasmamembrane Lec-6 (Biswajit sir) Arjuna Neet.pdf",
-				"NOTES 07 Cell_ Unit of Life 07 Classnotes - Cell Unit of life Lec-7 (Biswajit sir) Arjuna Neet_compressed.pdf",
-				"NOTES 08 Cell_ Unit of Life 08 Classnotes - Cell unit of life Lec-8 (Biswajit sir) Arjuna Neet.pdf",
-				"NOTES 09 Cell_ Unit of Life 09 Classnotes - Cell unit of life Lec-9 (Biswajit sir) Arjuna Neet.pdf",
-				"NOTES 10 Cell_ Unit of Life 10 Classnotes - Cell unit of life Lec-10 (Biswajit sir) Arjuna Neet_compressed.pdf",
-				"NOTES 11 Cell_ Unit of Life 11 Classnotes - bishwajit sir.pdf",
-				"NOTES 12 Cell_ Unit of Life 12 Classnotes - Cell unit of life Lec-12 Final (Biswajit sir).pdf",
-				"NOTES 13 Cell_ Unit of Life 13 Classnotes - Unit cell of life (Biswajit sir) Arjuna Neet.pdf",
-				"NOTES 14 Cell_ Unit of Life 14 Classnotes - Cell Unit of Life Lec-14.pdf",
-				"NOTES 15 Cell_ Unit of Life 15 Classnotes - Cell Unit of Life Lec-15 (Biswajit sir) (1).pdf",
-				"NOTES 16 Cell_ Unit of Life 16 Classnotes - 20210613172459925_compressed.pdf",
-				"NOTES 17 Cell_ Unit of Life 17 Classnotes - Cell unit of life Lec-17 (Biswajit sir) Arjuna Neet_compressed.pdf",
-				"NOTES 18 Cell_ Unit of Life 18 Classnotes - Cell Unit of Life Lec 18_compressed.pdf",
-				"NOTES 19 Cell_ Unit of Life 19 Classnotes - Cell Unit of Life Lec-19_compressed.pdf",
-				"NOTES H-1-2-A Cell Handwritten Notes (From Beginning) - cell.....pdf",
-				"NOTES H1 Cell The Unit of Life- Handwritten notes.pdf",
-				"NOTES H10 Cell_ Nucleus and Chromosome Handwritten Notes - CamScanner 06-15-2021 20.19.13.pdf",
-				"NOTES H11 Cell Structure Handwritten Notes - pk cell structure.pdf",
-				"NOTES H2 Cell The Unit of Life- Handwritten notes.pdf",
-				"NOTES H2 Cell_ Unit of Life 02 Handwritten Notes - CamScanner 05-25-2021 13.11.16.pdf",
-				"NOTES H3 Cell_ Unit of Life 03 Handwritten Notes - CamScanner 06-03-2021 17.39.57.pdf",
-				"NOTES H4 Cell_ Unit of Life 04 Handwritten Notes - CamScanner 06-07-2021 20.43.35.pdf",
-				"NOTES H5 Endomembrane System Hand Written Notes - endomembrane system.pdf",
-				"NOTES H6 Cell_ Unit of Life 05 Handwritten Notes - CamScanner 06-08-2021 18.30.12.pdf",
-				"NOTES H7 Cell_ Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf",
-				"NOTES H8 Cell_ Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
-				"NOTES H9 Cell_ Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 2,
-			"chapter": "Digestion and Absorption",
-			"dpps": [
-				"DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf"
-			],
-			"notes": [
-				"NOTES 01 Digestion and Absorption 01 Classnotes - DIGESTION LECTURE 1 (Samapti mam) Arjuna NEET  FINAL.pdf"
-			],
-			"other": []
-		},
-		{
-			"id": 3,
-			"chapter": "Other",
-			"dpps": [],
-			"notes": [],
-			"other": [
-				"803-WEB_APPL.pdf",
-				"803-Web_Application-XI.pdf",
-				"843-ARTIFICIAL_INTELLIGENCE_XI.pdf",
-				"Class-XI NEET Study Material Sample (Biology) - Biology PDF.pdf",
-				"NEET 2020 13 September Question Paper with Solution (Vedantu discussion).pdf",
-				"NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
-				"Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf"
-			]
-		},
-		{
-			"id": 4,
-			"chapter": "Structural Organisation in Animals",
-			"dpps": [
-				"DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
-				"DPP 02 Structural Organisation in Animals DPP 02 - DPP-02__Structural organisation in animals_Arjuna (NEET).pdf",
-				"DPP 03 Structural Organisation in Animals DPP 03 - DPP-03__Structural organisation in animals_Arjuna (NEET).pdf",
-				"DPP 04 Structural Organisation in Animals DPP 04 - DPP-04_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
-				"DPP 05 Structural Organisation in Animals DPP 05 - DPP-05_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
-				"DPP 06 Structural Organisation in Animals DPP 06 - DPP-06_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
-				"DPP 07 Structural Organisation in Animals DPP 07 - DPP-07_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
-				"DPP-SOL 01 Structural Organisation in Animals DPP 01 Solution - DPP 01.pdf",
-				"DPP-SOL 02 Structural Organisation in Animals DPP 02 Discussion - dpp 2 arjun.pdf",
-				"DPP-SOL 03 Structural Organisation in Animals DPP 03 Discussion - DPP3.pdf",
-				"DPP-SOL 04 Structural Organisation in Animals DPP 04 Discussion - DPP4.pdf",
-				"DPP-SOL 05 Structural Organisation in Animals DPP 05 Discussion - dpp 5 arjun.pdf",
-				"DPP-SOL 06 Structural Organisation in Animals DPP 06 Discussion - Presentation1.pdf"
-			],
-			"notes": [
-				"NOTES 01 Structural Organisation in Animals 01 Classnotes - s.pdf",
-				"NOTES 02 Structural Organisation in Animals 02 Classnotes - structure 02.pdf",
-				"NOTES 03 Structural Organisation in Animals 03 Classnotes - 03.pdf",
-				"NOTES 04 Structural Organisation in Animals lec-04 Classnotes - Structural organisations (Samapti mam) Arjuna Neet.pdf",
-				"NOTES 05 Structural Organization in Animal 05 Classnotes - Structural Lec-5 (Samapti mam) Arjuna Neet.pdf",
-				"NOTES 06 Structural Organization in Animal 06 Classnotes - structural organisation animal lec-6.pdf",
-				"NOTES 07 Structural Organisation in Animals 07 Classnotes - structural organisation animal lec-7.pdf",
-				"NOTES 08 Structural Organization of Animal 08 Classnotes - STRUCTURAL ORGANISATION IN ANIMALS- LECTURE 8.pdf",
-				"NOTES 09 Structural Organisation in Animal 09 Classnotes - STRUCTURAL ORGANISATION IN ANIMALS- LECTURE -9 (Samapti mam) Arjuna Neet_compressed.pdf",
-				"NOTES N1 NCERT Structural Organization of Animals Lec-01 Classnotes - structural Organization in animals Lec1 NCERT Dis._compressed.pdf"
-			],
-			"other": ["doubts"]
-		},
-		{
-			"id": 5,
-			"chapter": "Structural Organisation in Animals PW Module",
-			"dpps": [],
-			"notes": [],
-			"other": [
-				"MOD 01 Module 01- Structural Organisation in Animals Topic Wise Questions - Topicwise Questions of NEET Biology CLASS-XI (Module-2)-Chapter 7.pdf",
-				"MOD X1 Multi Concept + PYQ.pdf"
-			]
-		}
-	]
+  "physics": [
+    {
+      "id": 1,
+      "chapter": "Basic Maths",
+      "dpps": [
+        "DPP 01 Basic Maths DPP 01 - 1. TRIGONOMETRY_DPP-1_Arjuna (NEET).pdf",
+        "DPP 02 Basic Maths DPP 02 - 2. Graph_DPP-2_Arjuna (NEET).pdf",
+        "DPP 03 Basic Maths DPP-03 - Differentiation_DPP-3_Arjuna (NEET) .pdf",
+        "DPP 04 Basic Maths - Integration.pdf",
+        "DPP-SOL 01 Basic Maths DPP Solution 01 - DPP 1 Arjuna NEET solutions.pdf",
+        "DPP-SOL 02 Basic Maths DPP 02 Solution - DPP 2 Arjuna NEET solutions.pdf",
+        "DPP-SOL 03 Basic Maths _ DPP 03 Discussion - dpp3 arjuna neet correction_merged.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Basic Maths 01 Classnotes - trigonometry -1_compressed.pdf",
+        "NOTES 02 Basic Maths Lec-02 Classnotes - class 2 arjuna l2.pdf",
+        "NOTES 02.2 Extra Lecture of Basic Maths - Extra baic math _1.pdf",
+        "NOTES 03 Basic Maths 03 Classnotes - basic math graph.pdf",
+        "NOTES 03.2 Basics Maths 03_ Graphs Part-02 Classnotes - basic math graph extra lec..pdf",
+        "NOTES 04 Basic Maths 04 Classnotes - differentiation basic math.pdf",
+        "NOTES 05 Basic Maths 05 classnotes - basic math diffrenciatio lec 5.pdf",
+        "NOTES 05.2 Basic Maths Differentiation Extra Lecture Classnotes - differentiation extra lec.pdf",
+        "NOTES 06 Basic Maths 06_ Integration - integration lec 6.pdf",
+        "NOTES 06.2 Basic Maths Classnotes.pdf",
+        "REVISION Revision of Basic Maths By Manish Raj Sir Classnotes - revision of basic ,math.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 2,
+      "chapter": "Kinematics",
+      "dpps": [
+        "DPP Ch-Kinematics DPP 01(of Lect-01) - YCh02DPP01.pdf"
+      ],
+      "notes": [
+        "NOTES Ch-Kinematics Lec 01 Notes - LECT 01 kinematics final (1) notes.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 3,
+      "chapter": "Kinematics MR Sir",
+      "dpps": [
+        "DPP 01 Kinematics DPP 01 - Kinematics_DPP-1_Arjuna (NEET).pdf",
+        "DPP 02 Kinematics DPP 02 - Kinematics_DPP-2_Arjuna (NEET).pdf",
+        "DPP 03 Kinematics DPP 03 - Kinematics_DPP-3_Arjuna (NEET).pdf",
+        "DPP 04 Kinematics DPP 04 - Kinematics_DPP-4_Arjuna (NEET).pdf"
+      ],
+      "notes": [
+        "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
+        "NOTES 01.2 Kinematics 01 Extra Lecture Classnotes - kinematicds lecture 1 extra.pdf",
+        "NOTES 02 Kinematics 02 Classnotes - kinematics _2_compressed.pdf",
+        "NOTES 03 Kinematics 03 Classnotes - kinematics3_compressed.pdf",
+        "NOTES 04 Kinematics 04 Classnotes - kinematics4_compressed (1).pdf"
+      ],
+      "other": [
+        "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "Other",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Class-XI NEET Study Material Sample (Physics) - Physics PDF.pdf"
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "Units and Dimensions",
+      "dpps": [
+        "DPP 01 Units and Dimensions.pdf",
+        "DPP 02 Units and Dimensions.pdf",
+        "DPP 03 Unit and Dimensions DPP-03 - Unit and Measurement_DPP-3_Arjuna (NEET).pdf",
+        "DPP 04 Unit and Dimensions DPP-04 - Unit and Measurement_DPP-4_Arjuna (NEET).pdf",
+        "DPP 05 Unit and Dimensions DPP-05 - Unit and Measurement_DPP-5_Arjuna (NEET).pdf",
+        "DPP 06 Unit and Dimensions DPP-06 - Unit and Measurement_DPP-6_Arjuna (NEET).pdf",
+        "DPP 07 Unit and Dimensions DPP-07 - Unit and Measurement_DPP-7_Arjuna (NEET).pdf"
+      ],
+      "notes": [
+        "NOTES 01 Units and Dimensions.pdf",
+        "NOTES 02 Units and Dimensions.pdf",
+        "NOTES 03 Unit and Dimensions 03 Classnotes - udm lec3.pdf",
+        "NOTES 03.2 Unit and Dimensions Extra Lecture Classnotes - udm 3 extra.pdf",
+        "NOTES 04 Unit and Dimensions 04 - PSS on dimensional analysis Classnotes - udm 4 ques on dimention.pdf",
+        "NOTES 05 Unit and Dimensions 05 Classnotes - udm 5_compressed.pdf",
+        "NOTES 06 Unit and Dimensions 06 Classnotes - instrument.pdf",
+        "NOTES 07 Unit and Dimensions 07 Classnotes - udm lec 7.pdf"
+      ],
+      "other": [
+        "ASSIGNMENT 01 Unit and Measurement Assignment-01 - 1. Unit and Measurement_Arjuna Batch_Assignment.pdf"
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "Units and Dimensions PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "doubts",
+        "Module 01- Unit and Dimensions Answer Key and Solutions - Answers and Solutions-1-Unit and Measurements PDF (1).pdf",
+        "Module 01- Unit and Dimensions Multi-Concept Questions - Multi-Conept Questions-Unit and Measurements PDF (1).pdf",
+        "Module 01- Unit and Dimensions NCERT Based Questions - Libraey Plus-1-Unit and Measurements PDF (1).pdf",
+        "Module 01- Unit and Dimensions Past 10 Questions - NEET Last 10 Years Questions-1-Unit and Measurements PDF (1).pdf",
+        "Module 01- Unit and Dimensions Theory and Explanation - Theory and Explanation-1-Unit and Measurements PDF (1).pdf",
+        "Module 01- Unit and Dimensions Topic Wise Questions - Topic wise Questions-1-Unit and Measurements PDF (1).pdf"
+      ]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": 1,
+      "chapter": "Mole Concept",
+      "dpps": [
+        "DPP 01 DPP-01_PC.pdf",
+        "SHEET DPP 01 MoleConceptA4.pdf",
+        "SHEET DPP-SOL 01 SOLUTIONofMoleConceptsheet.pdf"
+      ],
+      "notes": [],
+      "other": []
+    },
+    {
+      "id": 2,
+      "chapter": "Other",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Class-XI NEET Study Material Sample (Chemistry) - Chemistry PDF.pdf"
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "Periodic Properties",
+      "dpps": [],
+      "notes": [
+        "NOTES R1 Periodicpropertiesragister.pdf",
+        "NOTES R2 Perodictable.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 4,
+      "chapter": "PR Series",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Series.txt"
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "Quantum Number",
+      "dpps": [],
+      "notes": [
+        "NOTES 01 Quantum_Number__Part_I_with_anno.pdf",
+        "NOTES 02 Quantum_Number__Part_II_with_anno.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 6,
+      "chapter": "S-block",
+      "dpps": [],
+      "notes": [
+        "NOTES 01.pdf",
+        "NOTES 02 Physical_Properties_of_Alkali_Metals_with_anno.pdf",
+        "NOTES 03 Diagonal_Relationship_with_anno.pdf",
+        "NOTES 04 Covalent_Charter_of_Ionic_Compound_and_Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 05 Reaction_with_Oxygen_Hydrogen_and_Nitrogen_with_anno.pdf",
+        "NOTES 06 Reaction_with_Liquid_Ammonia_with_anno.pdf",
+        "NOTES 07 Physical_Properties_of_Alkaline_Earth_Metals_with_anno.pdf",
+        "NOTES 08 Chemical_Properties_of_Alkaline_Earth_Metals_with_anno.pdf",
+        "NOTES S-blockregister.pdf"
+      ],
+      "other": [
+        "Links.txt",
+        "Nurture_ Course on Inorganic Chemistry for Class 11 _ Unacademy.html",
+        "Nurture_ Course on Inorganic Chemistry for Class 11 _ Unacademy_files",
+        "SHEET s-BlockElementssheet.pdf"
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "Some Basic Concepts of Chemistry Physics Wallah",
+      "dpps": [
+        "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
+        "DPP 02 Some Basics Concepts of Chemistry DPP-02 - Arjuna (NEET)_DPP 2_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
+        "DPP 03 Some Basics Concepts of Chemistry DPP-03 - Arjuna (NEET)_DPP 3_Some Basic Concepts of Che_(10-05-2001)_Dolly Mam.pdf",
+        "DPP 04 Some Basics Concepts of Chemistry DPP-04 - Some basic concepts of Chemistry_DPP-4_Arjuna (NEET) (1).pdf",
+        "DPP 05 Some Basics Concepts of Chemistry DPP-05 - Arjuna (NEET)_DPP 5_Some Basic Concepts of Chemistry_(24-05-2021)_Dolly Mam_Mohit .pdf",
+        "DPP 06 Some Basics Concepts of Chemistry DPP-06 - Arjuna (NEET)_DPP 6_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam_Mohit DTP.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Some Basics Concepts of Chemistry 01 Classnotes - basic concept of chemistry.pdf",
+        "NOTES 02 Some Basics Concepts of Chemistry 02 Classnotes - 02.pdf",
+        "NOTES 03 Some Basic Concepts of Chemistry 03 Classnotes - @3.pdf",
+        "NOTES 04 Some Basic Concepts of Chemistry 04 Classnotes - Laws of Chemical combination Lec-4 (Dolly mam)Arjuna Neet_compressed.pdf",
+        "NOTES 05 Some Basic Concepts of Chemistry 05 Classnotes - Some basic concept of chemistry lec5 arjuna neet.pdf",
+        "NOTES 06 Some Basic concept of Chemistry 06 Classnotes - Some Basic Concept Lec-6 (Dolly mam) Arjuna Neet.pdf",
+        "NOTES 07 Some Basic Concepts of Chemistry 07 Classnotes - Some Basic concepts of Chemistry Lec-7 Homework (Dolly mam) Arjuna NEET.pdf",
+        "NOTES 08 Some Basic Concepts of Chemistry 08 Classnotes - Some Basic Concept Lec-8 (Dolly mam) Arjuna Neet_compressed.pdf",
+        "NOTES 10 Some Basic Concepts of Chemistry 10 Classnotes - Some Basic Concept (Dolly mam) Arjuna Neet Lec-10_compressed (1).pdf",
+        "NOTES 14 Some Basics Concepts of Chemistry 14 Classnotes - Some basic concept of chemistry leC-14 (Dolly mam)arjuna neet_compressed.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 8,
+      "chapter": "Some Basic Concepts of Chemistry PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Module 01- Some Basic Concepts of Chemistry Multi-Concept Questions - Multi-Concept Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
+        "Module 01- Some Basic Concepts of Chemistry NCERT Based Questions - NCERT Based Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
+        "Module 01- Some Basic Concepts of Chemistry Theory and  Explanation - Theory and Explanation of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
+        "Module 01- Some Basic Concepts of Chemistry Topic Wise Questions - Topicwise Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf"
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "Some Basic Concepts of Chemistry Unacademy",
+      "dpps": [
+        "DPP 01 DPP-01_PC.pdf",
+        "DPP 02 Dpp-2Question.pdf",
+        "DPP-SOL 01 DPP-01-WithAns.pdf",
+        "DPP-SOL 02 Dpp-2Solution.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Introduction_of_Concentration_Terms_with_anno.pdf"
+      ],
+      "other": [
+        "SHEET CONCENTRATIONTERMSA4.pdf",
+        "SHEET SOLUTIONConcentrationTerms.pdf"
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "State of Matter PW Dolly mam",
+      "dpps": [
+        "DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
+      ],
+      "notes": [
+        "NOTES 01 State of Matter 01 Classnotes - State of matter lec-1 Dolly mamArjuna neet_compressed.pdf"
+      ],
+      "other": []
+    }
+  ],
+  "biology": [
+    {
+      "id": 1,
+      "chapter": "Cell The Unit of Life",
+      "dpps": [
+        "DPP 01 Cell The Unit of Life.pdf",
+        "DPP 02 Cell The Unit of Life.pdf",
+        "DPP 03 Cell The Unit of Life.pdf",
+        "DPP 04 Cell_ Unit of Life DPP-04 - DPP-04_Arjuna (NEET)_Cell-the unit of life_(28-05-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 05 Cell_ Unit of Life DPP-05 - DPP-05_Arjuna (NEET)_Cell-the unit of life_(31-05-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 06 Cell_ Unit of Life DPP-06 - DPP-06_Arjuna (NEET)_Cell-the unit of life_(01-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 07 Cell_ Unit of Life DPP-07 - DPP-07_Arjuna (NEET)_Cell-the unit of life_(03-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 08 Cell_ Unit of Life DPP-08 - DPP-08_Arjuna (NEET)_Cell-the unit of life_(04-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 09 Cell_ Unit of Life DPP-09 - DPP-09_Arjuna (NEET)_Cell-the unit of life_(07-06-2021)_Biswajit Sir_Mohit DTP (1).pdf",
+        "DPP 10 Cell_ Unit of Life DPP 10 - DPP-10_Arjuna (NEET)_Cell-the unit of life_(08-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 11 Cell_ Unit of Life DPP 11 - ryy.pdf",
+        "DPP 12 Cell_ Unit of Life DPP 12 - DPP-12_Arjuna (NEET)_Cell-the unit of life_(11-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 13 Cell_ Unit of Life DPP 13 - DPP-13_Arjuna (NEET)_Cell-the unit of life_(14-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 14 Cell_ Unit of Life DPP 14 - DPP-14_Arjuna (NEET)_Cell-the unit of life_(15-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 15 Cell_ Unit of Life DPP 15 - DPP-15_Arjuna (NEET)_Cell-the unit of life_(17-06-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP-SOL 01 Cell The Unit of Life.pdf",
+        "DPP-SOL 02 Cell The Unit of Life.pdf",
+        "DPP-SOL 03 Cell_ Unit of Life DPP-03 Discussion - DPP 3 SOLUTION.pdf"
+      ],
+      "notes": [
+        "DPP-SOL 04 Cell_ Unit of Life DPP 04 Discussion Classnotes - PPT_DPP-04_Arjuna (NEET)_Cell-the unit of life_(28-05-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "NOTE H6 Cell_ Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
+        "NOTES 01 Cell The Unit of Life.pdf",
+        "NOTES 02 Cell The Unit of Life.pdf",
+        "NOTES 03 Cell_ Unit of Life 03 Classnotes - Plasma Membrane Part-1 (Biswajit sir) Arjuna Neet_compressed.pdf",
+        "NOTES 04 Cell_ Unit of Life 04 Classnotes - Cell unit of life Lec-4 (Biswajit sir) Arjuna Neet_compressed.pdf",
+        "NOTES 05 Cell unit of life 05 - Transport across plasma membrane, movement of lipids and proteins in plasma membrane Classnotes - Unit Cell of Life Lec-5 (Biswaji.pdf",
+        "NOTES 06 Cell_ Unit of Life 06 Classnotes - Transport Across Plasmamembrane Lec-6 (Biswajit sir) Arjuna Neet.pdf",
+        "NOTES 07 Cell_ Unit of Life 07 Classnotes - Cell Unit of life Lec-7 (Biswajit sir) Arjuna Neet_compressed.pdf",
+        "NOTES 08 Cell_ Unit of Life 08 Classnotes - Cell unit of life Lec-8 (Biswajit sir) Arjuna Neet.pdf",
+        "NOTES 09 Cell_ Unit of Life 09 Classnotes - Cell unit of life Lec-9 (Biswajit sir) Arjuna Neet.pdf",
+        "NOTES 10 Cell_ Unit of Life 10 Classnotes - Cell unit of life Lec-10 (Biswajit sir) Arjuna Neet_compressed.pdf",
+        "NOTES 11 Cell_ Unit of Life 11 Classnotes - bishwajit sir.pdf",
+        "NOTES 12 Cell_ Unit of Life 12 Classnotes - Cell unit of life Lec-12 Final (Biswajit sir).pdf",
+        "NOTES 13 Cell_ Unit of Life 13 Classnotes - Unit cell of life (Biswajit sir) Arjuna Neet.pdf",
+        "NOTES 14 Cell_ Unit of Life 14 Classnotes - Cell Unit of Life Lec-14.pdf",
+        "NOTES 15 Cell_ Unit of Life 15 Classnotes - Cell Unit of Life Lec-15 (Biswajit sir) (1).pdf",
+        "NOTES 16 Cell_ Unit of Life 16 Classnotes - 20210613172459925_compressed.pdf",
+        "NOTES 17 Cell_ Unit of Life 17 Classnotes - Cell unit of life Lec-17 (Biswajit sir) Arjuna Neet_compressed.pdf",
+        "NOTES 18 Cell_ Unit of Life 18 Classnotes - Cell Unit of Life Lec 18_compressed.pdf",
+        "NOTES 19 Cell_ Unit of Life 19 Classnotes - Cell Unit of Life Lec-19_compressed.pdf",
+        "NOTES H-1-2-A Cell Handwritten Notes (From Beginning) - cell.....pdf",
+        "NOTES H1 Cell The Unit of Life- Handwritten notes.pdf",
+        "NOTES H10 Cell_ Nucleus and Chromosome Handwritten Notes - CamScanner 06-15-2021 20.19.13.pdf",
+        "NOTES H11 Cell Structure Handwritten Notes - pk cell structure.pdf",
+        "NOTES H2 Cell The Unit of Life- Handwritten notes.pdf",
+        "NOTES H2 Cell_ Unit of Life 02 Handwritten Notes - CamScanner 05-25-2021 13.11.16.pdf",
+        "NOTES H3 Cell_ Unit of Life 03 Handwritten Notes - CamScanner 06-03-2021 17.39.57.pdf",
+        "NOTES H4 Cell_ Unit of Life 04 Handwritten Notes - CamScanner 06-07-2021 20.43.35.pdf",
+        "NOTES H5 Endomembrane System Hand Written Notes - endomembrane system.pdf",
+        "NOTES H6 Cell_ Unit of Life 05 Handwritten Notes - CamScanner 06-08-2021 18.30.12.pdf",
+        "NOTES H7 Cell_ Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf",
+        "NOTES H8 Cell_ Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
+        "NOTES H9 Cell_ Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 2,
+      "chapter": "Digestion and Absorption",
+      "dpps": [
+        "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Digestion and Absorption 01 Classnotes - DIGESTION LECTURE 1 (Samapti mam) Arjuna NEET  FINAL.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 3,
+      "chapter": "Other",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "803-WEB_APPL.pdf",
+        "803-Web_Application-XI.pdf",
+        "843-ARTIFICIAL_INTELLIGENCE_XI.pdf",
+        "Class-XI NEET Study Material Sample (Biology) - Biology PDF.pdf",
+        "NEET 2020 13 September Question Paper with Solution (Vedantu discussion).pdf",
+        "NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
+        "Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf"
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "Structural Organisation in Animals",
+      "dpps": [
+        "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
+        "DPP 02 Structural Organisation in Animals DPP 02 - DPP-02__Structural organisation in animals_Arjuna (NEET).pdf",
+        "DPP 03 Structural Organisation in Animals DPP 03 - DPP-03__Structural organisation in animals_Arjuna (NEET).pdf",
+        "DPP 04 Structural Organisation in Animals DPP 04 - DPP-04_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
+        "DPP 05 Structural Organisation in Animals DPP 05 - DPP-05_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
+        "DPP 06 Structural Organisation in Animals DPP 06 - DPP-06_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
+        "DPP 07 Structural Organisation in Animals DPP 07 - DPP-07_Structural organisation in animals_Biology_Arjuna (NEET)_Samapti Ma'am.pdf",
+        "DPP-SOL 01 Structural Organisation in Animals DPP 01 Solution - DPP 01.pdf",
+        "DPP-SOL 02 Structural Organisation in Animals DPP 02 Discussion - dpp 2 arjun.pdf",
+        "DPP-SOL 03 Structural Organisation in Animals DPP 03 Discussion - DPP3.pdf",
+        "DPP-SOL 04 Structural Organisation in Animals DPP 04 Discussion - DPP4.pdf",
+        "DPP-SOL 05 Structural Organisation in Animals DPP 05 Discussion - dpp 5 arjun.pdf",
+        "DPP-SOL 06 Structural Organisation in Animals DPP 06 Discussion - Presentation1.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Structural Organisation in Animals 01 Classnotes - s.pdf",
+        "NOTES 02 Structural Organisation in Animals 02 Classnotes - structure 02.pdf",
+        "NOTES 03 Structural Organisation in Animals 03 Classnotes - 03.pdf",
+        "NOTES 04 Structural Organisation in Animals lec-04 Classnotes - Structural organisations (Samapti mam) Arjuna Neet.pdf",
+        "NOTES 05 Structural Organization in Animal 05 Classnotes - Structural Lec-5 (Samapti mam) Arjuna Neet.pdf",
+        "NOTES 06 Structural Organization in Animal 06 Classnotes - structural organisation animal lec-6.pdf",
+        "NOTES 07 Structural Organisation in Animals 07 Classnotes - structural organisation animal lec-7.pdf",
+        "NOTES 08 Structural Organization of Animal 08 Classnotes - STRUCTURAL ORGANISATION IN ANIMALS- LECTURE 8.pdf",
+        "NOTES 09 Structural Organisation in Animal 09 Classnotes - STRUCTURAL ORGANISATION IN ANIMALS- LECTURE -9 (Samapti mam) Arjuna Neet_compressed.pdf",
+        "NOTES N1 NCERT Structural Organization of Animals Lec-01 Classnotes - structural Organization in animals Lec1 NCERT Dis._compressed.pdf"
+      ],
+      "other": [
+        "doubts"
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "Structural Organisation in Animals PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "MOD 01 Module 01- Structural Organisation in Animals Topic Wise Questions - Topicwise Questions of NEET Biology CLASS-XI (Module-2)-Chapter 7.pdf",
+        "MOD X1 Multi Concept + PYQ.pdf"
+      ]
+    }
+  ]
 }
