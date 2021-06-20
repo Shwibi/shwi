@@ -29,7 +29,7 @@ app.get("*", (req, res, next) => {
 });
 
 // Listen to ip/port
-app.listen(process.env.PORT || 7875, (err) => {
+app.listen(process.env.PORT || 7875, process.env.IP, (err) => {
 	if (err) utils.log(`[Error/Listening to port] `.red + err);
 });
 utils.log(

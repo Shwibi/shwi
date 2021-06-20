@@ -119,7 +119,7 @@
 			placeholder="Search..."
 			autocomplete="off"
 		/>
-		<button onclick="window.location.reload()">Reload List</button>
+		<button onclick="window.location.reload()">Refresh Page</button>
 		<br />
 		<input type="text" id="reg" placeholder="Regexp..." autocomplete="off" />
 		<button onclick="regSearch()">Reg Search</button>
@@ -240,21 +240,21 @@
 			<% for(let subjectIndex = 0; subjectIndex < subjects.length;
 			subjectIndex++) { %> <% const subject =
 			all[subjects[subjectIndex].toLowerCase()]; %>
-			<!-- Heading for subject -->
-			<h1><%= subjects[subjectIndex] %></h1>
+			<!-- //Heading for subject -->
+			<!-- //<h1><%= subjects[subjectIndex] %></h1> -->
 
 			<!-- For loop for chapters -->
 			<% for(let chapterIndex = 0; chapterIndex < subject.length;
 			chapterIndex++) { %> <% const chapter = subject[chapterIndex]; %>
-			<!-- Heading for chapter -->
-			<h2><%= chapter.chapter %></h2>
+			<!-- // Heading for chapter -->
+			<!-- //<h2><%= chapter.chapter %></h2> -->
 
 			<!-- For loop for types (dpps/notes/other) -->
 			<% for(let typeIndex = 0; typeIndex < types.length; typeIndex++) { %> <%
 			const node = chapter[types[typeIndex].toLowerCase()] %>
 
-			<!-- Heading for type -->
-			<h3><%= types[typeIndex] %></h3>
+			<!-- //Heading for type -->
+			<!-- //<h3><%= types[typeIndex] %></h3> -->
 
 			<!-- For loop for type nodes -->
 			<% for(let nodeIndex = 0; nodeIndex < node.length; nodeIndex++) { %>
@@ -292,52 +292,62 @@
 				li = ul.getElementsByTagName("li");
 
 				// Loop through all list items, and hide those who don't match the search query
-				for (i = 0; i < li.length; i++) {
-					check(li[i]);
+				// for (i = 0; i < li.length; i++) {
+				// 	check(li[i]);
+				// }
+				// Check items
+				for (let i = 0; i < li.length; i++) {
+					const linkInLI = li[i].getElementsByTagName("a");
+					const inner = linkInLI[0].innerHTML || linkInLI[0].textContent;
+					if (inner.toLowerCase().includes(input.value.toLowerCase())) {
+						li[i].style.display = "";
+					} else {
+						li[i].style.display = "none";
+					}
 				}
 			}
 
-			function check(inlet) {
-				filter = input.value.toUpperCase();
-				txtValue = inlet.getElementsByTagName("a")[0]
-					? inlet.getElementsByTagName("a")[0].textContent
-					: "";
-				txtValue = txtValue.toUpperCase();
-				if (engine(txtValue, filter)) {
-					inlet.style.display = "";
-				} else {
-					inlet.style.display = "none";
-				}
-			}
+			// function check(inlet) {
+			// 	filter = input.value.toUpperCase();
+			// 	txtValue = inlet.getElementsByTagName("a")[0]
+			// 		? inlet.getElementsByTagName("a")[0].textContent
+			// 		: "";
+			// 	txtValue = txtValue.toUpperCase();
+			// 	if (engine(txtValue, filter)) {
+			// 		inlet.style.display = "";
+			// 	} else {
+			// 		inlet.style.display = "none";
+			// 	}
+			// }
 
-			function engine(toCheck, searchValue) {
-				// Check to return true/false
-				const searches = searchValue.split(/\s/);
-				const checks = toCheck.split("//");
-				const multiCheck = toCheck.split(/\s/);
-				const minimumReq = 2;
-				let passed = 0;
-				let ret;
+			// function engine(toCheck, searchValue) {
+			// 	// Check to return true/false
+			// 	const searches = searchValue.split(/\s/);
+			// 	const checks = toCheck.split("//");
+			// 	const multiCheck = toCheck.split(/\s/);
+			// 	const minimumReq = 2;
+			// 	let passed = 0;
+			// 	let ret;
 
-				// Check for subject/chapter/nodes
-				for (let i = 0; i < checks.length; i++) {
-					if (searches.includes(checks[i])) ret = true;
-					else continue;
-				}
+			// 	// Check for subject/chapter/nodes
+			// 	for (let i = 0; i < checks.length; i++) {
+			// 		if (searches.includes(checks[i])) ret = true;
+			// 		else continue;
+			// 	}
 
-				// Check for args
-				for (let i = 0; i < multiCheck.length; i++) {
-					if (searches.includes(multiCheck[i])) passed++;
-					if (passed >= minimumReq) ret = true;
-					else continue;
-				}
+			// 	// Check for args
+			// 	for (let i = 0; i < multiCheck.length; i++) {
+			// 		if (searches.includes(multiCheck[i])) passed++;
+			// 		if (passed >= minimumReq) ret = true;
+			// 		else continue;
+			// 	}
 
-				// Include
-				// if (toCheck.includes(searchValue)) ret = true;
+			// 	// Include
+			// 	// if (toCheck.includes(searchValue)) ret = true;
 
-				if (ret) return true;
-				else return false;
-			}
+			// 	if (ret) return true;
+			// 	else return false;
+			// }
 
 			function regSearch() {
 				const str = document.getElementById("reg").value;
