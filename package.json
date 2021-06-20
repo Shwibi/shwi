@@ -28,5 +28,9 @@
 		"@styles": "public/styles",
 		"@routes": "routes",
 		"@source": "."
+	},
+	"devDependencies": {
+		"commander": "^7.2.0",
+		"shwi-js": "0.0.4-alpha.1"
 	}
 }
