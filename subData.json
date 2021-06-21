@@ -52,7 +52,8 @@
         "NOTES 01.2 Kinematics 01 Extra Lecture Classnotes - kinematicds lecture 1 extra.pdf",
         "NOTES 02 Kinematics 02 Classnotes - kinematics _2_compressed.pdf",
         "NOTES 03 Kinematics 03 Classnotes - kinematics3_compressed.pdf",
-        "NOTES 04 Kinematics 04 Classnotes - kinematics4_compressed (1).pdf"
+        "NOTES 04 Kinematics 04 Classnotes - kinematics4_compressed (1).pdf",
+        "NOTES 05 Kinematics 05 Classnotes - kinematics5.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -378,6 +379,16 @@
         "MOD 01 Module 01- Structural Organisation in Animals Topic Wise Questions - Topicwise Questions of NEET Biology CLASS-XI (Module-2)-Chapter 7.pdf",
         "MOD X1 Multi Concept + PYQ.pdf"
       ]
+    },
+    {
+      "id": 6,
+      "chapter": "Tests",
+      "dpps": [],
+      "notes": [
+        "Test-01 Botany Classnotes - Cell Unit of Life Test-1 (Biswajit sir) Arjuna NEET_compressed.pdf",
+        "Test-01 Zoology Classnotes - Test-01 Zoology.pdf"
+      ],
+      "other": []
     }
   ]
 }
