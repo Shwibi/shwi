@@ -134,14 +134,8 @@ homeRouter.get("/dashboard/:subject/:chapter/:file", (req, res) => {
 	const subject = Field[req.params.subject];
 	const chapter = req.params.chapter;
 	const file = req.params.file;
-	// const filePath = path.join(
-	// 	__dirname,
-	// 	`../${dirPath}`,
-	// 	subject,
-	// 	chapter,
-	// 	file
-	// );
-	const filePath = `https://github.com/Shwibi/shwi/tree/content/content/${subject}/${chapter}/${file}`;
+	// https://docs.google.com/viewer?url=https://github.com/Shwibi/shwi/raw/content/content/NEET%20Biology/Cell%20The%20Unit%20of%20Life/DPP%2001%20Cell%20The%20Unit%20of%20Life.pdf
+	const filePath = `https://docs.google.com/viewer?url=https://github.com/Shwibi/shwi/raw/content/content/${subject}/${chapter}/${file}`;
 	res.redirect(filePath);
 });
 module.exports = homeRouter;
