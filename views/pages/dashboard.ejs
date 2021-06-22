@@ -96,6 +96,9 @@
 		</style>
 	</head>
 
+	<div id="loader">
+		Please wait while the page is loading...
+	</div>
 	<body>
 		<!-- Wave -->
 		<svg
@@ -304,6 +307,18 @@
 					} else {
 						li[i].style.display = "none";
 					}
+				}
+			}
+
+			// Loading page
+			document.onreadystatechange = () => {
+				if(document.readyState !== "complete") {
+					document.querySelector("body").style.visibility = "hidden";
+					document.querySelector("#loader").style.visibility = "visible";
+				}
+				else {
+					document.querySelector("#loader").style.visibility = "hidden";
+					document.querySelector("body").style.visibility = "visible";
 				}
 			}
 
