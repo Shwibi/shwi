@@ -124,8 +124,8 @@
 		/>
 		<button onclick="window.location.reload()">Refresh Page</button>
 		<br />
-		<input type="text" id="reg" placeholder="Regexp..." autocomplete="off" />
-		<button onclick="regSearch()">Reg Search</button>
+		<input type="text" id="reg" placeholder="Regexp..." autocomplete="off" onkeyup="onRegKey(event)" />
+		<button onclick="regSearch()" id="regButton">Reg Search</button>
 
 		<!-- <ul style="list-style-type: none; margin: 0" id="listing">
 		<li>
@@ -319,6 +319,13 @@
 				else {
 					document.querySelector("#loader").style.visibility = "hidden";
 					document.querySelector("body").style.visibility = "visible";
+				}
+			}
+
+			// Enter reg search
+			function onRegKey(event) {
+				if(event.keyCode == 13) {
+					document.getElementById("regButton").click();
 				}
 			}
 
