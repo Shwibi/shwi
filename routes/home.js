@@ -111,8 +111,12 @@ const Field = {
 const homeRouter = express.Router();
 
 homeRouter.get("/", (req, res) => {
-	res.redirect("/dashboard");
+	res.redirect("/loading");
 });
+
+homeRouter.get("/loading", (req, res) => {
+	res.render("pages/loading");
+})
 
 homeRouter.get("/dashboard", (req, res) => {
 	// Main dashboard

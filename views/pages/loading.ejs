@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="5; <%= typeof to !== 'undefined' ? to : "/dashboard" %> ">
+  <title>Loading...</title>
+  <style>
+    body {
+      background-color: #444444;
+    }
+    #loader {
+      border: transparent;
+      border-radius: 50%;
+      border-top: 5px solid red;
+      border-bottom: 5px solid green;
+      border-right: 5px solid transparent;
+      border-left: 5px solid transparent;
+      width: 70px;
+      height: 70px;
+      animation: spin 3s ease-in-out infinite;
+    }
+          
+    @keyframes spin {
+      50% {
+        border-top: 5px solid green;
+        border-bottom: 5px solid red;
+        transform: rotate(180deg);
+      }
+      100% {
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        transform: rotate(360deg);
+      }
+    }
+          
+    .center {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="loader" class="center">
+  </div>
+</body>
+</html>
