@@ -237,45 +237,45 @@
 		<ul style="list-style-type: none; margin: 0" id="listing">
 			<!-- Listing v2.0 -->
 			<!-- For loop for subjects -->
-			<% for(let subjectIndex = 0; subjectIndex < subjects.length;
-			subjectIndex++) { %> <% const subject =
-			all[subjects[subjectIndex].toLowerCase()]; %>
-			<!-- //Heading for subject -->
-			<!-- //<h1><%= subjects[subjectIndex] %></h1> -->
+			<% for(let subjectIndex = 0; subjectIndex < subjects.length; subjectIndex++) { %> 
+				<% const subject = all[subjects[subjectIndex].toLowerCase()]; %>
+				<!-- //Heading for subject -->
+				<!-- //<h1><%= subjects[subjectIndex] %></h1> -->
 
-			<!-- For loop for chapters -->
-			<% for(let chapterIndex = 0; chapterIndex < subject.length;
-			chapterIndex++) { %> <% const chapter = subject[chapterIndex]; %>
-			<!-- // Heading for chapter -->
-			<!-- //<h2><%= chapter.chapter %></h2> -->
+				<!-- For loop for chapters -->
+				<% for(let chapterIndex = 0; chapterIndex < subject.length; chapterIndex++) { %> 
+					<% const chapter = subject[chapterIndex]; %>
+					<!-- // Heading for chapter -->
+					<!-- //<h2><%= chapter.chapter %></h2> -->
 
-			<!-- For loop for types (dpps/notes/other) -->
-			<% for(let typeIndex = 0; typeIndex < types.length; typeIndex++) { %> <%
-			const node = chapter[types[typeIndex].toLowerCase()] %>
+					<!-- For loop for types (dpps/notes/other) -->
+					<% for(let typeIndex = 0; typeIndex < types.length; typeIndex++) { %> 
+						<% const node = chapter[types[typeIndex].toLowerCase()] %>
+						<% if(!node || node.length == 0) continue %> 
 
-			<!-- //Heading for type -->
-			<!-- //<h3><%= types[typeIndex] %></h3> -->
+						<!-- //Heading for type -->
+						<!-- //<h3><%= types[typeIndex] %></h3> -->
 
-			<!-- For loop for type nodes -->
-			<% for(let nodeIndex = 0; nodeIndex < node.length; nodeIndex++) { %>
+						<!-- For loop for type nodes -->
+							<% for(let nodeIndex = 0; nodeIndex < node.length; nodeIndex++) { %>
 
-			<li>
-				<a
-					href="/dashboard/<%= subjects[subjectIndex].toLowerCase() %>/<%= chapter.chapter %>/<%= node[nodeIndex] %>"
-				>
-					<%= subjects[subjectIndex] %>//<%= chapter.chapter %>//<%=
-					node[nodeIndex] %>
-				</a>
-			</li>
+							<li>
+								<a
+									href="/dashboard/<%= subjects[subjectIndex].toLowerCase() %>/<%= chapter.chapter %>/<%= node[nodeIndex] %>"
+								>
+									<%= subjects[subjectIndex] %>//<%= chapter.chapter %>//<%=
+									node[nodeIndex] %>
+								</a>
+							</li>
 
-			<% } %>
-			<!-- For loop for type nodes end -->
+						<% } %>
+						<!-- For loop for type nodes end -->
 
-			<% } %>
-			<!-- For loop for types end -->
+					<% } %>
+					<!-- For loop for types end -->
 
-			<% } %>
-			<!-- For loop for chapters end -->
+				<% } %>
+				<!-- For loop for chapters end -->
 
 			<% } %>
 			<!-- For loop for subjects end -->

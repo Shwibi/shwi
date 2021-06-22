@@ -123,7 +123,7 @@ homeRouter.get("/dashboard", (req, res) => {
 		all: {
 			physics: subjectData.physics,
 			chemistry: subjectData.chemistry,
-			biology: subjectData.chemistry,
+			biology: subjectData.biology,
 		},
 		subjects: ["Physics", "Chemistry", "Biology"],
 		types: ["DPPs", "Notes", "Other"],
