@@ -140,7 +140,9 @@
         "NOTES R1 Periodicpropertiesragister.pdf",
         "NOTES R2 Perodictable.pdf"
       ],
-      "other": []
+      "other": [
+        "Periodic table.txt"
+      ]
     },
     {
       "id": 4,
@@ -336,7 +338,8 @@
         "Class-XI NEET Study Material Sample (Biology) - Biology PDF.pdf",
         "NEET 2020 13 September Question Paper with Solution (Vedantu discussion).pdf",
         "NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
-        "Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf"
+        "Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf",
+        "Toppers books.pdf"
       ]
     },
     {
@@ -385,13 +388,19 @@
     },
     {
       "id": 6,
-      "chapter": "Tests",
+      "chapter": "Test 01",
       "dpps": [],
       "notes": [
-        "Test-01 Botany Classnotes - Cell Unit of Life Test-1 (Biswajit sir) Arjuna NEET_compressed.pdf",
+        "Test-01 Botany Classnotes - 8691d73e-83bd-495c-85d9-51f81f2158ea.pdf",
+        "Test-01 Chemistry Classnotes - 40094ca5-130d-4391-914b-cac8f0246bd6_compressed.pdf",
         "Test-01 Zoology Classnotes - Test-01 Zoology.pdf"
       ],
-      "other": []
+      "other": [
+        "Practice Test 01 Arjuna (NEET) (Chemistry) - Practice Test-01_Arjuna (NEET)_(Chemistry).pdf",
+        "Practice Test 01 Arujna (NEET) (Physics) - Practice Test-01_Arjuna (NEET)_(Physics).pdf",
+        "Practice Test 01_Arjuna (NEET) (Botany) - Practice Test-01_Arjuna (NEET)_(Botany).pdf",
+        "Practice Test 01_Arjuna (NEET) (Zoology) - Practice Test-01_Arjuna (NEET)_(Zoology).pdf"
+      ]
     }
   ]
 }
