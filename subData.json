@@ -125,6 +125,15 @@
     },
     {
       "id": 2,
+      "chapter": "Nomenclature",
+      "dpps": [
+        "DPP 01 DPP-01.pdf"
+      ],
+      "notes": [],
+      "other": []
+    },
+    {
+      "id": 3,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -133,7 +142,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "chapter": "Periodic Properties",
       "dpps": [],
       "notes": [
@@ -145,7 +154,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
@@ -154,7 +163,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Quantum Number",
       "dpps": [],
       "notes": [
@@ -164,7 +173,7 @@
       "other": []
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "S-block",
       "dpps": [],
       "notes": [
@@ -186,7 +195,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "Some Basic Concepts of Chemistry Physics Wallah",
       "dpps": [
         "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
@@ -211,7 +220,7 @@
       "other": []
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Some Basic Concepts of Chemistry PW Module",
       "dpps": [],
       "notes": [],
@@ -223,7 +232,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "chapter": "Some Basic Concepts of Chemistry Unacademy",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -240,7 +249,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "chapter": "State of Matter PW Dolly mam",
       "dpps": [
         "DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
