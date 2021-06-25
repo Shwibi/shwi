@@ -45,7 +45,8 @@
         "DPP 01 Kinematics DPP 01 - Kinematics_DPP-1_Arjuna (NEET).pdf",
         "DPP 02 Kinematics DPP 02 - Kinematics_DPP-2_Arjuna (NEET).pdf",
         "DPP 03 Kinematics DPP 03 - Kinematics_DPP-3_Arjuna (NEET).pdf",
-        "DPP 04 Kinematics DPP 04 - Kinematics_DPP-4_Arjuna (NEET).pdf"
+        "DPP 04 Kinematics DPP 04 - Kinematics_DPP-4_Arjuna (NEET).pdf",
+        "DPP 05 Kinematics DPP 05 (of lec 07) Arjuna NEET - Kinematics_DPP-5_Arjuna (NEET).pdf"
       ],
       "notes": [
         "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
@@ -54,7 +55,8 @@
         "NOTES 03 Kinematics 03 Classnotes - kinematics3_compressed.pdf",
         "NOTES 04 Kinematics 04 Classnotes - kinematics4_compressed (1).pdf",
         "NOTES 05 Kinematics 05 Classnotes - kinematics5.pdf",
-        "NOTES 06 Kinematics Lec 06 _ Motion with Variable & Constant Acceleration - arjuna lecture 6_compressed.pdf"
+        "NOTES 06 Kinematics Lec 06 _ Motion with Variable & Constant Acceleration - arjuna lecture 6_compressed.pdf",
+        "NOTES 07 Kinematics Lec 07 _ Equation of Motion & Constant Acceleration - Arjuna NEET - 1624451654764_kinematics lecture 7_compressed.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -129,7 +131,13 @@
       "dpps": [
         "DPP 01 DPP-01.pdf"
       ],
-      "notes": [],
+      "notes": [
+        "NOTES 01 History_of_Organic_Chemistry_Bond_Line_Formula_with_anno.pdf",
+        "NOTES 02 Types_of_Carbon_and_Hydrogen_Degree_of_Unsaturation__I_with_anno.pdf",
+        "NOTES 03 Degree_of_Unsaturation__II_with_anno.pdf",
+        "NOTES 04 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 05 Functional_Groups_with_anno.pdf"
+      ],
       "other": []
     },
     {
@@ -327,11 +335,15 @@
       "chapter": "Digestion and Absorption",
       "dpps": [
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
-        "DPP 02 Digestion & Absorptions DPP 02 (Samapti Mam) Arjuna NEET - Digestion andAbsorption_DPP 02-Arjuna Batch.pdf"
+        "DPP 02 Digestion & Absorptions DPP 02 (Samapti Mam) Arjuna NEET - Digestion andAbsorption_DPP 02-Arjuna Batch.pdf",
+        "DPP 03 Digestion & Absorptions DPP 03 (Samapti Mam) Arjuna NEET - Digestion andAbsorption_DPP 03-Arjuna Batch (1) (1).pdf",
+        "DPP 04 Digestion and Absorption _ DPP 04 - Arjuna NEET - Digestion and Absorption_DPP 04-Arjuna Batch (1).pdf"
       ],
       "notes": [
         "NOTES 01 Digestion and Absorption 01 Classnotes - DIGESTION LECTURE 1 (Samapti mam) Arjuna NEET  FINAL.pdf",
-        "NOTES 02 Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET - Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET.pdf"
+        "NOTES 02 Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET - Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET.pdf",
+        "NOTES 03 Digestion & Absorptions Lec 03 (Samapti Mam) Arjuna NEET - DIGESTION LECTURE Lec 03 (Samapti mam).pdf",
+        "NOTES 04 Digestion and Absorption 04 _ Mechanism of Digestion Classnotes - Arjuna NEET - DIGESTION LECTURE 4 Arjuna NEET ( samapti mam)_compressed.pdf"
       ],
       "other": []
     },
