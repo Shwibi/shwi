@@ -56,7 +56,9 @@
         "NOTES 04 Kinematics 04 Classnotes - kinematics4_compressed (1).pdf",
         "NOTES 05 Kinematics 05 Classnotes - kinematics5.pdf",
         "NOTES 06 Kinematics Lec 06 _ Motion with Variable & Constant Acceleration - arjuna lecture 6_compressed.pdf",
-        "NOTES 07 Kinematics Lec 07 _ Equation of Motion & Constant Acceleration - Arjuna NEET - 1624451654764_kinematics lecture 7_compressed.pdf"
+        "NOTES 07 Kinematics Lec 07 _ Equation of Motion & Constant Acceleration - Arjuna NEET - 1624451654764_kinematics lecture 7_compressed.pdf",
+        "NOTES 08 Kinematics 08 _ Motion with Constant Acceleration (no dpp ) Classnotes - Arjuna NEET - kinematics lec8_compressed.pdf",
+        "NOTES 09 Kinematics 09 _ Constant Acceleration & Motion Under Gravity Classnotes - Arjuna NEET - kinematics9 arjuna.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -116,6 +118,15 @@
   "chemistry": [
     {
       "id": 1,
+      "chapter": "Inorganic chemistry book",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Problems and Solutions in Inorganic Chemistry.pdf"
+      ]
+    },
+    {
+      "id": 2,
       "chapter": "Mole Concept",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -123,10 +134,13 @@
         "SHEET DPP-SOL 01 SOLUTIONofMoleConceptsheet.pdf"
       ],
       "notes": [],
-      "other": []
+      "other": [
+        "CONCENTRATIONTERMSA4.pdf",
+        "SOLUTIONConcentrationTerms.pdf"
+      ]
     },
     {
-      "id": 2,
+      "id": 3,
       "chapter": "Nomenclature",
       "dpps": [
         "DPP 01 DPP-01.pdf"
@@ -141,7 +155,7 @@
       "other": []
     },
     {
-      "id": 3,
+      "id": 4,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -150,7 +164,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "chapter": "Periodic Properties",
       "dpps": [],
       "notes": [
@@ -162,7 +176,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
@@ -171,7 +185,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Quantum Number",
       "dpps": [],
       "notes": [
@@ -181,7 +195,7 @@
       "other": []
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "S-block",
       "dpps": [],
       "notes": [
@@ -203,7 +217,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Some Basic Concepts of Chemistry Physics Wallah",
       "dpps": [
         "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
@@ -228,7 +242,7 @@
       "other": []
     },
     {
-      "id": 9,
+      "id": 10,
       "chapter": "Some Basic Concepts of Chemistry PW Module",
       "dpps": [],
       "notes": [],
@@ -240,7 +254,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "chapter": "Some Basic Concepts of Chemistry Unacademy",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -257,7 +271,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "chapter": "State of Matter PW Dolly mam",
       "dpps": [
         "DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
@@ -337,13 +351,15 @@
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
         "DPP 02 Digestion & Absorptions DPP 02 (Samapti Mam) Arjuna NEET - Digestion andAbsorption_DPP 02-Arjuna Batch.pdf",
         "DPP 03 Digestion & Absorptions DPP 03 (Samapti Mam) Arjuna NEET - Digestion andAbsorption_DPP 03-Arjuna Batch (1) (1).pdf",
-        "DPP 04 Digestion and Absorption _ DPP 04 - Arjuna NEET - Digestion and Absorption_DPP 04-Arjuna Batch (1).pdf"
+        "DPP 04 Digestion and Absorption _ DPP 04 - Arjuna NEET - Digestion and Absorption_DPP 04-Arjuna Batch (1).pdf",
+        "DPP 05 Digestion and Absorption _DPP 05 - Arjuna NEET - Digestion andAbsorption_DPP 05-Arjuna Batch (1).pdf"
       ],
       "notes": [
         "NOTES 01 Digestion and Absorption 01 Classnotes - DIGESTION LECTURE 1 (Samapti mam) Arjuna NEET  FINAL.pdf",
         "NOTES 02 Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET - Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET.pdf",
         "NOTES 03 Digestion & Absorptions Lec 03 (Samapti Mam) Arjuna NEET - DIGESTION LECTURE Lec 03 (Samapti mam).pdf",
-        "NOTES 04 Digestion and Absorption 04 _ Mechanism of Digestion Classnotes - Arjuna NEET - DIGESTION LECTURE 4 Arjuna NEET ( samapti mam)_compressed.pdf"
+        "NOTES 04 Digestion and Absorption 04 _ Mechanism of Digestion Classnotes - Arjuna NEET - DIGESTION LECTURE 4 Arjuna NEET ( samapti mam)_compressed.pdf",
+        "NOTES 05 Digestion and Absorption 05 _ Hormonal Control of Digestion, Absorption, PEM Classnotes - Arjuna NEET - Digestion & Absoption Lec-5 (Samapti mam) Arjuna N.pdf"
       ],
       "other": []
     },
