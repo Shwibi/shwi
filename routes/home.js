@@ -116,7 +116,7 @@ homeRouter.get("/", (req, res) => {
 
 homeRouter.get("/loading", (req, res) => {
 	res.render("pages/loading");
-})
+});
 
 homeRouter.get("/dashboard", (req, res) => {
 	// Main dashboard
@@ -131,6 +131,7 @@ homeRouter.get("/dashboard", (req, res) => {
 		},
 		subjects: ["Physics", "Chemistry", "Biology"],
 		types: ["DPPs", "Notes", "Other"],
+		latest: subjectData.last_update || "30/06/2021",
 	});
 });
 
