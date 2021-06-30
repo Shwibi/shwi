@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Study Material/<%= latest %> </title>
+		<title>Study Material (<%= latest %>)</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" href="images/favicon.png" />
 		<style>
@@ -12,6 +12,7 @@
 				background-color: #1e2332;
 				color: azure;
 				margin: 0;
+				top: 0;
 				font-family: "Ubuntu";
 			}
 
@@ -82,23 +83,37 @@
 			}
 
 			.back-top {
-				display: grid;
+				/* display: grid;
 				grid-template-columns: 1, 1fr;
 				justify-content: right;
-				align-items: flex-end;
+				align-items: flex-end; */
+				position: fixed;
+				right: 5px;
+				opacity: 0.2;
+				transition-duration: 600ms;
+				text-decoration: none;
+
+				padding: 5px;
+				border-radius: 15px;
+			}
+
+			.back-top:hover {
+				background-color: beige;
+				color: black;
+				opacity: 1;
+			}
+			.back-top:hover .bt {
+				color: black;
 			}
 
 			.bt {
-				float: right;
 				text-decoration: none;
 				color: white;
 			}
 		</style>
 	</head>
 
-	<div id="loader">
-		Almost done...
-	</div>
+	<div id="loader">Almost done...</div>
 	<body>
 		<!-- Wave -->
 		<svg
@@ -113,7 +128,16 @@
 				fill="#1d1438"
 			/>
 		</svg>
-		<h1 style="font-size: 40px">Study Material</h1>
+		<h1 style="font-size: 40px; top: 0; margin: 0">
+			Study Material
+			<span style="right: 0; position: absolute; font-size: 15px">
+				(<%= latest %>)</span
+			>
+		</h1>
+		<div class="back-top">
+			<a class="bt" href="#">Back top?</a>
+		</div>
+
 		<br />
 		<input
 			type="text"
@@ -124,7 +148,13 @@
 		/>
 		<button onclick="window.location.reload()">Refresh Page</button>
 		<br />
-		<input type="text" id="reg" placeholder="Regexp..." autocomplete="off" onkeyup="onRegKey(event)" />
+		<input
+			type="text"
+			id="reg"
+			placeholder="Regexp..."
+			autocomplete="off"
+			onkeyup="onRegKey(event)"
+		/>
 		<button onclick="regSearch()" id="regButton">Reg Search</button>
 
 		<!-- <ul style="list-style-type: none; margin: 0" id="listing">
@@ -240,51 +270,51 @@
 		<ul style="list-style-type: none; margin: 0" id="listing">
 			<!-- Listing v2.0 -->
 			<!-- For loop for subjects -->
-			<% for(let subjectIndex = 0; subjectIndex < subjects.length; subjectIndex++) { %> 
-				<% const subject = all[subjects[subjectIndex].toLowerCase()]; %>
-				<!-- //Heading for subject -->
-				<!-- //<h1><%= subjects[subjectIndex] %></h1> -->
+			<% for(let subjectIndex = 0; subjectIndex < subjects.length;
+			subjectIndex++) { %> <% const subject =
+			all[subjects[subjectIndex].toLowerCase()]; %>
+			<!-- //Heading for subject -->
+			<!-- //<h1><%= subjects[subjectIndex] %></h1> -->
 
-				<!-- For loop for chapters -->
-				<% for(let chapterIndex = 0; chapterIndex < subject.length; chapterIndex++) { %> 
-					<% const chapter = subject[chapterIndex]; %>
-					<!-- // Heading for chapter -->
-					<!-- //<h2><%= chapter.chapter %></h2> -->
+			<!-- For loop for chapters -->
+			<% for(let chapterIndex = 0; chapterIndex < subject.length;
+			chapterIndex++) { %> <% const chapter = subject[chapterIndex]; %>
+			<!-- // Heading for chapter -->
+			<!-- //<h2><%= chapter.chapter %></h2> -->
 
-					<!-- For loop for types (dpps/notes/other) -->
-					<% for(let typeIndex = 0; typeIndex < types.length; typeIndex++) { %> 
-						<% const node = chapter[types[typeIndex].toLowerCase()] %>
-						<% if(!node || node.length == 0) continue %> 
+			<!-- For loop for types (dpps/notes/other) -->
+			<% for(let typeIndex = 0; typeIndex < types.length; typeIndex++) { %> <%
+			const node = chapter[types[typeIndex].toLowerCase()] %> <% if(!node ||
+			node.length == 0) continue %>
 
-						<!-- //Heading for type -->
-						<!-- //<h3><%= types[typeIndex] %></h3> -->
+			<!-- //Heading for type -->
+			<!-- //<h3><%= types[typeIndex] %></h3> -->
 
-						<!-- For loop for type nodes -->
-							<% for(let nodeIndex = 0; nodeIndex < node.length; nodeIndex++) { %>
+			<!-- For loop for type nodes -->
+			<% for(let nodeIndex = 0; nodeIndex < node.length; nodeIndex++) { %>
 
-							<li>
-								<a
-									href="/dashboard/<%= subjects[subjectIndex].toLowerCase() %>/<%= chapter.chapter %>/<%= node[nodeIndex] %>"
-								>
-									<%= subjects[subjectIndex] %>//<%= chapter.chapter %>//<%=
-									node[nodeIndex] %>
-								</a>
-							</li>
+			<li>
+				<a
+					href="/dashboard/<%= subjects[subjectIndex].toLowerCase() %>/<%= chapter.chapter %>/<%= node[nodeIndex] %>"
+				>
+					<%= subjects[subjectIndex] %>//<%= chapter.chapter %>//<%=
+					node[nodeIndex] %>
+				</a>
+			</li>
 
-						<% } %>
-						<!-- For loop for type nodes end -->
+			<% } %>
+			<!-- For loop for type nodes end -->
 
-					<% } %>
-					<!-- For loop for types end -->
+			<% } %>
+			<!-- For loop for types end -->
 
-				<% } %>
-				<!-- For loop for chapters end -->
+			<% } %>
+			<!-- For loop for chapters end -->
 
 			<% } %>
 			<!-- For loop for subjects end -->
 		</ul>
 
-		<div class="back-top"><a class="bt" href="#">Back top?</a></div>
 		<script>
 			function search() {
 				// Declare variables
@@ -312,19 +342,18 @@
 
 			// Loading page
 			document.onreadystatechange = () => {
-				if(document.readyState !== "complete") {
+				if (document.readyState !== "complete") {
 					document.querySelector("body").style.visibility = "hidden";
 					document.querySelector("#loader").style.visibility = "visible";
-				}
-				else {
+				} else {
 					document.querySelector("#loader").style.visibility = "hidden";
 					document.querySelector("body").style.visibility = "visible";
 				}
-			}
+			};
 
 			// Enter reg search
 			function onRegKey(event) {
-				if(event.keyCode == 13) {
+				if (event.keyCode == 13) {
 					document.getElementById("regButton").click();
 				}
 			}
