@@ -46,7 +46,8 @@
         "DPP 02 Kinematics DPP 02 - Kinematics_DPP-2_Arjuna (NEET).pdf",
         "DPP 03 Kinematics DPP 03 - Kinematics_DPP-3_Arjuna (NEET).pdf",
         "DPP 04 Kinematics DPP 04 - Kinematics_DPP-4_Arjuna (NEET).pdf",
-        "DPP 05 Kinematics DPP 05 (of lec 07) Arjuna NEET - Kinematics_DPP-5_Arjuna (NEET).pdf"
+        "DPP 05 Kinematics DPP 05 (of lec 07) Arjuna NEET - Kinematics_DPP-5_Arjuna (NEET).pdf",
+        "DPP 06 Kinematics 09 _ DPP 06 (of Lec 09) - Arjuna NEET - Kinematics_DPP-6_Arjuna (NEET).pdf"
       ],
       "notes": [
         "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
@@ -58,7 +59,8 @@
         "NOTES 06 Kinematics Lec 06 _ Motion with Variable & Constant Acceleration - arjuna lecture 6_compressed.pdf",
         "NOTES 07 Kinematics Lec 07 _ Equation of Motion & Constant Acceleration - Arjuna NEET - 1624451654764_kinematics lecture 7_compressed.pdf",
         "NOTES 08 Kinematics 08 _ Motion with Constant Acceleration (no dpp ) Classnotes - Arjuna NEET - kinematics lec8_compressed.pdf",
-        "NOTES 09 Kinematics 09 _ Constant Acceleration & Motion Under Gravity Classnotes - Arjuna NEET - kinematics9 arjuna.pdf"
+        "NOTES 09 Kinematics 09 _ Constant Acceleration & Motion Under Gravity Classnotes - Arjuna NEET - kinematics9 arjuna.pdf",
+        "NOTES 10 Kinematics 10 _ Class Notes - Arjuna NEET - kinematics -10 arjuna.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -285,6 +287,18 @@
   "biology": [
     {
       "id": 1,
+      "chapter": "Cell Cycle and Cell Division",
+      "dpps": [
+        "DPP 01 Cell Cycle and Cell Division DPP 01 _ - Arjuna NEET - DPP-1_Arjuna (NEET)_Cell cycle and cell division_(29-06-2021)_Biswajit Sir_Mohit DTP.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Cell Cycle and Cell Division 01 _ Classnotes - Arjuna NEET - Cell Cycle Lec-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
+        "NOTES H01 Cell Cycle and Cell Division 01 _ Handwritten notes - Arjuna NEET - CamScanner 06-29-2021 14.49.30.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 2,
       "chapter": "Cell The Unit of Life",
       "dpps": [
         "DPP 01 Cell The Unit of Life.pdf",
@@ -345,7 +359,7 @@
       "other": []
     },
     {
-      "id": 2,
+      "id": 3,
       "chapter": "Digestion and Absorption",
       "dpps": [
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
@@ -359,12 +373,13 @@
         "NOTES 02 Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET - Digestion & Absorptions Lec-2 (Samapti Mam) Arjuna NEET.pdf",
         "NOTES 03 Digestion & Absorptions Lec 03 (Samapti Mam) Arjuna NEET - DIGESTION LECTURE Lec 03 (Samapti mam).pdf",
         "NOTES 04 Digestion and Absorption 04 _ Mechanism of Digestion Classnotes - Arjuna NEET - DIGESTION LECTURE 4 Arjuna NEET ( samapti mam)_compressed.pdf",
-        "NOTES 05 Digestion and Absorption 05 _ Hormonal Control of Digestion, Absorption, PEM Classnotes - Arjuna NEET - Digestion & Absoption Lec-5 (Samapti mam) Arjuna N.pdf"
+        "NOTES 05 Digestion and Absorption 05 _ Hormonal Control of Digestion, Absorption, PEM Classnotes - Arjuna NEET - Digestion & Absoption Lec-5 (Samapti mam) Arjuna N.pdf",
+        "NOTES 06 Digestion and Absorption 06 _ Classnotes - Digestion & Absoption Lec-6(Samapti mam) Arjuna Neet_compressed.pdf"
       ],
       "other": []
     },
     {
-      "id": 3,
+      "id": 4,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -375,12 +390,13 @@
         "Class-XI NEET Study Material Sample (Biology) - Biology PDF.pdf",
         "NEET 2020 13 September Question Paper with Solution (Vedantu discussion).pdf",
         "NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
+        "NEW LECTURE SCHEDULE - Arjuna NEET - Lecture Schedule - ARJUNA NEET.pdf",
         "Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf",
         "Toppers books.pdf"
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "chapter": "Structural Organisation in Animals",
       "dpps": [
         "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
@@ -414,7 +430,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Structural Organisation in Animals PW Module",
       "dpps": [],
       "notes": [],
@@ -424,7 +440,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
