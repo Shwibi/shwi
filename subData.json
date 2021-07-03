@@ -129,15 +129,6 @@
     },
     {
       "id": 2,
-      "chapter": "Inorganic chemistry book",
-      "dpps": [],
-      "notes": [],
-      "other": [
-        "Problems and Solutions in Inorganic Chemistry.pdf"
-      ]
-    },
-    {
-      "id": 3,
       "chapter": "Mole Concept",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -164,7 +155,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "chapter": "Nomenclature",
       "dpps": [
         "DPP 01 DPP-01.pdf"
@@ -179,7 +170,7 @@
       "other": []
     },
     {
-      "id": 5,
+      "id": 4,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -188,7 +179,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "chapter": "Periodic Properties",
       "dpps": [],
       "notes": [
@@ -200,7 +191,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
@@ -209,7 +200,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "chapter": "Quantum Number",
       "dpps": [],
       "notes": [
@@ -219,7 +210,7 @@
       "other": []
     },
     {
-      "id": 9,
+      "id": 8,
       "chapter": "S-block",
       "dpps": [],
       "notes": [
@@ -241,7 +232,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "chapter": "Some Basic Concepts of Chemistry Physics Wallah",
       "dpps": [
         "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
@@ -266,7 +257,7 @@
       "other": []
     },
     {
-      "id": 11,
+      "id": 10,
       "chapter": "Some Basic Concepts of Chemistry PW Module",
       "dpps": [],
       "notes": [],
@@ -278,7 +269,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "chapter": "Some Basic Concepts of Chemistry Unacademy",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -295,7 +286,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "chapter": "State of Matter PW Dolly mam",
       "dpps": [
         "DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
@@ -312,11 +303,13 @@
       "chapter": "Cell Cycle and Cell Division",
       "dpps": [
         "DPP 01 Cell Cycle and Cell Division DPP 01 _ - Arjuna NEET - DPP-1_Arjuna (NEET)_Cell cycle and cell division_(29-06-2021)_Biswajit Sir_Mohit DTP.pdf",
-        "DPP 02 Cell Cycle and Cell Division _ DPP 02 - DPP-2_Arjuna (NEET)_Cell cycle and cell division_(01-07-2021)_Biswajit Sir_Mohit DTP.pdf"
+        "DPP 02 Cell Cycle and Cell Division _ DPP 02 - DPP-2_Arjuna (NEET)_Cell cycle and cell division_(01-07-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 03 Cell Cycle and Cell Division _ DPP 03 - DPP-3_Arjuna (NEET)_Cell cycle and cell division_(02-07-2021)_Biswajit Sir_Mohit DTP.pdf"
       ],
       "notes": [
         "NOTES 01 Cell Cycle and Cell Division 01 _ Classnotes - Arjuna NEET - Cell Cycle Lec-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
         "NOTES 02 Cell Cycle and Cell Division 02 _ Classnotes - Cell Cycle & Cell Division Lec 2(Biswajit Sir) Arjuna NEET.pdf9.pdf",
+        "NOTES 03 Cell Cycle and Cell Division 03 _ Classnotes - Cell Cycle & Cell Division Lec 3 (Biswauit sir)_compressed.pdf",
         "NOTES H01 Cell Cycle and Cell Division 01 _ Handwritten notes - Arjuna NEET - CamScanner 06-29-2021 14.49.30.pdf",
         "NOTES H02 Cell Cycle and Cell Division 02 _ Handwritten Notes - CamScanner 06-29-2021 14.49.30 (1).pdf"
       ],
@@ -416,8 +409,6 @@
         "NEET 2020 13 September Question Paper with Solution (Vedantu discussion).pdf",
         "NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
         "NEW LECTURE SCHEDULE - Arjuna NEET - Lecture Schedule - ARJUNA NEET.pdf",
-        "Practice Test - 02 Syllabus (11-07-2021) - Practice Test-02 Syllabus (11-7-2021) - Arjuna NEET (1).pdf",
-        "Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf",
         "Toppers books.pdf"
       ]
     },
@@ -478,9 +469,29 @@
         "Practice Test 01 Arjuna (NEET) (Chemistry) - Practice Test-01_Arjuna (NEET)_(Chemistry).pdf",
         "Practice Test 01 Arujna (NEET) (Physics) - Practice Test-01_Arjuna (NEET)_(Physics).pdf",
         "Practice Test 01_Arjuna (NEET) (Botany) - Practice Test-01_Arjuna (NEET)_(Botany).pdf",
-        "Practice Test 01_Arjuna (NEET) (Zoology) - Practice Test-01_Arjuna (NEET)_(Zoology).pdf"
+        "Practice Test 01_Arjuna (NEET) (Zoology) - Practice Test-01_Arjuna (NEET)_(Zoology).pdf",
+        "Practice Test-01 Syllabus - Arjuna NEET Test-01.pdf"
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "Test 02",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Practice Test - 02 Syllabus (11-07-2021) - Practice Test-02 Syllabus (11-7-2021) - Arjuna NEET (1).pdf"
       ]
     }
   ],
-  "last_update": "2/7/2021"
+  "last_update": "3/7/2021",
+  "specials": [
+    {
+      "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
+      "url": "https://drive.google.com/file/d/1axdJW0D9Wv6k70_b0jziXGbUUowKW-TF/view?usp=sharing"
+    },
+    {
+      "name": "Chemistry//Organic Chemistry//Organic Chemistry Book By SKM Sir (Problems and Solutions in Organic Chemistry) 3rd Edition 3E",
+      "url": "https://drive.google.com/file/d/1KB_4b26fRtRpDh-lVwfI4UWzjie8hevX/view?usp=sharing"
+    }
+  ]
 }

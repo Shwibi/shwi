@@ -131,7 +131,8 @@ homeRouter.get("/dashboard", (req, res) => {
 		},
 		subjects: ["Physics", "Chemistry", "Biology"],
 		types: ["DPPs", "Notes", "Other"],
-		latest: subjectData.last_update || "30/06/2021",
+		latest: subjectData.last_update || "03/07/2021",
+		specials: subjectData.specials,
 	});
 });
 

@@ -11,7 +11,8 @@
 		"gp+": "git push -u origin main",
 		"ga+": "git add .",
 		"gc+": "git commit -a",
-		"g+": "npm run ga+ && npm run gc+ && npm run gp+"
+		"g+": "npm run ga+ && npm run gc+ && npm run gp+",
+		"read": "node reader.js -r -d -p"
 	},
 	"author": "Shwibi",
 	"license": "ISC",
