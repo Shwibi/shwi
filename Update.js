@@ -11,6 +11,9 @@ exec(`node reader.js -r -d -p`, (error, stdout, stderr) => {
 	}
 	console.log(`stdout: ${stdout}`);
 
+
+
+
 	exec(`git add .`, (error, stdout, stderr) => {
 		if (error) {
 			console.log(`error: ${error.message}`);
@@ -20,6 +23,9 @@ exec(`node reader.js -r -d -p`, (error, stdout, stderr) => {
 			console.log(`stderr: ${stderr}`);
 		}
 		console.log(`stdout: ${stdout}`);
+
+
+
 
 		exec(
 			`git commit -m "${new Date().toLocaleString()}"`,
@@ -33,6 +39,9 @@ exec(`node reader.js -r -d -p`, (error, stdout, stderr) => {
 				}
 				console.log(`stdout: ${stdout}`);
 
+
+
+				
 				exec(`git push`, (error, stdout, stderr) => {
 					if (error) {
 						console.log(`error: ${error.message}`);
