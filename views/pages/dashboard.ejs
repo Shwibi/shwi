@@ -41,6 +41,12 @@
 				display: block;
 				white-space: normal;
 				width: 70%;
+				margin: 0;
+			}
+
+			ul {
+				margin: 0;
+				left: 0;
 			}
 
 			a:hover:not(.bt) {
@@ -54,7 +60,7 @@
 				border-bottom: 2px solid black;
 				background-color: transparent;
 				padding: 10px;
-				width: 500px;
+				width: 10wh;
 				height: 35px;
 				font-size: large;
 				transition-duration: 300ms;
@@ -110,6 +116,48 @@
 				height: 100vh;
 				top: 0;
 			}
+
+			@media screen and (max-width: 800px) {
+				a {
+					font-size: 15px;
+				}
+				a:not(.bt) {
+					width: 100%;
+				}
+				li {
+					width: 100%;
+					margin-left: 0;
+					left: 0;
+				}
+				ul {
+					margin-left: 0;
+					left: 0;
+				}
+				body {
+					margin: 0;
+				}
+				.sidebar {
+					display: none;
+				}
+				h1::after {
+					content: " (<%= latest %>)";
+				}
+				input {
+					width: 20wh;
+					font-size: 20px;
+					padding: 5px;
+				}
+				h2 {
+					font-size: 20px;
+				}
+				svg {
+					height: 100vh;
+					width: 20wh;
+				}
+				.main-content {
+					margin: 0;
+				}
+			}
 		</style>
 	</head>
 
@@ -146,7 +194,7 @@
 		</div>
 
 		<div class="main-content" style="margin-right: 15wh">
-			<h1 style="font-size: 40px; top: 0; margin: 0">Study Material</h1>
+			<h1 style="top: 0; margin: 0">Study Material</h1>
 
 			<br />
 			<input
@@ -277,7 +325,7 @@
 			<% } %> <% } %> <% } %>
 		</ul> -->
 
-			<ul style="list-style-type: none; margin: 0" id="listing">
+			<ul style="list-style-type: none" id="listing">
 				<h2 id="specials">PDF - Specials</h2>
 				<!-- <li>
 					<a
