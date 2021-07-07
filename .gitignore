@@ -10,13 +10,5 @@ request.http
 # Ignorers
 ignore*
 
-# Readers
-reader.js
-
 # content
 content
-
-# update
-UPDATE.cmd
-Update.cmd
-Update.js
