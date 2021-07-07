@@ -120,11 +120,11 @@
   "chemistry": [
     {
       "id": 1,
-      "chapter": "Books",
+      "chapter": "Inorganic chemistry book",
       "dpps": [],
       "notes": [],
       "other": [
-        "Problems and Solutions in Inorganic Chemistry by Vishal Joshi sir (VJ) IOC.pdf"
+        "Problems and Solutions in Inorganic Chemistry.pdf"
       ]
     },
     {
@@ -483,7 +483,7 @@
       ]
     }
   ],
-  "last_update": "3/7/2021",
+  "last_update": "7/7/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
