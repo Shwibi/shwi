@@ -1,0 +1,19 @@
+{
+  "name": "shwi-content",
+  "version": "2.0.0",
+  "description": "Content for shwistudy",
+  "main": "Update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shwibi/shwi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shwibi/shwi/issues"
+  },
+  "homepage": "https://github.com/Shwibi/shwi#readme"
+}

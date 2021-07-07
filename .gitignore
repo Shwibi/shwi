@@ -4,3 +4,5 @@ request.http
 *.un~
 *~
 ignore*
+Update.cmd
+Update.js
