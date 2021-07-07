@@ -47,7 +47,9 @@
         "DPP 03 Kinematics DPP 03 - Kinematics_DPP-3_Arjuna (NEET).pdf",
         "DPP 04 Kinematics DPP 04 - Kinematics_DPP-4_Arjuna (NEET).pdf",
         "DPP 05 Kinematics DPP 05 (of lec 07) Arjuna NEET - Kinematics_DPP-5_Arjuna (NEET).pdf",
-        "DPP 06 Kinematics 09 _ DPP 06 (of Lec 09) - Arjuna NEET - Kinematics_DPP-6_Arjuna (NEET).pdf"
+        "DPP 06 Kinematics 09 _ DPP 06 (of Lec 09) - Arjuna NEET - Kinematics_DPP-6_Arjuna (NEET).pdf",
+        "DPP 07 Kinematics DPP 07 (of Lec 11) - Kinematics_DPP-7_Arjuna (NEET).pdf",
+        "DPP 08 Kinematics DPP 08 (of Lec 13) - Kinematics_DPP-8_Arjuna (NEET) (1).pdf"
       ],
       "notes": [
         "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
@@ -60,7 +62,10 @@
         "NOTES 07 Kinematics Lec 07 _ Equation of Motion & Constant Acceleration - Arjuna NEET - 1624451654764_kinematics lecture 7_compressed.pdf",
         "NOTES 08 Kinematics 08 _ Motion with Constant Acceleration (no dpp ) Classnotes - Arjuna NEET - kinematics lec8_compressed.pdf",
         "NOTES 09 Kinematics 09 _ Constant Acceleration & Motion Under Gravity Classnotes - Arjuna NEET - kinematics9 arjuna.pdf",
-        "NOTES 10 Kinematics 10 _ Class Notes - Arjuna NEET - kinematics -10 arjuna.pdf"
+        "NOTES 10 Kinematics 10 _ Class Notes - Arjuna NEET - kinematics -10 arjuna.pdf",
+        "NOTES 11 Kinematics 11 Class Notes - arjuna knematics 11_compressed.pdf",
+        "NOTES 12 Kinematics 12 Class Notes - kionmematics -12.pdf",
+        "NOTES 13 Kinematics 13 Class Notes - kinematics _13 arjuna.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -72,7 +77,8 @@
       "dpps": [],
       "notes": [],
       "other": [
-        "Class-XI NEET Study Material Sample (Physics) - Physics PDF.pdf"
+        "Class-XI NEET Study Material Sample (Physics) - Physics PDF.pdf",
+        "Revised Planner (Physics) - Arjuna_NEET (Physics).pdf"
       ]
     },
     {
@@ -120,15 +126,6 @@
   "chemistry": [
     {
       "id": 1,
-      "chapter": "Inorganic chemistry book",
-      "dpps": [],
-      "notes": [],
-      "other": [
-        "Problems and Solutions in Inorganic Chemistry.pdf"
-      ]
-    },
-    {
-      "id": 2,
       "chapter": "Mole Concept",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -155,7 +152,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "chapter": "Nomenclature",
       "dpps": [
         "DPP 01 DPP-01.pdf"
@@ -170,7 +167,7 @@
       "other": []
     },
     {
-      "id": 4,
+      "id": 3,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -179,7 +176,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "chapter": "Periodic Properties",
       "dpps": [],
       "notes": [
@@ -191,7 +188,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
@@ -200,7 +197,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "chapter": "Quantum Number",
       "dpps": [],
       "notes": [
@@ -210,7 +207,7 @@
       "other": []
     },
     {
-      "id": 8,
+      "id": 7,
       "chapter": "S-block",
       "dpps": [],
       "notes": [
@@ -232,7 +229,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "chapter": "Some Basic Concepts of Chemistry Physics Wallah",
       "dpps": [
         "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
@@ -257,7 +254,7 @@
       "other": []
     },
     {
-      "id": 10,
+      "id": 9,
       "chapter": "Some Basic Concepts of Chemistry PW Module",
       "dpps": [],
       "notes": [],
@@ -269,7 +266,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "chapter": "Some Basic Concepts of Chemistry Unacademy",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -286,7 +283,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "chapter": "State of Matter PW Dolly mam",
       "dpps": [
         "DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
@@ -304,14 +301,20 @@
       "dpps": [
         "DPP 01 Cell Cycle and Cell Division DPP 01 _ - Arjuna NEET - DPP-1_Arjuna (NEET)_Cell cycle and cell division_(29-06-2021)_Biswajit Sir_Mohit DTP.pdf",
         "DPP 02 Cell Cycle and Cell Division _ DPP 02 - DPP-2_Arjuna (NEET)_Cell cycle and cell division_(01-07-2021)_Biswajit Sir_Mohit DTP.pdf",
-        "DPP 03 Cell Cycle and Cell Division _ DPP 03 - DPP-3_Arjuna (NEET)_Cell cycle and cell division_(02-07-2021)_Biswajit Sir_Mohit DTP.pdf"
+        "DPP 03 Cell Cycle and Cell Division _ DPP 03 - DPP-3_Arjuna (NEET)_Cell cycle and cell division_(02-07-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 04 Cell Cycle and Cell Division DPP 04 (of Lec 05) - DPP-4_Arjuna (NEET)_Cell cycle and cell division_(05-07-2021)_Biswajit Sir_Mohit .pdf",
+        "DPP 05 Cell Cycle and Cell Division DPP 05 (of Lec 06) - DPP-5_Arjuna (NEET)_Cell cycle and cell division_(06-07-2021)_Biswajit Sir_Mohit D.pdf"
       ],
       "notes": [
         "NOTES 01 Cell Cycle and Cell Division 01 _ Classnotes - Arjuna NEET - Cell Cycle Lec-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
         "NOTES 02 Cell Cycle and Cell Division 02 _ Classnotes - Cell Cycle & Cell Division Lec 2(Biswajit Sir) Arjuna NEET.pdf9.pdf",
         "NOTES 03 Cell Cycle and Cell Division 03 _ Classnotes - Cell Cycle & Cell Division Lec 3 (Biswauit sir)_compressed.pdf",
+        "NOTES 04 Cell Cycle and Cell Division 04 Classnotes - Cell Cycle Lec-4 (Biswajit sir) Arjuna Neet_compressed.pdf",
+        "NOTES 05 Cell Cycle and Cell Division 05 Classnotes - Celll cycle and cell Division Lec 5(Biswajit sir)_compressed.pdf",
+        "NOTES 06 Cell Cycle and Cell Division 06 Classnotes - Cell Cycle & Cell Division Lec 06 (Biswajit Sir) Arjuna NEET_compressed.pdf",
         "NOTES H01 Cell Cycle and Cell Division 01 _ Handwritten notes - Arjuna NEET - CamScanner 06-29-2021 14.49.30.pdf",
-        "NOTES H02 Cell Cycle and Cell Division 02 _ Handwritten Notes - CamScanner 06-29-2021 14.49.30 (1).pdf"
+        "NOTES H02 Cell Cycle and Cell Division 02 _ Handwritten Notes - CamScanner 06-29-2021 14.49.30 (1).pdf",
+        "NOTES H04 Cell Cycle and Cell Division 04 Handwritten Notes - CamScanner 06-29-2021 14.49.30 (2).pdf"
       ],
       "other": []
     },
@@ -409,6 +412,7 @@
         "NEET 2020 13 September Question Paper with Solution (Vedantu discussion).pdf",
         "NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
         "NEW LECTURE SCHEDULE - Arjuna NEET - Lecture Schedule - ARJUNA NEET.pdf",
+        "Revised Planner (Biology) - Arjuna_NEET (Biology).pdf",
         "Toppers books.pdf"
       ]
     },
