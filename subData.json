@@ -65,7 +65,8 @@
         "NOTES 10 Kinematics 10 _ Class Notes - Arjuna NEET - kinematics -10 arjuna.pdf",
         "NOTES 11 Kinematics 11 Class Notes - arjuna knematics 11_compressed.pdf",
         "NOTES 12 Kinematics 12 Class Notes - kionmematics -12.pdf",
-        "NOTES 13 Kinematics 13 Class Notes - kinematics _13 arjuna.pdf"
+        "NOTES 13 Kinematics 13 Class Notes - kinematics _13 arjuna.pdf",
+        "NOTES 14 Kinematics 14 Classnotes - kinematics14.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -178,12 +179,17 @@
     {
       "id": 4,
       "chapter": "Periodic Properties",
-      "dpps": [],
+      "dpps": [
+        "COLLOIDS-SPECIAL_DPP_NUTURE.pdf"
+      ],
       "notes": [
         "NOTES R1 Periodicpropertiesragister.pdf",
         "NOTES R2 Perodictable.pdf"
       ],
       "other": [
+        "01_ClassTest_Nucleus.pdf",
+        "02_MATTER_NAMEOFMIXTUREPC.pdf",
+        "Electronegativity__I_no_anno.pdf",
         "Periodic table.txt"
       ]
     },
@@ -292,6 +298,17 @@
         "NOTES 01 State of Matter 01 Classnotes - State of matter lec-1 Dolly mamArjuna neet_compressed.pdf"
       ],
       "other": []
+    },
+    {
+      "id": 12,
+      "chapter": "States of Matter",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "NURTURE_UNP-1_AkshaySIR9-8-2020.pdf",
+        "Sheet Real Gas Only Questions.pdf",
+        "SHEET_REALGAS.pdf"
+      ]
     }
   ],
   "biology": [
@@ -343,6 +360,7 @@
       ],
       "notes": [
         "DPP-SOL 04 Cell_ Unit of Life DPP 04 Discussion Classnotes - PPT_DPP-04_Arjuna (NEET)_Cell-the unit of life_(28-05-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "NCERT 01 Cell unit of life NCERT Classnotes - NCERT Discussion Part 1_compressed.pdf",
         "NOTE H6 Cell_ Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
         "NOTES 01 Cell The Unit of Life.pdf",
         "NOTES 02 Cell The Unit of Life.pdf",
@@ -363,21 +381,23 @@
         "NOTES 17 Cell_ Unit of Life 17 Classnotes - Cell unit of life Lec-17 (Biswajit sir) Arjuna Neet_compressed.pdf",
         "NOTES 18 Cell_ Unit of Life 18 Classnotes - Cell Unit of Life Lec 18_compressed.pdf",
         "NOTES 19 Cell_ Unit of Life 19 Classnotes - Cell Unit of Life Lec-19_compressed.pdf",
-        "NOTES H-1-2-A Cell Handwritten Notes (From Beginning) - cell.....pdf",
-        "NOTES H1 Cell The Unit of Life- Handwritten notes.pdf",
-        "NOTES H10 Cell_ Nucleus and Chromosome Handwritten Notes - CamScanner 06-15-2021 20.19.13.pdf",
-        "NOTES H11 Cell Structure Handwritten Notes - pk cell structure.pdf",
-        "NOTES H2 Cell The Unit of Life- Handwritten notes.pdf",
-        "NOTES H2 Cell_ Unit of Life 02 Handwritten Notes - CamScanner 05-25-2021 13.11.16.pdf",
-        "NOTES H3 Cell_ Unit of Life 03 Handwritten Notes - CamScanner 06-03-2021 17.39.57.pdf",
-        "NOTES H4 Cell_ Unit of Life 04 Handwritten Notes - CamScanner 06-07-2021 20.43.35.pdf",
-        "NOTES H5 Endomembrane System Hand Written Notes - endomembrane system.pdf",
-        "NOTES H6 Cell_ Unit of Life 05 Handwritten Notes - CamScanner 06-08-2021 18.30.12.pdf",
-        "NOTES H7 Cell_ Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf",
-        "NOTES H8 Cell_ Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
-        "NOTES H9 Cell_ Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf"
+        "NOTES H01 Cell Unit of Life - Handwritten notes - cell.pdf",
+        "NOTES H02 Cell Unit of Life Handwritten Notes - CamScanner 05-25-2021 13.11.16.pdf",
+        "NOTES H03 Cell Unit of Life Handwritten Notes (From Beginning) - cell.....pdf",
+        "NOTES H04 Cell Unit of Life Handwritten Notes - CamScanner 06-03-2021 17.39.57.pdf",
+        "NOTES H05 Cell Unit of Life 04 Handwritten Notes - CamScanner 06-07-2021 20.43.35.pdf",
+        "NOTES H06 Cell Unit of Life Handwritten Notes - CamScanner 06-08-2021 18.30.12.pdf",
+        "NOTES H07 Cell Unit of Life Endomembrane System Handwritten Notes - endomembrane system.pdf",
+        "NOTES H08 Cell Unit of Life Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
+        "NOTES H09 Cell Unit of Life Lysosome and Cytoskeleton Handwritten Notes - lysosome and cytoskeleton.pdf",
+        "NOTES H10 Cell Unit of Life Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf",
+        "NOTES H11 Cell Unit of Life Centriole and Cilia Flagella Handwritten Notes - centriole and cilia flagella.pdf",
+        "NOTES H12 Cell Unit of Life Handwritten Notes - CamScanner 06-15-2021 20.19.13.pdf",
+        "NOTES H13 Cell Structure Handwritten Notes - pk cell structure.pdf"
       ],
-      "other": []
+      "other": [
+        "NCERT 02 Cell Unit of Life NCERT Discussion Part - 02 - NCERT Discussion (Biswajit Sir)_compressed.pdf"
+      ]
     },
     {
       "id": 3,
@@ -487,7 +507,7 @@
       ]
     }
   ],
-  "last_update": "7/7/2021",
+  "last_update": "7/8/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
