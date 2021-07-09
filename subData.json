@@ -173,7 +173,8 @@
       "dpps": [],
       "notes": [],
       "other": [
-        "Class-XI NEET Study Material Sample (Chemistry) - Chemistry PDF.pdf"
+        "Class-XI NEET Study Material Sample (Chemistry) - Chemistry PDF.pdf",
+        "Practice Test - 02 Syllabus (11-07-2021) - Practice Test-02 Syllabus (11-7-2021) - Arjuna NEET (1).pdf"
       ]
     },
     {
@@ -309,11 +310,63 @@
         "Sheet Real Gas Only Questions.pdf",
         "SHEET_REALGAS.pdf"
       ]
+    },
+    {
+      "id": 13,
+      "chapter": "States of Matter PW",
+      "dpps": [
+        "DPP 01 State of Matter DPP 01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 02 State of Matter DPP 02 - State of matter DPP 0 2 Arjuna Batch.pdf",
+        "DPP 03 States of Matter DPP 03 - States of matter DPP- 03 Arjuna NEET Batch.pdf",
+        "DPP 04 States Of Matters DPP 04 - States of matter DPP- 04 Arjuna NEET Batch.pdf",
+        "DPP 05 States of Matter DPP 05 - Arjuna (NEET)_DPP 5_States of Matter_(21-06-2021)_Dolly Mam_Mohit DTP (1).pdf",
+        "DPP 06 States of Matter DPP 06 - Arjuna (NEET)_DPP 6_States of Matter_(21-06-2021)_Dolly Mam_Mohit DTP (3).pdf",
+        "DPP 07 States of Matter DPP 07 - Arjuna (NEET)_DPP 7_States of Matter_(29-06-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 08 States of Matter DPP 08 - States of matter DPP- 08 Arjuna NEET Batch (1).pdf",
+        "DPP 09 States of Matter DPP 09 - States of matter DPP- 09 Arjuna NEET Batch.pdf"
+      ],
+      "notes": [
+        "NOTES 01 State of Matter 01 Classnotes - State of matter lec-1 Dolly mamArjuna neet_compressed.pdf",
+        "NOTES 02 State of Matter 02 Classnotes - States of matter lec 2 (Dolly mam)Arjuna neet_compressed.pdf",
+        "NOTES 03 State of Matter 03 Classnotes - States of matter lec-3 (Dolly mam) Arjuna neet_compressed.pdf",
+        "NOTES 04 States Of Matters 04 Classnotes - States Of Matters Lec-4 (Dolly mam)_compressed.pdf",
+        "NOTES 05 States of Matter 05 Classnotes - c7d48ddc-002f-49fa-9cab-45f73f20a56a_compressed.pdf",
+        "NOTES 06 States of Matter 06 Classnotes - States of matter lec 6 (Dolly mam)Arjuna neet_compressed.pdf",
+        "NOTES 07 States of Matter 07 Classnotes - State of Matter Lec-07 (Dolly mam) Arjuna NEET_compressed.pdf",
+        "NOTES 08 States of Matter 08 Classnotes - State of Matter Lec-08 (Dolly mam) Arjuna NEET_compressed.pdf",
+        "NOTES 09 States of Matter 09 Classnotes - State of Matter Lec 09 (Dolly mam) Arjuna NEET_compressed.pdf",
+        "NOTES 10 States of Matter 10 Classnotes - States of matter lec 10 (Dolly mam)Arjuna neet_compressed.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 14,
+      "chapter": "Structure of Atom PW",
+      "dpps": [
+        "DPP 01 Structure of Atom DPP 01 - Arjuna (NEET)_DPP 1_Structure of Atom_(06-06-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 02 Structure of Atom DPP 02 - Arjuna (NEET)_DPP 2_Structure of Atom_(06-07-2021)_Dolly Mam_Mohit DTP (1).pdf"
+      ],
+      "notes": [
+        "NOTES 01 Structure of Atom 01 Classnotes - Structure of Atom Lec 1 (Dolly Mam)_compressed.pdf",
+        "NOTES 02 Structure of Atom 02 Classnotes - Structure of Atom Lec-2 (Dolly mam) Arjuna NEET_compressed.pdf"
+      ],
+      "other": []
     }
   ],
   "biology": [
     {
       "id": 1,
+      "chapter": "Breathing and Exchange of Gases",
+      "dpps": [
+        "DPP 01 Breathing and Exchange of Gases DPP 01 - Breathing and Exchange of Gases_Arjuna NEET (1).pdf"
+      ],
+      "notes": [
+        "NOTES 01 Breathing and Exchange of Gases 01 Classnotes - BREATHING LECTURE 1 ( Samapti Mam).pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 2,
       "chapter": "Cell Cycle and Cell Division",
       "dpps": [
         "DPP 01 Cell Cycle and Cell Division DPP 01 _ - Arjuna NEET - DPP-1_Arjuna (NEET)_Cell cycle and cell division_(29-06-2021)_Biswajit Sir_Mohit DTP.pdf",
@@ -333,10 +386,12 @@
         "NOTES H02 Cell Cycle and Cell Division 02 _ Handwritten Notes - CamScanner 06-29-2021 14.49.30 (1).pdf",
         "NOTES H04 Cell Cycle and Cell Division 04 Handwritten Notes - CamScanner 06-29-2021 14.49.30 (2).pdf"
       ],
-      "other": []
+      "other": [
+        "NCERT 01 Cell Cycle and Cell Division NCERT Discussion - NCERT Discussion (Biswajit Sir) Arjuna NEET_compressed.pdf"
+      ]
     },
     {
-      "id": 2,
+      "id": 3,
       "chapter": "Cell The Unit of Life",
       "dpps": [
         "DPP 01 Cell The Unit of Life.pdf",
@@ -400,7 +455,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "chapter": "Digestion and Absorption",
       "dpps": [
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
@@ -420,7 +475,7 @@
       "other": []
     },
     {
-      "id": 4,
+      "id": 5,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -437,7 +492,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Structural Organisation in Animals",
       "dpps": [
         "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
@@ -471,7 +526,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Structural Organisation in Animals PW Module",
       "dpps": [],
       "notes": [],
@@ -481,7 +536,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
@@ -498,7 +553,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Test 02",
       "dpps": [],
       "notes": [],
@@ -507,7 +562,7 @@
       ]
     }
   ],
-  "last_update": "7/8/2021",
+  "last_update": "7/9/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
