@@ -398,6 +398,7 @@
         "DPP-SOL 01 Breathing and Exchange of Gases DPP 01 Solution Notes - DPP1.pdf",
         "DPP-SOL 02 Breathing and Exchange of Gases DPP 02 Solution Notes - dpp2.pdf",
         "DPP-SOL 03 Breathing and Exchange of Gases DPP 03 Solution Notes - DPP 3.pdf",
+        "DPP-SOL 04 Breathing and Exchange of Gases DPP 04 Solution Notes - dpp4.pdf",
         "NOTES 01 Breathing and Exchange of Gases 01 Classnotes - BREATHING LECTURE 1 ( Samapti Mam).pdf",
         "NOTES 02 Breathing and Exchange of Gases 02 Classnotes - Breathing And Exchange of Gases Lec 02 (Samapti mam) Arjuna Neet.pdf",
         "NOTES 03 Breathing and Exchange of Gases 03 Classnotes - Respiratory Volumes Exchange Of Gases (Samapti mam).pdf",
@@ -416,6 +417,11 @@
         "DPP 05 Cell Cycle and Cell Division DPP 05 (of Lec 06) - DPP-5_Arjuna (NEET)_Cell cycle and cell division_(06-07-2021)_Biswajit Sir_Mohit D.pdf"
       ],
       "notes": [
+        "DPP-SOL 01 Cell Cycle and Cell Division DPP 01 solution notes - Cell Cycle & Cell Division DPP-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
+        "DPP-SOL 02 Cell Cycle and Cell Division DPP 02 solution notes - crell cycle dpp 2.pdf",
+        "DPP-SOL 03 Cell Cycle and Cell Division DPP 03 solution notes - Cell Cycle & Cell Division DPP 03 Solution (Biswauit sir)_compressed.pdf",
+        "DPP-SOL 04 Cell Cycle and Cell Division DPP 04 Solution Notes - dpp 4 solution of cell cycle and cell division_compressed.pdf",
+        "DPP-SOL 05 Cell Cycle and Cell Division DPP 05 Solution Notes - Cell cycle and cell division Dpp 5 (Biswajit Sir) Arjuna Neet_compressed.pdf",
         "NOTES 01 Cell Cycle and Cell Division 01 _ Classnotes - Arjuna NEET - Cell Cycle Lec-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
         "NOTES 02 Cell Cycle and Cell Division 02 _ Classnotes - Cell Cycle & Cell Division Lec 2(Biswajit Sir) Arjuna NEET.pdf9.pdf",
         "NOTES 03 Cell Cycle and Cell Division 03 _ Classnotes - Cell Cycle & Cell Division Lec 3 (Biswauit sir)_compressed.pdf",
@@ -511,6 +517,20 @@
     },
     {
       "id": 5,
+      "chapter": "Cell The Unit of Life PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Module - 02 Cell Unit of Life Answer Key and Explanations - Answer Key and Explanations of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
+        "Module - 02 Cell Unit of Life Multi-Concept Questions - Multi-Concept Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
+        "Module - 02 Cell Unit of Life NCERT Based Questions - NCERT Based Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
+        "Module - 02 Cell Unit of Life NEET Past 10 Year Questions - NEET Past 10 Year Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
+        "Module - 02 Cell Unit of Life Theory and Explanation - Theory and Explanation of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
+        "Module - 02 Cell Unit of Life Topicwise Questions - Topicwise Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8-1.pdf"
+      ]
+    },
+    {
+      "id": 6,
       "chapter": "Digestion and Absorption",
       "dpps": [
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
@@ -530,7 +550,7 @@
       "other": []
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Digestion and Absorption PW Module",
       "dpps": [],
       "notes": [],
@@ -544,7 +564,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -562,7 +582,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Structural Organisation in Animals",
       "dpps": [
         "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
@@ -596,7 +616,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "chapter": "Structural Organisation in Animals PW Module",
       "dpps": [],
       "notes": [],
@@ -606,7 +626,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
@@ -623,7 +643,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "chapter": "Test 02",
       "dpps": [],
       "notes": [
