@@ -52,7 +52,8 @@
         "DPP 08 Kinematics DPP 08 (of Lec 13) - Kinematics_DPP-8_Arjuna (NEET) (1).pdf",
         "DPP 09 Kinematics DPP 09 (of Lec 15) - Kinematics_DPP-9_Arjuna (NEET).pdf",
         "DPP 10 Kinematics DPP 10 (of Lec 17) - Kinematics_DPP-10_Arjuna (NEET).pdf",
-        "DPP 11 Kinematics DPP 11 (of Lec 18) - Kinematics_DPP-11_Arjuna (NEET).pdf"
+        "DPP 11 Kinematics DPP 11 (of Lec 18) - Kinematics_DPP-11_Arjuna (NEET).pdf",
+        "DPP 12 Kinematics DPP 12 (of Lec 19) - Kinematics_DPP-12_Arjuna (NEET).pdf"
       ],
       "notes": [
         "DPP-SOL 01 Kinematics DPP 01 solution notes - dpp 01 kinematics arjuna neet.pdf",
@@ -66,6 +67,7 @@
         "DPP-SOL 09 Kinematics DPP 09 Solution notes - Kinematics_DPP-9_Arjuna (NEET)solutions.pdf",
         "DPP-SOL 10 Kinematics DPP 10 Solution notes - arjun neet kinematics 10 dpp solutions (2).pdf",
         "DPP-SOL 11 Kinematics DPP 11 Solution notes - Kinematics_DPP-11_Arjuna (NEET) khikhi.pdf",
+        "DPP-SOL 12 Kinematics DPP 12 Solution notes - Kinematics DPP 12 Discussion.pdf",
         "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
         "NOTES 01.2 Kinematics 01 Extra Lecture Classnotes - kinematicds lecture 1 extra.pdf",
         "NOTES 02 Kinematics 02 Classnotes - kinematics _2_compressed.pdf",
@@ -84,7 +86,8 @@
         "NOTES 15 Kinematics 15 Classnotes - kinematics -15 arjuna_compressed.pdf",
         "NOTES 16 Kinematics 16 Classnotes - kinematics revision (1)_compressed.pdf",
         "NOTES 17 Kinematics 17 Classnotes - kinematics -17 arjuna (1)_compressed.pdf",
-        "NOTES 18 Kinematics 18 Classnotes - arjuna kinematics 18_compressed.pdf"
+        "NOTES 18 Kinematics 18 Classnotes - arjuna kinematics 18_compressed.pdf",
+        "NOTES 19 Kinematics 19 Classnotes - arjuna kinematics vector.pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -189,7 +192,16 @@
         "NOTES 02 Types_of_Carbon_and_Hydrogen_Degree_of_Unsaturation__I_with_anno.pdf",
         "NOTES 03 Degree_of_Unsaturation__II_with_anno.pdf",
         "NOTES 04 Doubt_Clearing_Session_with_anno.pdf",
-        "NOTES 05 Functional_Groups_with_anno.pdf"
+        "NOTES 05 Functional_Groups_with_anno.pdf",
+        "NOTES 06 Homologous_Series_with_anno.pdf",
+        "NOTES 07 Classification_of_Organic_Compounds_with_anno.pdf",
+        "NOTES 08 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 09 Rules_for_Numbering_Principle_Chain_IUPAC_Naming_of_Hydrocarbon_with_anno.pdf",
+        "NOTES 10 Rules_for_Selection_of_Longest_Chain__I_with_anno.pdf",
+        "NOTES 11 Rules_for_Selection_of_Longest_Chain__II_with_anno.pdf",
+        "NOTES 12 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 13 Naming_of_Functional_Group__I_with_anno.pdf",
+        "NOTES 14 Naming_of_Functional_Group__II_with_anno.pdf"
       ],
       "other": []
     },
@@ -335,7 +347,10 @@
         "DPP-SOL 10 DPP-10Solution.pdf",
         "DPP-SOL 11 DPP-11SOLUTIONS.pdf"
       ],
-      "notes": [],
+      "notes": [
+        "NOTES 01 Ideal_Gas_Equation_with_anno.pdf",
+        "NOTES 02 Graphical_Representation_of_pV__nRT_with_anno.pdf"
+      ],
       "other": [
         "NURTURE_UNP-1_AkshaySIR9-8-2020.pdf",
         "Sheet Ideal Gas Only Questions.pdf",
@@ -665,9 +680,21 @@
         "Practice Test 02 (Physics) - Practice Test-02_Arjuna (NEET)_(Physics).pdf",
         "Practice Test 02 (Zoology) - Practice Test-02_Arjuna (NEET)_(Zoology).pdf"
       ]
+    },
+    {
+      "id": 13,
+      "chapter": "The Living World",
+      "dpps": [
+        "DPP 01 Living World DPP 01 - DPP-1_Arjuna (NEET)_Living world_(16-07-2021)_Biswajit Sir_Mohit DTP.pdf"
+      ],
+      "notes": [
+        "DPP-SOL 01 Living World DPP 01 Solution Notes - The Living World DPP-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
+        "NOTES 01 Living World 01 Classnotes - Thrnluving World zlec 01 (Biswajit Sir).pdf"
+      ],
+      "other": []
     }
   ],
-  "last_update": "16/7/2021",
+  "last_update": "18/7/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
