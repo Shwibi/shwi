@@ -1,0 +1,1971 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C/DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="mysvgroot" width="100%" height="100%" viewBox="0 0 1000 600" onload="init(evt);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMid meet">
+	<defs>
+		<g id="pagetitle1" stroke="#8899aa" fill="#8899aa" font-family="Arial" font-weight="normal" font-size="16">
+			<text>Page 1: </text>
+		</g>
+		<g id="thumbtitle1" stroke="#113377" fill="#113377" font-family="Courier New" font-weight="normal" font-size="12">
+			<text>Page 1</text>
+		</g>
+		<g id="pagetitle2" stroke="#8899aa" fill="#8899aa" font-family="Arial" font-weight="normal" font-size="16">
+			<text>Page 2: </text>
+		</g>
+		<g id="thumbtitle2" stroke="#113377" fill="#113377" font-family="Courier New" font-weight="normal" font-size="12">
+			<text>Page 2</text>
+		</g>
+		<g id="pagetitle3" stroke="#8899aa" fill="#8899aa" font-family="Arial" font-weight="normal" font-size="16">
+			<text>Page 3: </text>
+		</g>
+		<g id="thumbtitle3" stroke="#113377" fill="#113377" font-family="Courier New" font-weight="normal" font-size="12">
+			<text>Page 3</text>
+		</g>
+		<g id="pagetitle4" stroke="#8899aa" fill="#8899aa" font-family="Arial" font-weight="normal" font-size="16">
+			<text>Page 4: </text>
+		</g>
+		<g id="thumbtitle4" stroke="#113377" fill="#113377" font-family="Courier New" font-weight="normal" font-size="12">
+			<text>Page 4</text>
+		</g>
+		<g id="pagetitle5" stroke="#8899aa" fill="#8899aa" font-family="Arial" font-weight="normal" font-size="16">
+			<text>Page 5: </text>
+		</g>
+		<g id="thumbtitle5" stroke="#113377" fill="#113377" font-family="Courier New" font-weight="normal" font-size="12">
+			<text>Page 5</text>
+		</g>
+		<g id="pagetitle6" stroke="#8899aa" fill="#8899aa" font-family="Arial" font-weight="normal" font-size="16">
+			<text>Page 6: </text>
+		</g>
+		<g id="thumbtitle6" stroke="#113377" fill="#113377" font-family="Courier New" font-weight="normal" font-size="12">
+			<text>Page 6</text>
+		</g>
+		<g id="projtitle" stroke="white" fill="white" font-family="Arial" font-weight="normal" font-size="20">
+			<text>#2</text>
+		</g>
+		<g id="normalviewtext" stroke="white" fill="white" font-family="Courier New" font-weight="normal" font-size="12">
+			<text id="normalviewtexttag" text-decoration="none">Normal View</text>
+		</g>
+		<g id="slidesorterviewtext" stroke="white" fill="white" font-family="Courier New" font-weight="normal" font-size="12">
+			<text id="slidesorterviewtexttag" text-decoration="underline">Slide Sorter View</text>
+		</g>
+		<g id="nextarrow" x="0" y="0" width="32" height="32">
+			<image id="nextarrowImage" xlink:href="images/ArrowRight.gif" width="32" height="32"/>
+		</g>
+		<g id="prevarrow" x="0" y="0" width="32" height="32">
+			<image id="prevarrowImage" xlink:href="images/ArrowLeft.gif" width="32" height="32"/>
+		</g>
+		<g id="uparrow" x="0" y="0" width="32" height="32">
+			<image id="uparrowImage" xlink:href="images/ArrowUp.gif" width="32" height="32"/>
+		</g>
+		<g id="dwnarrow" x="0" y="0" width="32" height="32">
+			<image id="dwnarrowImage" xlink:href="images/ArrowDown.gif" width="32" height="32"/>
+		</g>
+		<g id="textseparator" stroke="white" fill="white" font-family="Arial" font-weight="normal" font-size="14">
+			<text>|</text>
+		</g>
+		<g id="thumbsborder" stroke="#5555ee" stroke-width="3" fill="none">
+			<path d="M10,55 L10,565 M110,55 L110,565" />
+		</g>
+		<g id="vertscrollbarrect">
+			<rect x="0" y="0" width="20" height="420" fill="#99bbff" stroke="#99bbff" />
+		</g>
+		<g id="slidevertscrollbarrect">
+			<rect x="0" y="0" width="20" height="435" fill="#99bbff" stroke="#99bbff" />
+		</g>
+		<g id="attachscrollbarrect">
+			<rect x="0" y="0" width="20" height="435" fill="#99bbff" stroke="#99bbff" />
+		</g>
+		<g id="uptriangle">
+			<polygon points="10,0 20,20 0,20" fill="#113377" stroke="#113377"/>
+		</g>
+		<g id="dwntriangle">
+			<polygon points="0,0 20,0 10,20" fill="#113377" stroke="#113377"/>
+		</g>
+		<g id="pagetitleborder" stroke="#336699" stroke-width="2" fill="none">
+			<path d="M120,80 L990,80" />
+		</g>
+		<g id="smarttechlogo"><image xlink:href="images/header_logo.gif" width="125" height="50"/></g>
+		<clipPath id="pagedisplayclip">
+			<path fill="none" d="M130,90 L930,90 L930,540 L130,540 z"/>
+		</clipPath>
+		<clipPath id="slidethumbsclip">
+			<path fill="none" d="M110,70 L900,70 L900,560 L110,560 z"/>
+		</clipPath>
+		<clipPath id="attachmentsclip">
+			<path fill="none" d="M110,70 L900,70 L900,560 L110,560 z"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#pagedisplayclip)">
+		<g id="pagedisplay">
+			<g id="pagegrp1" visibility="visible">
+<svg width="800" height="600" xml:id="page.PLN86EFCNSE4NB00E55ISNHAI" id="page1" x="130" y="90" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 600"><rect x="0" y="0" width="100%" height="100%" fill="#000000" st_id="4294967295"/><g class="foreground"><image width="100%" height="100%" xlink:href="page.PLN86EFCNSE4NB00E55ISNHAI.png"/></g></svg>
+			</g>
+			<g id="pagegrp2" visibility="visible">
+<svg width="800" height="600" xml:id="page.E4LV00HBAT14BB04LVRH41R4G" id="page2" x="130" y="90" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 600"><rect x="0" y="0" width="100%" height="100%" fill="#000000" st_id="4294967295"/><g class="foreground"><image width="100%" height="100%" xlink:href="page.E4LV00HBAT14BB04LVRH41R4G.png"/></g></svg>
+			</g>
+			<g id="pagegrp3" visibility="visible">
+<svg width="800" height="600" xml:id="page.5N117EUCHL6KD5MCHFL4HVJR7" id="page3" x="130" y="90" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 600"><rect x="0" y="0" width="100%" height="100%" fill="#000000" st_id="4294967295"/><g class="foreground"><image width="100%" height="100%" xlink:href="page.5N117EUCHL6KD5MCHFL4HVJR7.png"/></g></svg>
+			</g>
+			<g id="pagegrp4" visibility="visible">
+<svg width="800" height="810" xml:id="page.96NCHEG9G5HKD9SP13VI9AGQ5" id="page4" x="130" y="90" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 810"><rect x="0" y="0" width="100%" height="100%" fill="#000000" st_id="4294967295"/><g class="foreground"><image width="100%" height="100%" xlink:href="page.96NCHEG9G5HKD9SP13VI9AGQ5.png"/></g></svg>
+			</g>
+			<g id="pagegrp5" visibility="visible">
+<svg width="800" height="1388" xml:id="page.EA7Q8KVJAGG4H02C3J5B8TK22" id="page5" x="130" y="90" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 1388"><rect x="0" y="0" width="100%" height="100%" fill="#000000" st_id="4294967295"/><g class="foreground"><image width="100%" height="100%" xlink:href="page.EA7Q8KVJAGG4H02C3J5B8TK22.png"/></g></svg>
+			</g>
+			<g id="pagegrp6" visibility="visible">
+<svg width="800" height="1200" xml:id="page.625MV8KLLVRKL8I8CQOCG2JCA" id="page6" x="130" y="90" preserveAspectRatio="xMinYMin meet" viewBox="0 0 800 1200"><rect x="0" y="0" width="100%" height="100%" fill="#000000" st_id="4294967295"/><g class="foreground"><image width="100%" height="100%" xlink:href="page.625MV8KLLVRKL8I8CQOCG2JCA.png"/></g></svg>
+			</g>
+
+		</g>
+	</g>
+	<script type="text/ecmascript">
+		<![CDATA[
+			var gNumPages = 6;
+			var gNumAttachments = 0;
+			var gNavBarNormalX = 634;
+			var gNavBarSep1X = 729;
+			var gNavBarSlideX = 750;
+			var gNavBarSep2X = 889;
+			var gNavBarAttachmentsX = 910;
+		]]>
+	</script>
+<script type="text/ecmascript"><![CDATA[
+			
+			
+	/////////////////////////////////////////////////////////////////////////////////////
+	
+	// COMMON GLOBAL VARS
+	
+	/////////////////////////////////////////////////////////////////////////////////////			
+			
+	// Data Space Vars
+	var svgNS = "http://www.w3.org/2000/svg";
+	var xlinkNS = "http://www.w3.org/1999/xlink";
+		
+	// View Control Vars
+	var gCurrentView = 1;					// id for current view
+											// 1 = Normal View
+											// 2 = Slide Sorter View
+											// 3 = Attachments View
+
+	// Positioning Vars
+	var gProjectPageOriginX = 0;			// left-x coordinate of origin for project page
+	var gProjectPageOriginY = 0;			// top-y coordinate of origin for project page
+	var gProjectPageWidth = 1000;			// width of project page
+	var gProjectPageHeight = 600;			// height of project page
+	
+	var gHeaderWidth = 1200;				// width of page header
+	var gHeaderHeight = 70;					// height of page header
+	var gHeaderX = -20;						// left-x coordinate of page header
+	var gHeaderY = -20;						// top-y coordinate of page header
+	
+	var gFooterWidth = 1200;					// width of page footer
+	var gFooterHeight = 100;					// height of page footer
+	var gFooterX = 0;						// left-x coordinate of page footer
+	var gFooterY = 572;						// top-y coordinate of page footer
+	
+	var gProjectTitleX = 15;				// left-x coordinate of project title
+	var gProjectTitleY = 40;				// top-y coordinate of project title base line
+
+	// exported dynamically
+	//var gNavBarNormalX = 640;				 left-x coordinate of nav bar for normal view button
+	//var gNavBarSep1X = 730;				 left-x coordinate of nav bar for first separator
+	//var gNavBarSlideX = 750;				 left-x coordinate of nav bar slide sorter view button
+	//var gNavBarSep2X = 885;				 left-x coordinate of nav bar for second separator
+	//var gNavBarAttachmentsX = 905;		 left-x coordinate of nav bar for attachments view button
+	var gNavBarY = 15;						// left-y coordinate of nav bar
+	
+	var gSmartLogoX = 875;					// left-x coordinate of Smart logo
+	var gSmartLogoY = 568;					// top-y coordinate of Smart logo
+	var gSmartLogoWidth = 60;				// width of Smart logo
+	var gSmartLogoHeight = 46;				// height of Smart logo
+	
+	// Color Vars		
+	var gHeaderFooterBlue = "#5588ee";		// color for header and footer
+
+	//////////////////////////////////////////////////////////////////////////////////////////
+	
+	// NORMAL VIEW GLOBAL VARS
+	
+	/////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Pagination Vars
+	var gLastPageDisplayed = 1;				// number of page currently displayed
+	var gNumThumbs = 5;						// number of thumbmails displayed
+	var gTopThumb = 1;						//page displayed in top thumbmail
+	
+	// Positioning Vars
+	
+	
+	var gThumbFirstPos = 97;				// top-y coordinate of top thumb
+	var gThumbIncrement = 90;				// distance from top of one thumnnail to the top of the next
+	var gThumbX = 20;						// left-x coordinate of all thumbnails
+	var gThumbWidth = 80;					// width of thumbnails
+	var gThumbHeight = 60;					// height of thumbmails
+	var gThumbRectX = 17;					// left-x coordinate of rect underlying thumbmails
+	var gThumbRectWidth = 86;				// witdh of rect underlying thumbnails
+	var gThumbRectHeight = 66;				// height of rect underlying thumbmails
+	var gThumbRectStrokeWidth = 3;			// width of outline of rect underlying thumbnails
+	var gThumbRectSelStrokeWidth = 2;		// width of the selection outline of rect around thumbnails
+	var gNewThumbWidth = 60;				// passed back from calculateThumbOffsetAndWidth()
+	var gNewThumbOffset = 0;				// passed back from calculateThumbOffsetAndWidth()
+	
+	var gStandardPageWidth = 800;			// width of whiteboard page	
+	var gStandardPageHeight = 600;			// height of un-extended whiteboard page
+	
+	var gPageViewX = 130;					// left-x coordinate of whiteboard page view
+	var gPageViewY = 90;					// top-y coordinate of whiteboard page view	
+	var gPageViewWidth = 800;				// width of whiteboard page view
+	var gPageViewHeight = 450;				// height of whiteboard page view
+	var gCurrentPageHeight = 600;			// height of page currently displayed
+	var gCurrentPageDispBottom = 450;		// bottom-y coordinate displayed for current page
+	var gCurrentPageTransformY = 0;			// y-transform applied to page currently displayed
+	
+	var gScrollBarLeft = 955;				// left-x coordinate of vertical scroll bar
+	var gScrollBarTop = 90;					// top-y coordinate of vertical scroll bar
+	var gScrollBarWidth = 20;				// scroll bar width
+	var gScrollBarArrowHeight = 15;			// height of scroll bar arrows
+											// scroll bar height is assumed to be equal gPageViewHeight
+											
+	var gTopPrevRectX = 455;				// left-x coordinate of top previous underlying rect
+	var gTopNextRectX = 519;				// left-x coordinate of top next underlying rect
+	var gTopPrevArrowX = 456;				// left-x coordinate of top previous arrow
+	var gTopNextArrowX = 520;				// left-x coordinate of top next arrow
+	var gTopPrevNextRectY = 14;				// top-y coordinate of top next and previous underlying rects
+	var gTopPrevNextArrowY = 15;			// top-y coordinate of top next and previous arrows
+//	var gTopPrevNextArrowWidth = 32;		// width of top next and previous arrows
+//	var gTopPrevNextArrowHeight = 32;		// height of top next and previous arrows
+	var gTopPrevNextRectWidth = 34;			// width of top next and previous underlying rects
+	var gTopPrevNextRectHeight = 34;		// height of top next and previous underlying rects
+	
+	var gBtmPrevRectX = 455;				// left-x coordinate of bottom previous underlying rect
+	var gBtmNextRectX = 519;				// left-x coordinate of bottom next underlying rect
+	var gBtmPrevArrowX = 456;				// left-x coordinate of bottom previous arrow
+	var gBtmNextArrowX = 520;				// left-x coordinate of bottom next arrow
+	var gBtmPrevNextRectY = 572;			// top-y coordinate of bottom next and previous underlying rects
+	var gBtmPrevNextArrowY = 572;			// top-y coordinate of bottom next and previous arrows
+	var gBtmPrevNextRectWidth = 34;			// width of bottom next and previous underlying rects
+	var gBtmPrevNextRectHeight = 34;		// height of bottom next and previous underlying rects
+
+	var gThumbUpRectX = 45;					// left-x coordinate of thumb up underlying rect
+	var gThumbUpArrowX = 46;				// left-x coordinate of thumb up arrow
+	var gThumbUpRectY = 57;					// top-y coordinate of thumb up underlying rect
+	var gThumbUpArrowY = 58;				// top-y coordinate of thumb up arrow
+	var gThumbUpArrowWidth = 16;				// width of thumb up arrow
+	var gThumbUpArrowHeight = 24;				// height of thumb up arrow
+	var gThumbUpRectWidth = gThumbUpArrowWidth+2;		// width of thumb up underlying rect
+	var gThumbUpRectHeight = gThumbUpArrowHeight+2;		// height of thumb up underlying rect
+	
+	var gThumbDwnRectX = 45;				// left-x coordinate of thumb down underlying rect
+	var gThumbDwnArrowX = 46;				// left-x coordinate of thumb down arrow
+	var gThumbDwnRectY = 537;				// top-y coordinate of thumb down underlying rect
+	var gThumbDwnArrowY = 538;				// top-y coordinate of thumb down arrow
+	var gThumbDwnArrowWidth = 16;			// width of thumb down arrow
+	var gThumbDwnArrowHeight = 24;			// height of thumb down arrow
+	var gThumbDwnRectWidth = gThumbDwnArrowWidth+2;			// width of thumb down underlying rect
+	var gThumbDwnRectHeight = gThumbDwnArrowHeight+2;			// height of thumb down underlying rect
+
+	var gPageTitleX = 130;					// left-x coordinate of page title
+	var gPageTitleY = 75;					// top-y coordinate of baseline of page title
+	
+	// Scrolling Vars
+	
+	var gDeltaScroll = 20;					// number of units to scroll whiteboard page on each click or equivelant
+	
+	var gFirstClickScrollUp = true;			// indicates we entered on first mouse down not timer
+	var gFirstClickScrollDwn = true;		// indicates we entered on first mouse down not timer
+	var gLoopScrollUp = null;				// timer for scroll page up
+	var gLoopScrollDwn = null;				// timer for scroll page down
+	var gMainScrollFirstDelay = 250;		// delay before begining scrolling
+	var gMainScrollSecondDelay = 50;		// delay between scroll calls
+	
+	var gFirstClickPageNext = true;			// indicates we entered on first mouse down not timer
+	var gFirstClickPagePrev = true;			// indicates we entered on first mouse down not timer
+	var gLoopPageNext = null;				// timer for page next
+	var gLoopPagePrev = null;				// timer for page prev
+	var gPageScrollFirstDelay = 500;		// delay before begining scrolling
+	var gPageScrollSecondDelay = 500;		// delay between scroll calls
+	
+	var gFirstClickThumbsUp= true;			// indicates we entered on first mouse down not timer
+	var gFirstClickThumbsDwn = true;		// indicates we entered on first mouse down not timer
+	var gLoopThumbsUp = null;				// timer for scroll thumbs up
+	var gLoopThumbsDwn = null;				// timer for scroll thumbs down
+	var gThumbsScrollFirstDelay = 250;		// delay before begining scrolling
+	var gThumbsScrollSecondDelay = 250;		// delay between scroll calls
+
+	var gOutViewBoxRatio = 1;				// currently unused
+	
+	// Color Vars
+	var gDisableGreyColour = "#bbccdd";		// disable color for underlying button rects and thumb outlines
+	var gThumbSelectColour = "#ff4444";		// outline color of selected thumbnail
+	
+
+	////////////////////////////////////////////////////////////////////////////////
+	
+	// SLIDE SORTER VIEW GLOBAL VARS
+	
+	///////////////////////////////////////////////////////////////////////////////	
+	
+	var gSlideThumbsFirstX = 120;			// left-x coordinate of slide thumbs
+	var gSlideThumbsFirstY = 80;			// top-y coordinate of first row of slide thumbs
+	var gSlideThumbWidth = 160;				// width of slide thumbs
+	var gSlideThumbHeight = 120;			// height of slide thumbs
+	var gSlideThumbHorzIncrement = 200;		// distance left edge to left edge of slide thumbs
+	var gSlideThumbVertIncrement = 160;		// distance top edge to top edge of slide thumbs
+	var gNumSlideHorzThumbs = 4;			// number of slide thumbs per row
+	var gSlideThumbBorderWidth = 5;			// width of border around slide thumbs
+	var gSlideThumbAscent = 12;				// Ascent height of slide thumbs text
+	var gSlideSorterPageHeight = 480;		// height of slide sorter page window
+	var gSliderSorterPageBottom = 480;		// bottom of slide sorter page window
+	var gSlideSorterScrollLeft = 920;		// left-x coordinate of slide sorter scroll bar
+	var gSlideSorterScrollTop = 75;			// top-y coordinate of slide sorter scroll bar
+	var gSlideSorterScrollWidth = 20;		// width of slide sorter scroll bar
+	var gCurrentSlideSorterPageHeight = 480;	// height of current sildes page all rows
+	var gSlidePageTransformY = 0;			// slide sorter scrolling transform
+	var gSlideSorterCurrentBottom = 480;	// current bottom of slide page inside slide window
+	
+	// Scrolling Vars
+	var gSlideDeltaScroll = 80;				// number of units to scroll whiteboard page on each click or equivelant
+	
+	var gSlideFirstClickScrollUp = true;	// indicates we entered on first mouse down not timer
+	var gSlideFirstClickScrollDwn = true;	// indicates we entered on first mouse down not timer
+	var gSlideLoopScrollUp = null;			// timer for scroll page up
+	var gSlideLoopScrollDwn = null;			// timer for scroll page down
+	var gSlideScrollFirstDelay = 250;		// delay before begining scrolling
+	var gSlideScrollSecondDelay = 50;		// delay between scroll calls
+
+	var gSliderThumbOutlineGrey = "#bbccdd";	//outline color of slide sorter thumbs
+			
+	///////////////////////////////////////////////////////////////////////////////
+	
+	
+	// ATTACHMENTS VIEW GLOBAL VARIABLES
+	
+	///////////////////////////////////////////////////////////////////////////////
+	
+	var gAttachFirstX = 120;			// left-x coordinate of slide attachments
+	var gAttachFirstY = 100;			// top-y coordinate of first attachment
+	var gAttachHeight = 40;			// height of each attachment
+	var gAttachVertIncrement = 40;	// distance top edge to top edge of attachments
+	var gAttachPageHeight = 480;			// height of attachments window
+	var gAttachPageBottom = 480;			// bottom of attachments window
+	var gAttachScrollLeft = 920;			// left-x coordinate of attachments scroll bar
+	var gAttachScrollTop = 75;				// top-y coordinate of attachments scroll bar
+	var gAttachScrollWidth = 20;			// width of attachments scroll bar
+	var gCurrentAttachPageHeight = 480;		// height of attachments page all rows
+	var gAttachPageTransformY = 0;			// attachments scrolling transform
+	var gAttachCurrentBottom = 480;			// current bottom of attachments inside window
+	
+	//var gAttachLink = new Array(1); gAttachLinK data written dymaically
+	//gAttachLink[0] =	"./BreadfinalwholebookletMS97.rtf";
+					
+	
+	// Scrolling Vars
+	var gMaxLinesAttachOnPage = 12;			// maximum number of attachments that will fit without scroll bars
+	var gAttachDeltaScroll = 40;				// number of units to scroll whiteboard page on each click or equivelant	
+	var gAttachFirstClickScrollUp = true;	// indicates we entered on first mouse down not timer
+	var gAttachFirstClickScrollDwn = true;	// indicates we entered on first mouse down not timer
+	var gAttachLoopScrollUp = null;			// timer for scroll page up
+	var gAttachLoopScrollDwn = null;			// timer for scroll page down
+	var gAttachScrollFirstDelay = 250;		// delay before begining scrolling
+	var gAttachScrollSecondDelay = 50;		// delay between scroll calls
+
+
+	
+	
+	///////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////
+	
+	function init( evt ){
+		
+		deleteAllElements();
+		createNormalViewElements();
+		drawNormalView();
+	}
+
+	function drawNormalView(){
+	
+		hideAllPages();
+		drawHeaderAndFooter();
+		drawPageTitleBorder();
+		drawThumbsBorder();
+		drawNewNextPrevButtons();
+		drawThumbUpDwnButtons();
+		drawNewVertScrollBar();		
+		updateAllButtonStates();
+		drawFirstThumbs( gTopThumb, gNumThumbs, gNumPages );
+		highliteThumbnail( gLastPageDisplayed, true );
+		displayFirstPage( gLastPageDisplayed );
+	
+	}
+	
+	function drawSlideSorterView(){
+	
+		hideAllPages();
+		drawHeaderAndFooter();
+		drawSlideSorterThumbs();
+	
+	}
+
+	function onSwitchToNormalView( evt ){
+		
+		if( gCurrentView != 1 ){
+			deleteAllElements();
+			gCurrentView = 1;	
+			createNormalViewElements();
+			drawNormalView();	
+		}
+	}
+	
+	function onSwitchToSlideSorterView( evt ){
+		
+		if( gCurrentView != 2 ){
+			deleteAllElements();
+			gCurrentView = 2;
+			createSlideSorterViewElements();
+			drawSlideSorterView();
+		}
+	}
+	
+	function onSwitchToAttachmentsView( evt ){
+	
+		if( gCurrentView != 3 ){
+			deleteAllElements();
+			gCurrentView = 3;
+			createAttachmentsViewElements();
+			drawAttachmentsView();
+		}
+	}	
+		
+	function deleteAllElements(){
+		
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "header" ) );
+	
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "thumbsgroup" ) );
+	
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "pagetitle" ) );
+	
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "pagedisplayclipgroup" ) );
+	
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "vertscrollbar" ) );
+	
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "footer" ) );
+	
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "slideclipgroup" ) );
+		
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "slidescrollgroup" ) );
+
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "attachclipgroup" ) );
+		
+		recursiveDeleteNodeAndAllChildren( document.getElementById( "attachscrollgroup" ) );
+	}
+	
+	function recursiveDeleteNodeAndAllChildren( node ){
+	
+		if( node != null ){
+			if( node.hasChildNodes() ){
+				var children = node.childNodes;
+				for( i = 0; i < children.length; i++ ){	
+					recursiveDeleteNodeAndAllChildren( children.item(i) );
+				}
+			}
+			node.parentNode.removeChild( node );
+		}
+	}
+	
+	function createNormalViewElements(){
+	
+		var mainView = document.getElementById( "mainview" );
+		var group;
+		var subGroup;
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "header" );
+		mainView.appendChild( group );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "thumbsgroup" );
+		mainView.appendChild( group );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "pagetitle" );
+		mainView.appendChild( group );
+		
+//		group = document.createElementNS( svgNS, "g" );
+//		group.setAttributeNS( null, "id", "pagedisplayclipgroup" );
+//		group.setAttributeNS( null, "clip-path", "url(#pagedisplayclip)" );
+//		mainView.appendChild( group );
+//		subGroup = document.createElementNS( svgNS, "g" );
+//		subGroup.setAttributeNS( null, "id", "pagedisplay" );
+//		group.appendChild( subGroup );
+	
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "vertscrollbar" );
+		mainView.appendChild( group );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "footer" );
+		mainView.appendChild( group );
+		
+	}
+	
+	function createSlideSorterViewElements(){
+	
+		var mainView = document.getElementById( "mainview" );
+		var group;
+		var subGroup;
+
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "header" );
+		mainView.appendChild( group );
+	
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "slideclipgroup" );
+		group.setAttributeNS( null, "clip-path", "url(#slidethumbsclip)" );
+		mainView.appendChild( group );
+		subGroup = document.createElementNS( svgNS, "g" );
+		subGroup.setAttributeNS( null, "id", "slidesorterdisplay" );
+		group.appendChild( subGroup );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "slidescrollgroup" );
+		mainView.appendChild( group );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "footer" );
+		mainView.appendChild( group );
+
+	}
+	
+	function createAttachmentsViewElements(){
+
+		var mainView = document.getElementById( "mainview" );
+		var group;
+		var subGroup;
+
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "header" );
+		mainView.appendChild( group );
+	
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "slideclipgroup" );
+		group.setAttributeNS( null, "clip-path", "url(#attachmentsclip)" );
+		mainView.appendChild( group );
+		subGroup = document.createElementNS( svgNS, "g" );
+		subGroup.setAttributeNS( null, "id", "attachmentsdisplay" );
+		group.appendChild( subGroup );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "attachscrollgroup" );
+		mainView.appendChild( group );
+		
+		group = document.createElementNS( svgNS, "g" );
+		group.setAttributeNS( null, "id", "footer" );
+		mainView.appendChild( group );
+	
+	}
+
+	function drawFirstThumbs( topThumb, numThumbs, numPages ){
+	
+		var thumbsGroup = document.getElementById( "thumbsgroup" );
+
+		for( thumbPos=1, pageNum=topThumb; thumbPos<=numThumbs && thumbPos<=numPages; thumbPos++, pageNum++ ){
+
+			var newRectId = "thumbRect" + thumbPos;
+			var overRectId = "overthumbrect" + thumbPos;
+			var rectY = gThumbFirstPos + (thumbPos -1)*gThumbIncrement;
+			var useId = "thumb" + thumbPos;
+			var useY = gThumbFirstPos + (thumbPos -1)*gThumbIncrement;
+			var selRectID = "selThumbRect" + thumbPos;
+			
+			var newRect = document.createElementNS( svgNS, "rect" );
+			newRect.setAttributeNS( null, "x", gThumbRectX );
+			newRect.setAttributeNS( null, "y", rectY - gThumbRectStrokeWidth);
+			newRect.setAttributeNS( null, "width", gThumbRectWidth );
+			newRect.setAttributeNS( null, "height", gThumbRectHeight );
+			newRect.setAttributeNS( null, "fill", "white" );
+			newRect.setAttributeNS( null, "stroke", gDisableGreyColour );
+			newRect.setAttributeNS( null, "stroke-width", gThumbRectStrokeWidth );
+			newRect.setAttributeNS( null, "visibility", "visible" );
+			newRect.setAttributeNS( null, "id", newRectId );
+
+			var newSelRect = document.createElementNS( svgNS, "rect" );
+			newSelRect.setAttributeNS( null, "x", gThumbRectX+gThumbRectStrokeWidth);
+			newSelRect.setAttributeNS( null, "y", rectY - gThumbRectStrokeWidth+gThumbRectStrokeWidth);
+			newSelRect.setAttributeNS( null, "width", gThumbRectWidth-(gThumbRectStrokeWidth*2) );
+			newSelRect.setAttributeNS( null, "height", gThumbRectHeight-(gThumbRectStrokeWidth*2) );
+			newSelRect.setAttributeNS( null, "fill", "white" );
+			newSelRect.setAttributeNS( null, "stroke", gThumbSelectColour );
+			newSelRect.setAttributeNS( null, "stroke-width", gThumbRectSelStrokeWidth );
+			newSelRect.setAttributeNS( null, "visibility", "hidden" );
+			newSelRect.setAttributeNS( null, "id", selRectID );
+			
+			calculateThumbOffsetAndWidth( pageNum ); // returns gNewThumbOffset and gNewThumbWidth			
+			var newUse = document.createElementNS( svgNS, "use" );					
+			newUse.setAttributeNS( xlinkNS, "xlink:href", "#page"+pageNum );
+			newUse.setAttributeNS( null, "x", gThumbX+gNewThumbOffset-gPageViewX ); // need to translate out of page
+			newUse.setAttributeNS( null, "y", useY-gPageViewY );		// need to translate out of page
+			newUse.setAttributeNS( null, "width", gNewThumbWidth );
+			newUse.setAttributeNS( null, "height", gThumbHeight );
+			newUse.setAttributeNS( null, "id", useId );	
+			
+			var overRect = document.createElementNS( svgNS, "rect" );
+			overRect.setAttributeNS( null, "x", gThumbRectX );
+			overRect.setAttributeNS( null, "y", rectY - gThumbRectStrokeWidth);
+			overRect.setAttributeNS( null, "width", gThumbRectWidth );
+			overRect.setAttributeNS( null, "height", gThumbRectHeight );
+			overRect.setAttributeNS( null, "fill", "white" );
+			overRect.setAttributeNS( null, "stroke", gDisableGreyColour );
+			overRect.setAttributeNS( null, "stroke-width", gThumbRectStrokeWidth );
+			overRect.setAttributeNS( null, "opacity", 0.0 );
+			overRect.setAttributeNS( null, "id", overRectId );
+			overRect.addEventListener("click",clickedThumb,false);
+			
+			thumbsGroup.appendChild( newRect );
+			thumbsGroup.appendChild( newSelRect );
+			thumbsGroup.appendChild( newUse );
+			thumbsGroup.appendChild( overRect );
+			
+		}
+	}
+
+	function reDrawThumb( thumbPos, pageNum ){
+
+		var thumbNail = "thumb" + thumbPos;
+		var oldThumb = document.getElementById( thumbNail );
+		var newThumb = document.createElementNS( svgNS, "use" );
+		var thumbY = gThumbFirstPos + (thumbPos -1)*gThumbIncrement;
+
+		calculateThumbOffsetAndWidth( pageNum )	
+		newThumb.setAttributeNS( xlinkNS, "xlink:href", "#page"+pageNum );
+		newThumb.setAttributeNS( null, "x", gThumbX+gNewThumbOffset-gPageViewX ); //need to translate out of page
+		newThumb.setAttributeNS( null, "y", thumbY-gPageViewY );	// need to translate out of page	
+		newThumb.setAttributeNS( null, "width", gNewThumbWidth );
+		newThumb.setAttributeNS( null, "height", gThumbHeight );		
+		newThumb.setAttributeNS( null, "id", thumbNail );	
+		newThumb.setAttributeNS( null, "visibility", "visible" );				
+		oldThumb.parentNode.replaceChild( newThumb, oldThumb );
+
+	}			
+
+	function displayPage( evt, pageNum ){
+	
+
+	
+		if( pageNum != gLastPageDisplayed ){
+
+			hideAllPages();
+			
+			gLastPageDisplayed = pageNum;
+			
+			var pageGroup = document.getElementById( "pagegrp"+pageNum );
+			pageGroup.setAttributeNS( null, "visibility", "visible" );
+			
+			gCurrentPageDispBottom = gPageViewHeight;
+			var page = document.getElementById( "page"+pageNum );
+			gCurrentPageHeight = parseInt( page.getAttributeNS( null, "height" ) );	
+			gCurrentPageTransformY = 0;		
+			
+			var pageDisplay = document.getElementById( "pagedisplay" );
+			pageDisplay.setAttributeNS( null, "transform", "translate( 0,0)" );
+			
+			
+			var oldTitle = document.getElementById( "usePagetitle" );
+			var newTitle = document.createElementNS( svgNS, "use" );
+			
+			newTitle.setAttributeNS( xlinkNS, "xlink:href", "#pagetitle"+pageNum );
+			newTitle.setAttributeNS( null, "x", gPageTitleX );
+			newTitle.setAttributeNS( null, "y", gPageTitleY );
+			newTitle.setAttributeNS( null, "id", "usePagetitle" );
+			oldTitle.parentNode.replaceChild( newTitle, oldTitle );
+			
+			reDrawVertScrollBar();
+			
+		}
+	}
+	
+
+	function displayFirstPage( pageNum ){
+	
+		hideAllPages();
+	
+		var pageGroup = document.getElementById( "pagegrp"+pageNum );		
+		pageGroup.setAttributeNS( null, "visibility", "visible" );
+		
+		gLastPageDisplayed = pageNum;	
+		gCurrentPageDispBottom = gPageViewHeight;
+		var page = document.getElementById( "page"+pageNum );
+		gCurrentPageHeight = parseInt( page.getAttributeNS( null, "height" ) );
+		gCurrentPageTransformY = 0;
+
+		var pageDisplay = document.getElementById( "pagedisplay" );					
+		pageDisplay.setAttributeNS( null, "transform", "translate( 0,0)" );
+				
+		var titleGroup = document.getElementById( "pagetitle" );
+		var newTitle = document.createElementNS( svgNS, "use" );
+		
+		newTitle.setAttributeNS( xlinkNS, "xlink:href", "#pagetitle"+pageNum );
+		newTitle.setAttributeNS( null, "x", gPageTitleX );
+		newTitle.setAttributeNS( null, "y", gPageTitleY );
+		newTitle.setAttributeNS( null, "id", "usePagetitle" );
+		
+		titleGroup.appendChild( newTitle );
+		
+		reDrawVertScrollBar();
+	}
+
+	function hideAllPages(){
+	
+		var pageGroup;
+		for( pageNum = 1; pageNum <= gNumPages; pageNum++ ){		
+			pageGroup = document.getElementById( "pagegrp"+pageNum );
+			pageGroup.setAttributeNS( null, "visibility", "hidden" );
+		}
+	
+	}
+
+	function drawNewVertScrollBar(){
+
+		var scrollerGroup = document.getElementById( "vertscrollbar" );	
+		var newScrollBarY =  gScrollBarTop + gScrollBarArrowHeight+10;
+		
+		var newBackingRect = document.createElementNS( svgNS, "use" );
+		newBackingRect.setAttributeNS( xlinkNS, "xlink:href", "#vertscrollbarrect" );
+		newBackingRect.setAttributeNS( null, "x", gScrollBarLeft );
+		newBackingRect.setAttributeNS( null, "y", newScrollBarY );
+		newBackingRect.setAttributeNS( null, "width", gScrollBarWidth );
+		newBackingRect.setAttributeNS( null, "height", gPageViewHeight );
+		newBackingRect.setAttributeNS( null, "id", "scrollbarbackingrect" );
+		scrollerGroup.appendChild( newBackingRect );
+
+		var newUpArrow = document.createElementNS( svgNS, "use" );
+		newUpArrow.setAttributeNS( xlinkNS, "xlink:href", "#uptriangle" );
+		newUpArrow.setAttributeNS( null, "x", gScrollBarLeft );
+		newUpArrow.setAttributeNS( null, "y", gScrollBarTop );
+		newUpArrow.setAttributeNS( null, "width", gScrollBarWidth );
+		newUpArrow.setAttributeNS( null, "height", gScrollBarArrowHeight );
+		newUpArrow.setAttributeNS( null, "id", "scrollbaruparrow" );		
+		newUpArrow.addEventListener( "mousedown", vScrollUpPressed, false);
+		newUpArrow.addEventListener( "mouseup", vScrollUpReleased, false);
+		newUpArrow.addEventListener( "mouseout", vScrollUpReleased, false);
+		scrollerGroup.appendChild( newUpArrow );
+		
+		var newDwnArrow = document.createElementNS( svgNS, "use" );
+		newDwnArrow.setAttributeNS( xlinkNS, "xlink:href", "#dwntriangle" );
+		newDwnArrow.setAttributeNS( null, "x", gScrollBarLeft );
+		newDwnArrow.setAttributeNS( null, "y", gScrollBarTop + gPageViewHeight );
+		newDwnArrow.setAttributeNS( null, "width", gScrollBarWidth );
+		newDwnArrow.setAttributeNS( null, "height", gScrollBarArrowHeight );
+		newDwnArrow.setAttributeNS( null, "id", "scrollbaruparrow" );
+		newDwnArrow.addEventListener( "mousedown", vScrollDwnPressed, false);
+		newDwnArrow.addEventListener( "mouseup", vScrollDwnReleased, false);
+		newDwnArrow.addEventListener( "mouseout", vScrollDwnReleased, false);
+		scrollerGroup.appendChild( newDwnArrow );
+		
+		var newScrollerRect = document.createElementNS( svgNS, "rect" );	
+		newScrollerRect.setAttributeNS( null, "x", gScrollBarLeft );
+		newScrollerRect.setAttributeNS( null, "y", newScrollBarY );
+		newScrollerRect.setAttributeNS( null, "width", gScrollBarWidth );
+		newScrollerRect.setAttributeNS( null, "height", 1 );
+		newScrollerRect.setAttributeNS( null, "stroke",	"none" );
+		newScrollerRect.setAttributeNS( null, "fill", "none" );
+		newScrollerRect.setAttributeNS( null, "id", "scrollerrect" );		
+		scrollerGroup.appendChild( newScrollerRect );
+	
+	}
+	
+	function reDrawVertScrollBar(){
+	
+		var scrollerFullHeight = gPageViewHeight - 2 * gScrollBarArrowHeight;
+		// no div here zero since page is always longer than the view		
+		var newScrollerHeight = scrollerFullHeight - (( 1 - (-gCurrentPageTransformY / (gCurrentPageHeight  - gPageViewHeight ))) * scrollerFullHeight);
+		var newScrollerY = gScrollBarTop + gScrollBarArrowHeight+10;
+		var newScrollerRect = document.createElementNS( svgNS, "rect" );
+		newScrollerRect.setAttributeNS( null, "x", gScrollBarLeft );
+		newScrollerRect.setAttributeNS( null, "y", newScrollerY );
+		newScrollerRect.setAttributeNS( null, "width", gScrollBarWidth );
+		newScrollerRect.setAttributeNS( null, "height", newScrollerHeight );
+		newScrollerRect.setAttributeNS( null, "stroke",	gDisableGreyColour );
+		newScrollerRect.setAttributeNS( null, "fill", gDisableGreyColour );
+		newScrollerRect.setAttributeNS( null, "id", "scrollerrect" );
+		
+		var oldScrollerRect = document.getElementById( "scrollerrect" );
+		oldScrollerRect.parentNode.replaceChild( newScrollerRect, oldScrollerRect );
+				
+	}
+	
+	function drawNewNextPrevButtons(){
+	
+		var headerGroup = document.getElementById( "header" );				
+		var footerGroup = document.getElementById( "footer" );
+		
+		var newTopPrevRect = document.createElementNS( svgNS, "rect" );
+		newTopPrevRect.setAttributeNS( null, "x", gTopPrevRectX );
+		newTopPrevRect.setAttributeNS( null, "y", gTopPrevNextRectY );
+		newTopPrevRect.setAttributeNS( null, "width", gTopPrevNextRectWidth );
+		newTopPrevRect.setAttributeNS( null, "height", gTopPrevNextRectHeight );
+		newTopPrevRect.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		newTopPrevRect.setAttributeNS( null, "fill", gHeaderFooterBlue);
+		newTopPrevRect.setAttributeNS( null, "id", "topprevrect" );
+		newTopPrevRect.addEventListener( "mousedown", scrollPagePrevPressed, false);
+		newTopPrevRect.addEventListener( "mouseup", scrollPagePrevReleased, false);
+		newTopPrevRect.addEventListener( "mouseout", scrollPagePrevReleased, false);
+		headerGroup.appendChild( newTopPrevRect );
+
+		var newTopNextRect = document.createElementNS( svgNS, "rect" );
+		newTopNextRect.setAttributeNS( null, "x", gTopNextRectX );
+		newTopNextRect.setAttributeNS( null, "y", gTopPrevNextRectY );
+		newTopNextRect.setAttributeNS( null, "width", gTopPrevNextRectWidth );
+		newTopNextRect.setAttributeNS( null, "height", gTopPrevNextRectHeight );
+		newTopNextRect.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		newTopNextRect.setAttributeNS( null, "fill", gHeaderFooterBlue);
+		newTopNextRect.setAttributeNS( null, "id", "topnextrect" );
+		newTopNextRect.addEventListener( "mousedown", scrollPageNextPressed, false);
+		newTopNextRect.addEventListener( "mouseup", scrollPageNextReleased, false);
+		newTopNextRect.addEventListener( "mouseout", scrollPageNextReleased, false);
+		headerGroup.appendChild( newTopNextRect );		
+		
+		var newTopPrevArrow = document.createElementNS( svgNS, "use" );
+		newTopPrevArrow.setAttributeNS( xlinkNS, "xlink:href", "#prevarrow" );
+		newTopPrevArrow.setAttributeNS( null, "x", gTopPrevArrowX );
+		newTopPrevArrow.setAttributeNS( null, "y", gTopPrevNextArrowY );
+		newTopPrevArrow.setAttributeNS( null, "id", "topprevarrow" );
+		newTopPrevArrow.addEventListener( "mousedown", scrollPagePrevPressed, false);
+		newTopPrevArrow.addEventListener( "mouseup", scrollPagePrevReleased, false);
+		newTopPrevArrow.addEventListener( "mouseout", scrollPagePrevReleased, false);
+		headerGroup.appendChild( newTopPrevArrow );
+		
+		var newTopNextArrow = document.createElementNS( svgNS, "use" );
+		newTopNextArrow.setAttributeNS( xlinkNS, "xlink:href", "#nextarrow" );		
+		newTopNextArrow.setAttributeNS( null, "x", gTopNextArrowX );
+		newTopNextArrow.setAttributeNS( null, "y", gTopPrevNextArrowY );
+		newTopNextArrow.setAttributeNS( null, "id", "topnextarrow" );
+		newTopNextArrow.addEventListener( "mousedown", scrollPageNextPressed, false);
+		newTopNextArrow.addEventListener( "mouseup", scrollPageNextReleased, false);
+		newTopNextArrow.addEventListener( "mouseout", scrollPageNextReleased, false);
+		headerGroup.appendChild( newTopNextArrow );		
+		
+		var newBtmPrevRect = document.createElementNS( svgNS, "rect" );
+		newBtmPrevRect.setAttributeNS( null, "x", gBtmPrevRectX );
+		newBtmPrevRect.setAttributeNS( null, "y", gBtmPrevNextRectY );
+		newBtmPrevRect.setAttributeNS( null, "width", gBtmPrevNextRectWidth );
+		newBtmPrevRect.setAttributeNS( null, "height", gBtmPrevNextRectHeight );
+		newBtmPrevRect.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		newBtmPrevRect.setAttributeNS( null, "fill", gHeaderFooterBlue);
+		newBtmPrevRect.setAttributeNS( null, "id", "botprevrect" );
+		newBtmPrevRect.addEventListener( "mousedown", scrollPagePrevPressed, false);
+		newBtmPrevRect.addEventListener( "mouseup", scrollPagePrevReleased, false);
+		newBtmPrevRect.addEventListener( "mouseout", scrollPagePrevReleased, false);
+		footerGroup.appendChild( newBtmPrevRect );
+				
+		var newBtmNextRect = document.createElementNS( svgNS, "rect" );
+		newBtmNextRect.setAttributeNS( null, "x", gBtmNextRectX );
+		newBtmNextRect.setAttributeNS( null, "y", gBtmPrevNextRectY );
+		newBtmNextRect.setAttributeNS( null, "width", gBtmPrevNextRectWidth );
+		newBtmNextRect.setAttributeNS( null, "height", gBtmPrevNextRectHeight );
+		newBtmNextRect.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		newBtmNextRect.setAttributeNS( null, "fill", gHeaderFooterBlue);
+		newBtmNextRect.setAttributeNS( null, "id", "botnextrect" );
+		newBtmNextRect.addEventListener( "mousedown", scrollPageNextPressed, false);
+		newBtmNextRect.addEventListener( "mouseup", scrollPageNextReleased, false);
+		newBtmNextRect.addEventListener( "mouseout", scrollPageNextReleased, false);
+		footerGroup.appendChild( newBtmNextRect );		
+		
+		var newBtmPrevArrow = document.createElementNS( svgNS, "use" );
+		newBtmPrevArrow.setAttributeNS( xlinkNS, "xlink:href", "#prevarrow" );
+		newBtmPrevArrow.setAttributeNS( null, "x", gBtmPrevArrowX );
+		newBtmPrevArrow.setAttributeNS( null, "y", gBtmPrevNextArrowY );
+		newBtmPrevArrow.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		newBtmPrevArrow.setAttributeNS( null, "id", "botprevarrow");
+		newBtmPrevArrow.addEventListener( "mousedown", scrollPagePrevPressed, false);
+		newBtmPrevArrow.addEventListener( "mouseup", scrollPagePrevReleased, false);
+		newBtmPrevArrow.addEventListener( "mouseout", scrollPagePrevReleased, false);
+		footerGroup.appendChild( newBtmPrevArrow );
+		
+		var newBtmNextArrow = document.createElementNS( svgNS, "use" );
+		newBtmNextArrow.setAttributeNS( xlinkNS, "xlink:href", "#nextarrow" );
+		newBtmNextArrow.setAttributeNS( null, "x", gBtmNextArrowX );
+		newBtmNextArrow.setAttributeNS( null, "y", gBtmPrevNextArrowY );
+		newBtmNextArrow.setAttributeNS( null, "id", "botnextarrow" );
+		newBtmNextArrow.addEventListener( "mousedown", scrollPageNextPressed, false);
+		newBtmNextArrow.addEventListener( "mouseup", scrollPageNextReleased, false);
+		newBtmNextArrow.addEventListener( "mouseout", scrollPageNextReleased, false);
+		footerGroup.appendChild( newBtmNextArrow );		
+				
+	}
+	
+	function drawThumbUpDwnButtons(){
+	
+		var thumbsGroup = document.getElementById( "thumbsgroup" );				
+
+		var newThumbUpRect = document.createElementNS( svgNS, "rect" );
+		newThumbUpRect.setAttributeNS( null, "x", gThumbUpRectX );
+		newThumbUpRect.setAttributeNS( null, "y", gThumbUpRectY );
+		newThumbUpRect.setAttributeNS( null, "width", gThumbUpRectWidth );
+		newThumbUpRect.setAttributeNS( null, "height", gThumbUpRectHeight );
+		newThumbUpRect.setAttributeNS( null, "stroke", "white" );
+		newThumbUpRect.setAttributeNS( null, "fill", "white" );
+		newThumbUpRect.setAttributeNS( null, "id", "scrolluprect" );
+		newThumbUpRect.addEventListener( "mousedown", scrollThumbsUpPressed, false);
+		newThumbUpRect.addEventListener( "mouseup", scrollThumbsUpReleased, false);
+		newThumbUpRect.addEventListener( "mouseout", scrollThumbsUpReleased, false);
+		thumbsGroup.appendChild( newThumbUpRect );
+
+		var newThumbUpArrow = document.createElementNS( svgNS, "use" );
+		newThumbUpArrow.setAttributeNS( xlinkNS, "xlink:href", "#uparrow" );
+		newThumbUpArrow.setAttributeNS( null, "x", gThumbUpArrowX );
+		newThumbUpArrow.setAttributeNS( null, "y", gThumbUpArrowY );
+		newThumbUpArrow.setAttributeNS( null, "width", gThumbUpArrowWidth );
+		newThumbUpArrow.setAttributeNS( null, "height", gThumbUpArrowHeight );
+		newThumbUpArrow.setAttributeNS( null, "id", "topscrollup" );
+		newThumbUpArrow.addEventListener( "mousedown", scrollThumbsUpPressed, false);
+		newThumbUpArrow.addEventListener( "mouseup", scrollThumbsUpReleased, false);
+		newThumbUpArrow.addEventListener( "mouseout", scrollThumbsUpReleased, false);
+		thumbsGroup.appendChild( newThumbUpArrow );
+
+		var newThumbDwnRect = document.createElementNS( svgNS, "rect" );
+		newThumbDwnRect.setAttributeNS( null, "x", gThumbDwnRectX );
+		newThumbDwnRect.setAttributeNS( null, "y", gThumbDwnRectY );
+		newThumbDwnRect.setAttributeNS( null, "width", gThumbDwnRectWidth );
+		newThumbDwnRect.setAttributeNS( null, "height", gThumbDwnRectHeight );
+		newThumbDwnRect.setAttributeNS( null, "stroke", "white" );
+		newThumbDwnRect.setAttributeNS( null, "fill", "white" );
+		newThumbDwnRect.setAttributeNS( null, "id", "scrolldwnrect" );
+		newThumbDwnRect.addEventListener( "mousedown", scrollThumbsDwnPressed, false);
+		newThumbDwnRect.addEventListener( "mouseup", scrollThumbsDwnReleased, false);
+		newThumbDwnRect.addEventListener( "mouseout", scrollThumbsDwnReleased, false);
+		thumbsGroup.appendChild( newThumbDwnRect );
+
+		var newThumbDwnArrow = document.createElementNS( svgNS, "use" );
+		newThumbDwnArrow.setAttributeNS( xlinkNS, "xlink:href", "#dwnarrow" );
+		newThumbDwnArrow.setAttributeNS( null, "x", gThumbDwnArrowX );
+		newThumbDwnArrow.setAttributeNS( null, "y", gThumbDwnArrowY );
+		newThumbDwnArrow.setAttributeNS( null, "width", gThumbDwnArrowWidth );
+		newThumbDwnArrow.setAttributeNS( null, "height", gThumbDwnArrowHeight );
+		newThumbDwnArrow.setAttributeNS( null, "id", "botscrolldown" );
+		newThumbDwnArrow.addEventListener( "mousedown", scrollThumbsDwnPressed, false);
+		newThumbDwnArrow.addEventListener( "mouseup", scrollThumbsDwnReleased, false);
+		newThumbDwnArrow.addEventListener( "mouseout", scrollThumbsDwnReleased, false);
+		thumbsGroup.appendChild( newThumbDwnArrow );
+	
+	}
+
+	function drawThumbsBorder(){
+	
+		var thumbsGroup = document.getElementById( "thumbsgroup" );				
+		var newThumbsBorder = document.createElementNS( svgNS, "use" );
+		newThumbsBorder.setAttributeNS( xlinkNS, "xlink:href", "#thumbsborder" );
+		thumbsGroup.appendChild( newThumbsBorder );
+	
+	}
+	
+	function drawPageTitleBorder(){
+
+		var pageTitleGroup = document.getElementById( "pagetitle" );				
+		var newPageTitleBorder = document.createElementNS( svgNS, "use" );
+		newPageTitleBorder.setAttributeNS( xlinkNS, "xlink:href", "#pagetitleborder" );
+		pageTitleGroup.appendChild( newPageTitleBorder );
+			
+	}
+	
+	function drawHeaderAndFooter(){
+	
+		var headerGroup = document.getElementById( "header" );				
+		var footerGroup = document.getElementById( "footer" );				
+		
+		var newHeaderRect = document.createElementNS( svgNS, "rect" );
+		newHeaderRect.setAttributeNS( null, "x", gHeaderX );
+		newHeaderRect.setAttributeNS( null, "y", gHeaderY );
+		newHeaderRect.setAttributeNS( null, "width", gHeaderWidth );
+		newHeaderRect.setAttributeNS( null, "height",  gHeaderHeight );
+		newHeaderRect.setAttributeNS( null, "fill", gHeaderFooterBlue );
+		newHeaderRect.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		headerGroup.appendChild( newHeaderRect );		
+
+		var newHeaderTitle = document.createElementNS( svgNS, "use" );
+		newHeaderTitle.setAttributeNS( xlinkNS, "xlink:href", "#projtitle" );
+		newHeaderTitle.setAttributeNS( null, "x", gProjectTitleX );
+		newHeaderTitle.setAttributeNS( null, "y", gProjectTitleY );
+		newHeaderTitle.setAttributeNS( null, "id", "title" );		
+		headerGroup.appendChild( newHeaderTitle );		
+		
+		drawNewPageNavBar();
+		
+		var newFooterRect = document.createElementNS( svgNS, "rect" );
+		newFooterRect.setAttributeNS( null, "x", gFooterX );
+		newFooterRect.setAttributeNS( null, "y", gFooterY );
+		newFooterRect.setAttributeNS( null, "width", gFooterWidth );
+		newFooterRect.setAttributeNS( null, "height",  gFooterHeight );
+		newFooterRect.setAttributeNS( null, "fill", gHeaderFooterBlue );
+		newFooterRect.setAttributeNS( null, "stroke", gHeaderFooterBlue );
+		footerGroup.appendChild( newFooterRect );	
+		
+		var newFooterLink = document.createElementNS( svgNS, "a" );
+		newFooterLink.setAttributeNS( xlinkNS, "xlink:href", "http://www.smarttech.com" );
+		footerGroup.appendChild( newFooterLink );
+		
+		var newFooterLogo = document.createElementNS( svgNS, "use" );
+		newFooterLogo.setAttributeNS( xlinkNS, "xlink:href", "#smarttechlogo" );
+		newFooterLogo.setAttributeNS( null, "x", gSmartLogoX );
+		newFooterLogo.setAttributeNS( null, "y", gSmartLogoY );
+		newFooterLogo.setAttributeNS( null, "width", gSmartLogoWidth );
+		newFooterLogo.setAttributeNS( null, "height", gSmartLogoHeight );
+		newFooterLink.appendChild( newFooterLogo );
+	
+	}
+			
+	function drawNewPageNavBar(){
+
+		var headerGroup = document.getElementById( "mainview" );				
+
+		var newNormalBtn = document.createElementNS( svgNS, "use" );
+		newNormalBtn.setAttributeNS( xlinkNS, "xlink:href", "#normalviewtext" );
+		newNormalBtn.setAttributeNS( null, "x", gNavBarNormalX );
+		newNormalBtn.setAttributeNS( null, "y", gNavBarY );
+		newNormalBtn.addEventListener( "click", onSwitchToNormalView, false );		
+		headerGroup.appendChild( newNormalBtn );		
+
+		var newSep1 = document.createElementNS( svgNS, "use" );
+		newSep1.setAttributeNS( xlinkNS, "xlink:href", "#textseparator" );
+		newSep1.setAttributeNS( null, "x", gNavBarSep1X );
+		newSep1.setAttributeNS( null, "y", gNavBarY );
+		headerGroup.appendChild( newSep1 );
+				
+		var newSlideBtn = document.createElementNS( svgNS, "use" );
+		newSlideBtn.setAttributeNS( xlinkNS, "xlink:href", "#slidesorterviewtext" );
+		newSlideBtn.setAttributeNS( null, "x", gNavBarSlideX );
+		newSlideBtn.setAttributeNS( null, "y", gNavBarY );
+		newSlideBtn.addEventListener( "click", onSwitchToSlideSorterView, false );		
+		headerGroup.appendChild( newSlideBtn );
+		
+		var hasAttachments = document.getElementById( "attachmentsviewtext" );
+		if ( hasAttachments != null )
+		{
+			var newSep2 = document.createElementNS( svgNS, "use" );
+			newSep2.setAttributeNS( xlinkNS, "xlink:href", "#textseparator" );
+			newSep2.setAttributeNS( null, "x", gNavBarSep2X );
+			newSep2.setAttributeNS( null, "y", gNavBarY );
+			headerGroup.appendChild( newSep2 );	
+				
+			var newAttachmentsBtn = document.createElementNS( svgNS, "use" );
+			newAttachmentsBtn.setAttributeNS( xlinkNS, "xlink:href", "#attachmentsviewtext" );
+			newAttachmentsBtn.setAttributeNS( null, "x", gNavBarAttachmentsX );
+			newAttachmentsBtn.setAttributeNS( null, "y", gNavBarY );
+			newAttachmentsBtn.addEventListener( "click", onSwitchToAttachmentsView, false );		
+			headerGroup.appendChild( newAttachmentsBtn );
+		}	
+
+		var normalBtnStyle = "underline";
+		var slideBtnStyle = "underline";
+		var attachBtnStyle = "underline";
+		if (gCurrentView == 1)
+		{
+			normalBtnStyle = "none";		
+		}
+		else if (gCurrentView == 2)
+		{
+			slideBtnStyle = "none";
+		}
+		else if (gCurrentView == 3)
+		{
+			attachBtnStyle = "none";
+		}
+		var textAttribute = document.getElementById( "normalviewtexttag" );
+		textAttribute.setAttributeNS( null, "text-decoration", normalBtnStyle);
+		
+		var SlideText = document.getElementById( "slidesorterviewtexttag" );
+		SlideText.setAttributeNS( null, "text-decoration", slideBtnStyle);
+
+		var AttachText = document.getElementById( "attachmentsviewtexttag" );
+		if ( AttachText != null )
+			AttachText.setAttributeNS( null, "text-decoration", attachBtnStyle);
+
+	}			
+	
+	function clickedThumb( evt ){
+	
+		var idOfElement = evt.target.getAttributeNS(null,"id");
+		var thumbPos = 1;
+		thumbPos = parseInt(idOfElement.replace(/overthumbrect/,""));
+		
+		var pageNum = thumbPos + gTopThumb - 1;
+		displayPage( evt, pageNum );
+		highliteThumbnail( pageNum, true );
+		updateAllButtonStates();
+	}
+
+	function highliteThumbnail( pageNum, forceDisp ){	
+			
+		var topThumbPage = gTopThumb;
+		var bottomThumbPage = gTopThumb + gNumThumbs - 1 
+		var thumbInView = ( pageNum <= bottomThumbPage ) && ( pageNum >= gTopThumb  );
+		var firstThumbPage = 1;
+
+		unhighliteAllThumbs();
+
+		if( forceDisp && !thumbInView )
+		{
+			//need to scroll thumb into view first
+			thumbInView = true;					
+			if( pageNum <= topThumbPage ){
+				// need to scroll up highlited thumb at top of page
+				firstThumbPage = pageNum;
+			}
+			else{
+				// we must need to scroll down highlited thumb at bottom of page
+				firstThumbPage = pageNum - gNumThumbs + 1;
+				if( firstThumbPage < 1 ){
+					firstThumbPage = 1;
+				}						
+			}
+			
+			for( i=1, j=firstThumbPage; i<=gNumThumbs && j<=gNumPages; i++, j++ ){
+				reDrawThumb( i, j );
+			}
+			
+			gTopThumb = firstThumbPage;	
+		}
+
+		if( thumbInView ){
+			var thumbToHiLite = ( pageNum - gTopThumb ) + 1;
+			var thumbRect = document.getElementById( "selThumbRect"+thumbToHiLite );
+			thumbRect.setAttributeNS( null, "visibility", "visible");
+		}
+	}
+
+	function calculateThumbOffsetAndWidth( pageNum ){
+	
+		gNewThumbOffset = 0;
+		gNewThumbWidth = gThumbWidth;
+		var page = document.getElementById( "page"+pageNum );
+		pageHeight = parseInt( page.getAttributeNS( null, "height" ) );
+		
+		if( pageHeight > 600 ){
+			gNewThumbWidth = gThumbWidth * gStandardPageHeight / pageHeight;
+			gNewThumbOffset = (gThumbWidth - gNewThumbWidth)/2;
+		}
+	}
+	
+	function unhighliteAllThumbs(){
+	
+		var visibleThumbs;
+		if( gNumPages >= gNumThumbs ){
+			visibleThumbs = gNumThumbs;
+		}
+		else{
+			visibleThumbs = gNumPages;
+		}
+
+		for( i=1; i <= visibleThumbs; i++ ){
+			var thumbRect = document.getElementById( "selThumbRect"+i );
+			thumbRect.setAttributeNS( null, "visibility", "hidden");				
+		}
+
+	}
+	
+	function onScrollPageDwn( evt ){
+
+		var scroll = 0;			
+		if( !(gCurrentPageDispBottom >= gCurrentPageHeight)){
+			if( (gCurrentPageDispBottom + gDeltaScroll) <= gCurrentPageHeight ){
+				scroll = gDeltaScroll;				
+			}
+			else{
+				scroll = gCurrentPageHeight - gCurrentPageDispBottom;
+			}
+			
+			gCurrentPageDispBottom = gCurrentPageDispBottom + scroll;
+			gCurrentPageTransformY = gCurrentPageTransformY - scroll;
+			var page = document.getElementById( "pagedisplay" );
+			page.setAttributeNS( null, "transform", "translate( 0," + gCurrentPageTransformY + ")" );
+			
+			reDrawVertScrollBar();
+		}
+				
+	}
+	
+	function onScrollPageUp( evt ){
+	
+		var scroll = 0;			
+		if( (gCurrentPageDispBottom > gPageViewHeight)){
+			if( (gCurrentPageDispBottom - gDeltaScroll) >= gPageViewHeight ){
+				scroll = gDeltaScroll;				
+			}
+			else{
+				scroll = gCurrentPageDispBottom - gPageViewHeight;
+			}
+			
+			gCurrentPageDispBottom = gCurrentPageDispBottom - scroll;
+			gCurrentPageTransformY = gCurrentPageTransformY + scroll;
+			var page = document.getElementById( "pagedisplay" );
+			page.setAttributeNS( null, "transform", "translate( 0," + gCurrentPageTransformY + ")" );
+			
+			reDrawVertScrollBar();
+		}
+	
+	}
+	
+	function vScrollUpPressed( evt ){
+	
+		onScrollPageUp( evt );
+		if( gFirstClickScrollUp ){
+			timer = gMainScrollFirstDelay;
+		}
+		else{
+			timer = gMainScrollSecondDelay;
+		}
+		gFirstClickScrollUp = false;
+		window.gLoopScrollUp = setTimeout('vScrollUpPressed(evt)',timer);	
+	}
+	
+	function vScrollDwnPressed( evt ){
+	
+		onScrollPageDwn( evt );
+		if( gFirstClickScrollDwn ){
+			timer = gMainScrollFirstDelay;
+		}
+		else{
+			timer = gMainScrollSecondDelay;
+		}
+		gFirstClickScrollDwn = false;
+		window.gLoopScrollDwn = setTimeout('vScrollDwnPressed(evt)',timer);	
+	
+	}
+	
+	function vScrollUpReleased( evt ){
+	
+		if(window.gLoopScrollUp != null){
+			clearTimeout (window.gLoopScrollUp);
+		}
+		gFirstClickScrollUp = true;	
+	}
+	
+	function vScrollDwnReleased( evt ){
+	
+		if(window.gLoopScrollDwn != null){
+			clearTimeout (window.gLoopScrollDwn);
+		}
+		gFirstClickScrollDwn = true;		
+	}
+	
+	function scrollPageNextPressed( evt ){
+	
+		onPageNext( evt );
+		if( gFirstClickPageNext ){
+			timer = gPageScrollFirstDelay;
+		}
+		else{
+			timer = gPageScrollSecondDelay;
+		}
+		gFirstClickPageNext = false;
+		window.gLoopPageNext = setTimeout('scrollPageNextPressed(evt)',timer);	
+	}
+	
+	function scrollPagePrevPressed( evt ){
+	
+		onPagePrev( evt );
+		if( gFirstClickPagePrev ){
+			timer = gPageScrollFirstDelay;
+		}
+		else{
+			timer = gPageScrollSecondDelay;
+		}
+		gFirstClickPagePrev = false;
+		window.gLoopPagePrev = setTimeout('scrollPagePrevPressed(evt)',timer);	
+	
+	}
+	
+	function scrollPageNextReleased( evt ){
+	
+		if(window.gLoopPageNext != null){
+			clearTimeout (window.gLoopPageNext);
+		}
+		gFirstClickPageNext = true;	
+	}
+	
+	function scrollPagePrevReleased( evt ){
+	
+		if(window.gLoopPagePrev != null){
+			clearTimeout (window.gLoopPagePrev);
+		}
+		gFirstClickPagePrev = true;		
+	}
+
+
+	function scrollThumbsUpPressed( evt ){
+	
+		onScrollThumbsUp( evt );
+		if( gFirstClickThumbsUp ){
+			timer = gThumbsScrollFirstDelay;
+		}
+		else{
+			timer = gThumbsScrollSecondDelay;
+		}
+		gFirstClickThumbsUp = false;
+		window.gLoopThumbsUp = setTimeout('scrollThumbsUpPressed(evt)',timer);	
+	}
+	
+	function scrollThumbsDwnPressed( evt ){
+	
+		onScrollThumbsDwn( evt );
+		if( gFirstClickThumbsDwn ){
+			timer = gThumbsScrollFirstDelay;
+		}
+		else{
+			timer = gThumbsScrollSecondDelay;
+		}
+		gFirstClickThumbsDwn = false;
+		window.gLoopThumbsDwn = setTimeout('scrollThumbsDwnPressed(evt)',timer);	
+	
+	}
+	
+	function scrollThumbsUpReleased( evt ){
+	
+		if(window.gLoopThumbsUp != null){
+			clearTimeout (window.gLoopThumbsUp);
+		}
+		gFirstClickThumbsUp = true;	
+	}
+	
+	function scrollThumbsDwnReleased( evt ){
+	
+		if(window.gLoopThumbsDwn != null){
+			clearTimeout (window.gLoopThumbsDwn);
+		}
+		gFirstClickThumbsDwn = true;		
+	}
+	
+	function onPageNext( evt ){
+	
+		var lPgDisp = gLastPageDisplayed;
+		var nPic = gNumPages ;
+
+		if( lPgDisp < nPic ){
+			lPgDisp++;
+			displayPage( evt, lPgDisp );
+		}
+						
+
+		highliteThumbnail( gLastPageDisplayed, true );		
+		updateAllButtonStates();
+	}
+
+	function onPagePrev( evt ){
+	
+		var lPgDisp = gLastPageDisplayed;
+		var nPic = gNumPages;
+
+		if( lPgDisp > 1 ){
+			lPgDisp--;
+			displayPage( evt, lPgDisp );
+		}
+						
+		highliteThumbnail( gLastPageDisplayed, true );					
+		updateAllButtonStates();
+	}
+
+	function displayPageWithUpdate( evt, pageNum ){			
+		displayPage( evt, pageNum );								
+		highliteThumbnail( gLastPageDisplayed, true );					
+		updateAllButtonStates();
+	}
+
+
+	function onScrollThumbsUp( evt ){
+	
+		var top = gTopThumb;
+		if( top > 1 ){
+			gTopThumb--;
+			for( thumbPos=1; thumbPos<=gNumThumbs; thumbPos++){
+				page = thumbPos + gTopThumb - 1;
+				if( page > gNumPages ){
+					break;
+				}
+				reDrawThumb( thumbPos, page );
+			}
+		}	
+
+		highliteThumbnail( gLastPageDisplayed, false );			
+		updateAllButtonStates();
+	}
+
+	function onScrollThumbsDwn( evt ){
+	
+		var bottom = gTopThumb + gNumThumbs - 1;
+		if( bottom < gNumPages ){
+			gTopThumb++;
+			for( thumbPos=1; thumbPos<=gNumThumbs; thumbPos++){
+				page = thumbPos + gTopThumb - 1;
+				if( page > gNumPages ){
+					break;
+				}
+				reDrawThumb( thumbPos, page );
+			}
+		}	
+
+		highliteThumbnail( gLastPageDisplayed, false );			
+		updateAllButtonStates();
+	}
+
+	function updateAllButtonStates(){
+
+		// previous button
+		if(  gLastPageDisplayed <= 1 ){
+			disablePrevBtn();
+		}
+		else{
+			enablePrevBtn();
+		}
+						
+		// next button
+		if(  gLastPageDisplayed >= gNumPages ){
+			disableNextBtn();
+		}
+		else{
+			enableNextBtn();
+		}
+						
+		// scroll up button
+		if( gTopThumb <= 1 ){
+			disableScrollUpBtn();
+		}
+		else{
+			enableScrollUpBtn();
+		}
+
+		// scroll down button
+		if( (gTopThumb + gNumThumbs - 1) >= gNumPages ){				
+			disableScrollDwnBtn();
+		}
+		else{
+			enableScrollDwnBtn();
+		}
+
+	}
+
+	function enableNextBtn(){
+
+		var btn1 = document.getElementById("nextarrowImage");
+		btn1.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowRight.gif");
+	
+	}
+
+	function disableNextBtn(){
+
+		var btn1 = document.getElementById( "nextarrowImage" );
+		btn1.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowRightDisabled.gif");
+	}
+
+	function enablePrevBtn(){
+	
+		var btn1 = document.getElementById( "prevarrowImage" );
+		btn1.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowLeft.gif" );			
+	}
+
+	function disablePrevBtn(){
+
+		var btn1 = document.getElementById( "prevarrowImage" );
+		btn1.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowLeftDisabled.gif" );			
+	}
+
+	function enableScrollUpBtn(){
+	
+		var btn = document.getElementById( "uparrowImage" );
+		btn.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowUp.gif");
+	}
+
+	function disableScrollUpBtn(){
+	
+		var btn = document.getElementById( "uparrowImage" );
+		btn.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowUpDisabled.gif");
+	}
+
+	function enableScrollDwnBtn(){
+	
+		var btn = document.getElementById( "dwnarrowImage" );
+		btn.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowDown.gif" );						
+	}
+
+	function disableScrollDwnBtn(){
+	
+		var btn = document.getElementById( "dwnarrowImage" );
+		btn.setAttributeNS( xlinkNS, "xlink:href", "images/ArrowDownDisabled.gif" );						
+	}
+
+
+	function drawSlideSorterThumbs(){
+		
+		var row = 0;
+		var currentPage = 1;
+		var continueDrawing = true;
+		while( continueDrawing ){
+			row++;
+			for( col = 1; col <= gNumSlideHorzThumbs; col++ ){
+				drawSliderThumbAt( row, col, currentPage );
+				currentPage++;
+				if( currentPage > gNumPages ){
+					continueDrawing = false;
+					break;
+				}
+			}
+		}
+		
+		drawSlideSorterThumbsScrollBar( row );
+	}
+		
+	function drawSliderThumbAt( row, col, page ){
+	
+	
+		var slideGroup = document.getElementById( "slidesorterdisplay" );
+		
+		var thumbX = gSlideThumbsFirstX + ( col - 1 ) * gSlideThumbHorzIncrement;
+		var thumbY = gSlideThumbsFirstY + ( row - 1 ) * gSlideThumbVertIncrement;
+		var underRectX = thumbX - gSlideThumbBorderWidth;
+		var underRectY = thumbY - gSlideThumbBorderWidth;
+		var underRectWidth = gSlideThumbWidth + 2 * gSlideThumbBorderWidth;
+		var underRectHeight = gSlideThumbHeight + 2 * gSlideThumbBorderWidth;
+		
+		var borderRect = document.createElementNS( svgNS, "rect" );
+		borderRect.setAttributeNS( null, "x", underRectX );
+		borderRect.setAttributeNS( null, "y", underRectY );
+		borderRect.setAttributeNS( null, "width", underRectWidth );
+		borderRect.setAttributeNS( null, "height", underRectHeight );
+		borderRect.setAttributeNS( null, "stroke", gSliderThumbOutlineGrey );
+		borderRect.setAttributeNS( null, "fill", "white" );
+		borderRect.setAttributeNS( null, "stroke-width", gSlideThumbBorderWidth );
+		slideGroup.appendChild( borderRect );
+				
+		var slideThumbOffset = calculateSlideSorterThumbXOffset( page );
+		var thumbNail = document.createElementNS( svgNS, "use" );
+		thumbNail.setAttributeNS( xlinkNS, "xlink:href", "#page"+page );		
+		thumbNail.setAttributeNS( null, "x", thumbX + slideThumbOffset - gPageViewX ); // need to translate out of page
+		thumbNail.setAttributeNS( null, "y", thumbY - gPageViewY ); // need to translate out of page
+		thumbNail.setAttributeNS( null, "width", gSlideThumbWidth - 2 *  slideThumbOffset );
+		thumbNail.setAttributeNS( null, "height", gSlideThumbHeight );
+		slideGroup.appendChild( thumbNail );
+		
+		var overRect = document.createElementNS( svgNS, "rect" );
+		overRect.setAttributeNS( null, "x", underRectX );
+		overRect.setAttributeNS( null, "y", underRectY );
+		overRect.setAttributeNS( null, "width", underRectWidth );
+		overRect.setAttributeNS( null, "height", underRectHeight );
+		overRect.setAttributeNS( null, "opacity", 0.0 );
+		overRect.setAttributeNS( null, "id",  "sliderthumbrect"+page );
+		overRect.addEventListener( "click", onClickedSliderThumb, false );
+		slideGroup.appendChild( overRect );
+		
+		var slideName = document.createElementNS( svgNS, "use" );
+		slideName.setAttributeNS( xlinkNS, "xlink:href", "#thumbtitle"+page );
+		slideName.setAttributeNS( null, "x", thumbX );
+		slideName.setAttributeNS( null, "y", thumbY + gSlideThumbHeight + gSlideThumbBorderWidth + gSlideThumbAscent );
+		slideGroup.appendChild( slideName );
+		
+
+		
+	}
+	
+	function calculateSlideSorterThumbXOffset( pageNum ){
+	
+		thumbOffset = 0;
+		thumbWidth = gSlideThumbWidth;
+		var page = document.getElementById( "page"+pageNum );
+		pageHeight = parseInt( page.getAttributeNS( null, "height" ) );
+		
+		if( pageHeight > 600 ){
+			thumbWidth = gSlideThumbWidth * gStandardPageHeight / pageHeight;
+			thumbOffset = (gSlideThumbWidth - thumbWidth)/2;
+		}
+		
+		return thumbOffset;
+	}
+	
+	function onClickedSliderThumb( evt ){
+	
+		var pageNum;
+		var idOfElement = evt.target.getAttributeNS(null,"id");
+		pageNum = parseInt(idOfElement.replace(/sliderthumbrect/,""));
+		
+		
+		gLastPageDisplayed = pageNum;
+		if( gNumPages <= gNumThumbs ){
+			gTopThumb = 1;
+		}
+		else{
+			if( (pageNum + gNumThumbs - 1) <= gNumPages ){
+				gTopThumb = pageNum;
+			}
+			else{
+				gTopThumb = gNumPages - gNumThumbs + 1;
+			}
+		}
+	
+		onSwitchToNormalView( evt );
+	}
+	
+	function drawSlideSorterThumbsScrollBar( numRows ){
+	
+		gSlidePageTransformY = 0;
+		gCurrentSlideSorterPageHeight = ( numRows - 1 ) * gSlideThumbVertIncrement;
+		gSlideSorterCurrentBottom = gSlideSorterPageHeight;
+		if( numRows > 3 ){
+
+			gSlidePageTransformY = 0;
+			gCurrentSlideSorterPageHeight = numRows * gSlideThumbVertIncrement;
+			gSlideSorterCurrentBottom = gSlideSorterPageHeight;
+
+			var slideScrollGroup = document.getElementById( "slidescrollgroup" );	
+			var newScrollerY =  gSlideSorterScrollTop + gScrollBarArrowHeight + 10;
+			
+			var newBackingRect = document.createElementNS( svgNS, "use" );
+			newBackingRect.setAttributeNS( xlinkNS, "xlink:href", "#slidevertscrollbarrect" );
+			newBackingRect.setAttributeNS( null, "x", gSlideSorterScrollLeft );
+			newBackingRect.setAttributeNS( null, "y", gSlideSorterScrollTop + gScrollBarArrowHeight + 10 );
+			newBackingRect.setAttributeNS( null, "width", gSlideSorterScrollWidth );
+			newBackingRect.setAttributeNS( null, "height", gSlideSorterPageHeight - ( 2 * gScrollBarArrowHeight) - 15 );
+			newBackingRect.setAttributeNS( null, "id", "slidescrollbarbackingrect" );
+			slideScrollGroup.appendChild( newBackingRect );
+
+			var newUpArrow = document.createElementNS( svgNS, "use" );
+			newUpArrow.setAttributeNS( xlinkNS, "xlink:href", "#uptriangle" );
+			newUpArrow.setAttributeNS( null, "x", gSlideSorterScrollLeft );
+			newUpArrow.setAttributeNS( null, "y", gSlideSorterScrollTop );
+			newUpArrow.setAttributeNS( null, "width", gSlideSorterScrollWidth );
+			newUpArrow.setAttributeNS( null, "height", gScrollBarArrowHeight );
+			newUpArrow.setAttributeNS( null, "id", "slidescrollbaruparrow" );		
+			newUpArrow.addEventListener( "mousedown", vSlideScrollUpPressed, false);
+			newUpArrow.addEventListener( "mouseup", vSlideScrollUpReleased, false);
+			newUpArrow.addEventListener( "mouseout", vSlideScrollUpReleased, false);
+			slideScrollGroup.appendChild( newUpArrow );
+			
+			var newDwnArrow = document.createElementNS( svgNS, "use" );
+			newDwnArrow.setAttributeNS( xlinkNS, "xlink:href", "#dwntriangle" );
+			newDwnArrow.setAttributeNS( null, "x", gSlideSorterScrollLeft );
+			newDwnArrow.setAttributeNS( null, "y", gSlideSorterScrollTop + gSlideSorterPageHeight - gScrollBarArrowHeight );
+			newDwnArrow.setAttributeNS( null, "width", gSlideSorterScrollWidth );
+			newDwnArrow.setAttributeNS( null, "height", gScrollBarArrowHeight );
+			newDwnArrow.setAttributeNS( null, "id", "slidescrollbardwnarrow" );
+			newDwnArrow.addEventListener( "mousedown", vSlideScrollDwnPressed, false);
+			newDwnArrow.addEventListener( "mouseup", vSlideScrollDwnReleased, false);
+			newDwnArrow.addEventListener( "mouseout", vSlideScrollDwnReleased, false);
+			slideScrollGroup.appendChild( newDwnArrow );
+			
+			var newScrollerRect = document.createElementNS( svgNS, "rect" );	
+			newScrollerRect.setAttributeNS( null, "x", gSlideSorterScrollLeft );
+			newScrollerRect.setAttributeNS( null, "y", newScrollerY );
+			newScrollerRect.setAttributeNS( null, "width", gSlideSorterScrollWidth );
+			newScrollerRect.setAttributeNS( null, "height", 1 );
+			newScrollerRect.setAttributeNS( null, "stroke",	"none" );
+			newScrollerRect.setAttributeNS( null, "fill", "none" );
+			newScrollerRect.setAttributeNS( null, "id", "slidescrollerrect" );		
+			slideScrollGroup.appendChild( newScrollerRect );
+			
+			
+		}
+	}
+	
+	function onSlideScrollPageDwn( evt ){
+
+		var scroll = 0;			
+		if( !(gSlideSorterCurrentBottom >= gCurrentSlideSorterPageHeight)){
+			if( (gSlideSorterCurrentBottom + gDeltaScroll) <= gCurrentSlideSorterPageHeight ){
+				scroll = gSlideDeltaScroll;				
+			}
+			else{
+				scroll = gCurrentSlideSorterPageHeight - gSlideSorterCurrentBottom;
+			}
+			
+			gSlideSorterCurrentBottom = gSlideSorterCurrentBottom + scroll;
+			gSlidePageTransformY = gSlidePageTransformY - scroll;
+			var page = document.getElementById( "slidesorterdisplay" );
+			page.setAttributeNS( null, "transform", "translate( 0," + gSlidePageTransformY + ")" );
+			
+			reDrawSlideVertScrollBar();
+		}
+				
+	}
+	
+	function onSlideScrollPageUp( evt ){
+	
+		var scroll = 0;			
+		if( (gSlideSorterCurrentBottom > gSlideSorterPageHeight)){
+			if( (gSlideSorterCurrentBottom - gDeltaScroll) >= gSlideSorterPageHeight ){
+				scroll = gSlideDeltaScroll;				
+			}
+			else{
+				scroll = gSlideSorterCurrentBottom - gSlideSorterPageHeight;
+			}
+			
+			gSlideSorterCurrentBottom = gSlideSorterCurrentBottom - scroll;
+			gSlidePageTransformY = gSlidePageTransformY + scroll;
+			var page = document.getElementById( "slidesorterdisplay" );
+			page.setAttributeNS( null, "transform", "translate( 0," + gSlidePageTransformY + ")" );
+			
+			reDrawSlideVertScrollBar();
+		}
+	
+	}
+	
+	function reDrawSlideVertScrollBar(){
+
+		var scrollerFullHeight = gSlideSorterPageHeight - (2 * (gScrollBarArrowHeight+10)) + 5;
+		// no div here zero since page is always longer than the view		
+		var newScrollerHeight = scrollerFullHeight - (( 1 - (-gSlidePageTransformY / (gCurrentSlideSorterPageHeight  - gSlideSorterPageHeight ))) * scrollerFullHeight);
+		var newScrollerY = gSlideSorterScrollTop + gScrollBarArrowHeight+10;
+		var newScrollerRect = document.createElementNS( svgNS, "rect" );
+		newScrollerRect.setAttributeNS( null, "x", gSlideSorterScrollLeft );
+		newScrollerRect.setAttributeNS( null, "y", newScrollerY );
+		newScrollerRect.setAttributeNS( null, "width", gSlideSorterScrollWidth );
+		newScrollerRect.setAttributeNS( null, "height", newScrollerHeight );
+		newScrollerRect.setAttributeNS( null, "stroke",	gDisableGreyColour );
+		newScrollerRect.setAttributeNS( null, "fill", gDisableGreyColour );
+		newScrollerRect.setAttributeNS( null, "id", "slidescrollerrect" );
+		
+		var oldScrollerRect = document.getElementById( "slidescrollerrect" );
+		oldScrollerRect.parentNode.replaceChild( newScrollerRect, oldScrollerRect );
+	
+	}
+	
+	function vSlideScrollUpPressed( evt ){
+	
+		onSlideScrollPageUp( evt );	
+		if( gSlideFirstClickScrollUp ){
+			timer = gSlideScrollFirstDelay;
+		}
+		else{
+			timer = gSlideScrollSecondDelay;
+		}
+		gSlideFirstClickScrollUp = false;
+		window.gSlideLoopScrollUp = setTimeout('vSlideScrollUpPressed(evt)',timer);	
+	}
+	
+	function vSlideScrollUpReleased( evt ){
+	
+		if(window.gSlideLoopScrollUp != null){
+			clearTimeout (window.gSlideLoopScrollUp);
+		}
+		gSlideFirstClickScrollUp = true;	
+	
+	}
+	
+	function vSlideScrollDwnPressed( evt ){
+	
+		onSlideScrollPageDwn( evt );
+
+		if( gSlideFirstClickScrollDwn ){
+			timer = gSlideScrollFirstDelay;
+		}
+		else{
+			timer = gSlideScrollSecondDelay;
+		}
+		gSlideFirstClickScrollDwn = false;
+		window.gSlideLoopScrollDwn = setTimeout('vSlideScrollDwnPressed(evt)',timer);	
+	}
+	
+	function vSlideScrollDwnReleased( evt ){
+
+		if(window.gSlideLoopScrollDwn != null){
+			clearTimeout (window.gSlideLoopScrollDwn);
+		}
+		gSlideFirstClickScrollDwn = true;		
+	
+	}
+	
+	function drawAttachmentsView(){
+	
+		hideAllPages();
+		
+		drawHeaderAndFooter();
+		
+		var attachGroup = document.getElementById( "attachmentsdisplay" );
+		var newLink;
+		var newText;
+		var numRows = 0;
+		for( attach = 1; attach <= gNumAttachments; attach++ ){
+		
+			newLink = document.createElementNS( svgNS, "a" );
+			newLink.setAttributeNS( xlinkNS, "xlink:href", gAttachLink[attach-1] );
+			attachGroup.appendChild( newLink );
+			
+			newText = document.createElementNS( svgNS, "use" );
+			newText.setAttributeNS( xlinkNS, "xlink:href", "#attach"+attach );
+			newText.setAttributeNS( null, "x", gAttachFirstX );
+			newText.setAttributeNS( null, "y", gAttachFirstY + gAttachVertIncrement * ( attach -1 ) );
+			newLink.appendChild( newText );
+			numRows++;
+		}
+		
+		drawAttachScrollBar( numRows );
+		
+	
+	}
+	function drawAttachScrollBar( numRows ){
+	
+		gAttachTransformY = 0;
+		gCurrentAttachPageHeight = ( numRows - 1 ) * gAttachVertIncrement;
+		gAttachCurrentBottom = gAttachPageHeight;
+		if( numRows > gMaxLinesAttachOnPage ){
+
+			gAttachTransformY = 0;
+			gCurrentAttachPageHeight = numRows * gAttachVertIncrement;
+			gAttachCurrentBottom = gAttachPageHeight;
+
+			var attachScrollGroup = document.getElementById( "attachscrollgroup" );	
+			var newScrollerY =  gAttachScrollTop + gScrollBarArrowHeight + 10;
+			
+			var newBackingRect = document.createElementNS( svgNS, "use" );
+			newBackingRect.setAttributeNS( xlinkNS, "xlink:href", "#attachscrollbarrect" );
+			newBackingRect.setAttributeNS( null, "x", gAttachScrollLeft );
+			newBackingRect.setAttributeNS( null, "y", gAttachScrollTop + gScrollBarArrowHeight + 10 );
+			newBackingRect.setAttributeNS( null, "width", gAttachScrollWidth );
+			newBackingRect.setAttributeNS( null, "height", gAttachPageHeight + ( 2 * + gScrollBarArrowHeight ) - 15);
+			newBackingRect.setAttributeNS( null, "id", "attachscrollbarbackingrect" );
+			attachScrollGroup.appendChild( newBackingRect );
+
+			var newUpArrow = document.createElementNS( svgNS, "use" );
+			newUpArrow.setAttributeNS( xlinkNS, "xlink:href", "#uptriangle" );
+			newUpArrow.setAttributeNS( null, "x", gAttachScrollLeft );
+			newUpArrow.setAttributeNS( null, "y", gAttachScrollTop );
+			newUpArrow.setAttributeNS( null, "width", gAttachScrollWidth );
+			newUpArrow.setAttributeNS( null, "height", gScrollBarArrowHeight );
+			newUpArrow.setAttributeNS( null, "id", "attachscrollbaruparrow" );		
+			newUpArrow.addEventListener( "mousedown", vAttachScrollUpPressed, false);
+			newUpArrow.addEventListener( "mouseup", vAttachScrollUpReleased, false);
+			newUpArrow.addEventListener( "mouseout", vAttachScrollUpReleased, false);
+			attachScrollGroup.appendChild( newUpArrow );
+			
+			var newDwnArrow = document.createElementNS( svgNS, "use" );
+			newDwnArrow.setAttributeNS( xlinkNS, "xlink:href", "#dwntriangle" );
+			newDwnArrow.setAttributeNS( null, "x", gAttachScrollLeft );
+			newDwnArrow.setAttributeNS( null, "y", gAttachScrollTop + gAttachPageHeight - gScrollBarArrowHeight );
+			newDwnArrow.setAttributeNS( null, "width", gAttachScrollWidth );
+			newDwnArrow.setAttributeNS( null, "height", gScrollBarArrowHeight );
+			newDwnArrow.setAttributeNS( null, "id", "attachscrollbardwnarrow" );
+			newDwnArrow.addEventListener( "mousedown", vAttachScrollDwnPressed, false);
+			newDwnArrow.addEventListener( "mouseup", vAttachScrollDwnReleased, false);
+			newDwnArrow.addEventListener( "mouseout", vAttachScrollDwnReleased, false);
+			attachScrollGroup.appendChild( newDwnArrow );
+			
+			var newScrollerRect = document.createElementNS( svgNS, "rect" );	
+			newScrollerRect.setAttributeNS( null, "x", gAttachScrollLeft );
+			newScrollerRect.setAttributeNS( null, "y", newScrollerY );
+			newScrollerRect.setAttributeNS( null, "width", gAttachScrollWidth );
+			newScrollerRect.setAttributeNS( null, "height", 1 );
+			newScrollerRect.setAttributeNS( null, "stroke",	"none" );
+			newScrollerRect.setAttributeNS( null, "fill", "none" );
+			newScrollerRect.setAttributeNS( null, "id", "attachscrollerrect" );		
+			attachScrollGroup.appendChild( newScrollerRect );
+			
+			
+		}
+		
+	}
+	
+	function onAttachScrollPageDwn( evt ){
+
+		var scroll = 0;			
+		if( !(gAttachCurrentBottom >= gCurrentAttachPageHeight)){
+			if( (gAttachCurrentBottom + gDeltaScroll) <= gCurrentAttachPageHeight ){
+				scroll = gAttachDeltaScroll;				
+			}
+			else{
+				scroll = gCurrentAttachPageHeight - gAttachCurrentBottom;
+			}
+			
+			gAttachCurrentBottom = gAttachCurrentBottom + scroll;
+			gAttachPageTransformY = gAttachPageTransformY - scroll;
+			var page = document.getElementById( "attachmentsdisplay" );
+			page.setAttributeNS( null, "transform", "translate( 0," + gAttachPageTransformY + ")" );
+			
+			reDrawAttachVertScrollBar();
+		}
+				
+	}
+	
+	function onAttachScrollPageUp( evt ){
+	
+		var scroll = 0;			
+		if( (gAttachCurrentBottom > gAttachPageHeight)){
+			if( (gAttachCurrentBottom - gDeltaScroll) >= gAttachPageHeight ){
+				scroll = gAttachDeltaScroll;				
+			}
+			else{
+				scroll = gAttachCurrentBottom - gAttachPageHeight;
+			}
+			
+			gAttachCurrentBottom = gAttachCurrentBottom - scroll;
+			gAttachPageTransformY = gAttachPageTransformY + scroll;
+			var page = document.getElementById( "attachmentsdisplay" );
+			page.setAttributeNS( null, "transform", "translate( 0," + gAttachPageTransformY + ")" );
+			
+			reDrawAttachVertScrollBar();
+		}
+	
+	}
+	
+	function reDrawAttachVertScrollBar(){
+
+		var scrollerFullHeight = gAttachPageHeight - (2 * (gScrollBarArrowHeight+10)) + 5;
+		// no div here zero since page is always longer than the view		
+		var newScrollerHeight = scrollerFullHeight - (( 1 - (-gAttachPageTransformY / (gCurrentAttachPageHeight  - gAttachPageHeight ))) * scrollerFullHeight);
+		var newScrollerY = gAttachScrollTop + gScrollBarArrowHeight + 10;
+		var newScrollerRect = document.createElementNS( svgNS, "rect" );
+		newScrollerRect.setAttributeNS( null, "x", gAttachScrollLeft );
+		newScrollerRect.setAttributeNS( null, "y", newScrollerY );
+		newScrollerRect.setAttributeNS( null, "width", gAttachScrollWidth );
+		newScrollerRect.setAttributeNS( null, "height", newScrollerHeight );
+		newScrollerRect.setAttributeNS( null, "stroke",	gDisableGreyColour );
+		newScrollerRect.setAttributeNS( null, "fill", gDisableGreyColour );
+		newScrollerRect.setAttributeNS( null, "id", "attachscrollerrect" );
+		
+		var oldScrollerRect = document.getElementById( "attachscrollerrect" );
+		oldScrollerRect.parentNode.replaceChild( newScrollerRect, oldScrollerRect );
+	
+	}
+	
+	function vAttachScrollUpPressed( evt ){
+	
+		onAttachScrollPageUp( evt );	
+		if( gAttachFirstClickScrollUp ){
+			timer = gAttachScrollFirstDelay;
+		}
+		else{
+			timer = gAttachScrollSecondDelay;
+		}
+		gAttachFirstClickScrollUp = false;
+		window.gAttachLoopScrollUp = setTimeout('vAttachScrollUpPressed(evt)',timer);	
+	}
+	
+	function vAttachScrollUpReleased( evt ){
+	
+		if(window.gAttachLoopScrollUp != null){
+			clearTimeout (window.gAttachLoopScrollUp);
+		}
+		gAttachFirstClickScrollUp = true;	
+	
+	}
+	
+	function vAttachScrollDwnPressed( evt ){
+	
+		onAttachScrollPageDwn( evt );
+
+		if( gAttachFirstClickScrollDwn ){
+			timer = gAttachScrollFirstDelay;
+		}
+		else{
+			timer = gAttachScrollSecondDelay;
+		}
+		gAttachFirstClickScrollDwn = false;
+		window.gAttachLoopScrollDwn = setTimeout('vAttachScrollDwnPressed(evt)',timer);	
+	}
+	
+	function vAttachScrollDwnReleased( evt ){
+
+		if(window.gAttachLoopScrollDwn != null){
+			clearTimeout (window.gAttachLoopScrollDwn);
+		}
+		gAttachFirstClickScrollDwn = true;		
+	
+	}
+
+]]></script>
+	<g id="mainview"></g>
+</svg>
