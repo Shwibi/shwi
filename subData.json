@@ -53,7 +53,8 @@
         "DPP 09 Kinematics DPP 09 (of Lec 15) - Kinematics_DPP-9_Arjuna (NEET).pdf",
         "DPP 10 Kinematics DPP 10 (of Lec 17) - Kinematics_DPP-10_Arjuna (NEET).pdf",
         "DPP 11 Kinematics DPP 11 (of Lec 18) - Kinematics_DPP-11_Arjuna (NEET).pdf",
-        "DPP 12 Kinematics DPP 12 (of Lec 19) - Kinematics_DPP-12_Arjuna (NEET).pdf"
+        "DPP 12 Kinematics DPP 12 (of Lec 19) - Kinematics_DPP-12_Arjuna (NEET).pdf",
+        "DPP 13 Kinematics DPP 13 (of Lec 21) - Kinematics_DPP-13_Arjuna (NEET).pdf"
       ],
       "notes": [
         "DPP-SOL 01 Kinematics DPP 01 solution notes - dpp 01 kinematics arjuna neet.pdf",
@@ -68,6 +69,7 @@
         "DPP-SOL 10 Kinematics DPP 10 Solution notes - arjun neet kinematics 10 dpp solutions (2).pdf",
         "DPP-SOL 11 Kinematics DPP 11 Solution notes - Kinematics_DPP-11_Arjuna (NEET) khikhi.pdf",
         "DPP-SOL 12 Kinematics DPP 12 Solution notes - Kinematics DPP 12 Discussion.pdf",
+        "DPP-SOL 13 Kinematics DPP 13 Solution notes - Kinematics DPP 13 Solution.pdf",
         "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
         "NOTES 01.2 Kinematics 01 Extra Lecture Classnotes - kinematicds lecture 1 extra.pdf",
         "NOTES 02 Kinematics 02 Classnotes - kinematics _2_compressed.pdf",
@@ -87,7 +89,9 @@
         "NOTES 16 Kinematics 16 Classnotes - kinematics revision (1)_compressed.pdf",
         "NOTES 17 Kinematics 17 Classnotes - kinematics -17 arjuna (1)_compressed.pdf",
         "NOTES 18 Kinematics 18 Classnotes - arjuna kinematics 18_compressed.pdf",
-        "NOTES 19 Kinematics 19 Classnotes - arjuna kinematics vector.pdf"
+        "NOTES 19 Kinematics 19 Classnotes - arjuna kinematics vector.pdf",
+        "NOTES 20 Kinematics 20 Classnotes - vector subtraction dot product arjuna_compressed.pdf",
+        "NOTES 21 Kinematics 21 Classnotes - dot and cross product_compressed (1).pdf"
       ],
       "other": [
         "ASSIGNMENT 2 K1 Assignment of Motion in 1D - 2. Motion in 1D-Assignement-2_Arjuna Batch.pdf"
@@ -203,7 +207,14 @@
         "NOTES 13 Naming_of_Functional_Group__I_with_anno.pdf",
         "NOTES 14 Naming_of_Functional_Group__II_with_anno.pdf"
       ],
-      "other": []
+      "other": [
+        "01-NOMENCLATUREANDCOMMONNAME_AnswerKey.pdf",
+        "01-NOMENCLATUREANDCOMMONNAME_Exercise-1.pdf",
+        "02-NOMENCLATUREANDCOMMONNAME_Exercise-2.pdf",
+        "03-NOMENCLATUREANDCOMMONNAME_Exercise-3.pdf",
+        "04-NOMENCLATUREANDCOMMONNAME_Exercise-4.pdf",
+        "06-EssentialCommonNames.pdf"
+      ]
     },
     {
       "id": 3,
@@ -349,7 +360,9 @@
       ],
       "notes": [
         "NOTES 01 Ideal_Gas_Equation_with_anno.pdf",
-        "NOTES 02 Graphical_Representation_of_pV__nRT_with_anno.pdf"
+        "NOTES 02 Graphical_Representation_of_pV__nRT_with_anno.pdf",
+        "NOTES 03 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 04 Daltons_Law_Amagat_Law_of_Partial_Volume_with_anno.pdf"
       ],
       "other": [
         "NURTURE_UNP-1_AkshaySIR9-8-2020.pdf",
@@ -419,11 +432,13 @@
         "DPP-SOL 03 Breathing and Exchange of Gases DPP 03 Solution Notes - DPP 3.pdf",
         "DPP-SOL 04 Breathing and Exchange of Gases DPP 04 Solution Notes - dpp4.pdf",
         "DPP-SOL 05 Breathing and Exchange of Gases DPP 05 Solution Notes - DPP5.pdf",
+        "NCERT 01 Breathing and Exchange of Gases NCERT Solution Notes - Breathing And Exchange of Gases Lec (Samapti mam) Arjuna Neet_compresse.pdf",
         "NOTES 01 Breathing and Exchange of Gases 01 Classnotes - BREATHING LECTURE 1 ( Samapti Mam).pdf",
         "NOTES 02 Breathing and Exchange of Gases 02 Classnotes - Breathing And Exchange of Gases Lec 02 (Samapti mam) Arjuna Neet.pdf",
         "NOTES 03 Breathing and Exchange of Gases 03 Classnotes - Respiratory Volumes Exchange Of Gases (Samapti mam).pdf",
         "NOTES 04 Breathing and Exchange of Gases 04 Classnotes - BREATHING LECTURE4.pdf",
-        "NOTES 05 Breathing and Exchange of Gases 05 Classnotes - Breathing And Exchange of Gases Lec 05 (Samapti mam) Arjuna Neet.pdf"
+        "NOTES 05 Breathing and Exchange of Gases 05 Classnotes - Breathing And Exchange of Gases Lec 05 (Samapti mam) Arjuna Neet.pdf",
+        "NOTES 06 Breathing and Exchange of Gases 06 Classnotes - Breathing And Exchange of Gases Lec 6 (Samapti mam) Arjuna Neet_compressed.pdf"
       ],
       "other": []
     },
@@ -449,6 +464,7 @@
         "NOTES 04 Cell Cycle and Cell Division 04 Classnotes - Cell Cycle Lec-4 (Biswajit sir) Arjuna Neet_compressed.pdf",
         "NOTES 05 Cell Cycle and Cell Division 05 Classnotes - Celll cycle and cell Division Lec 5(Biswajit sir)_compressed.pdf",
         "NOTES 06 Cell Cycle and Cell Division 06 Classnotes - Cell Cycle & Cell Division Lec 06 (Biswajit Sir) Arjuna NEET_compressed.pdf",
+        "NOTES 07 Cell Cycle and Cell Division 07 Classnotes - Cell Cycle & Cell Division Lec-7 (Biswajit Sir) Arjuna NEET.pdf",
         "NOTES H01 Cell Cycle and Cell Division 01 _ Handwritten notes - Arjuna NEET - CamScanner 06-29-2021 14.49.30.pdf",
         "NOTES H02 Cell Cycle and Cell Division 02 _ Handwritten Notes - CamScanner 06-29-2021 14.49.30 (1).pdf",
         "NOTES H04 Cell Cycle and Cell Division 04 Handwritten Notes - CamScanner 06-29-2021 14.49.30 (2).pdf",
@@ -566,12 +582,43 @@
         "NOTES 03 Digestion & Absorptions Lec 03 (Samapti Mam) Arjuna NEET - DIGESTION LECTURE Lec 03 (Samapti mam).pdf",
         "NOTES 04 Digestion and Absorption 04 _ Mechanism of Digestion Classnotes - Arjuna NEET - DIGESTION LECTURE 4 Arjuna NEET ( samapti mam)_compressed.pdf",
         "NOTES 05 Digestion and Absorption 05 _ Hormonal Control of Digestion, Absorption, PEM Classnotes - Arjuna NEET - Digestion & Absoption Lec-5 (Samapti mam) Arjuna N.pdf",
-        "NOTES 06 Digestion and Absorption 06 _ Classnotes - Digestion & Absoption Lec-6(Samapti mam) Arjuna Neet_compressed.pdf"
+        "NOTES 06 Digestion and Absorption 06 _ Classnotes - Digestion & Absoption Lec-6(Samapti mam) Arjuna Neet_compressed.pdf",
+        "NOTES OWN Digestion and absorption class 11 b-daa-xi.pdf"
       ],
-      "other": []
+      "other": [
+        "Hormonal action.png"
+      ]
     },
     {
       "id": 7,
+      "chapter": "Digestion and Absorption - Self",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "#2",
+        "#2 img",
+        "#2.html",
+        "#2.notebook",
+        "#2.pdf",
+        "#2.pptx",
+        "#3",
+        "#3 img",
+        "#3.html",
+        "#3.notebook",
+        "#3.pdf",
+        "#3.pptx",
+        "#4",
+        "#4 img",
+        "#4.html",
+        "#4.notebook",
+        "#4.pdf",
+        "#4.pptx",
+        "Digestion and absorption #1.pdf",
+        "Digestion and absorption #1.ubz"
+      ]
+    },
+    {
+      "id": 8,
       "chapter": "Digestion and Absorption PW Module",
       "dpps": [],
       "notes": [],
@@ -585,7 +632,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -603,7 +650,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "chapter": "Structural Organisation in Animals",
       "dpps": [
         "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
@@ -637,7 +684,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "chapter": "Structural Organisation in Animals PW Module",
       "dpps": [],
       "notes": [],
@@ -647,7 +694,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
@@ -664,7 +711,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "chapter": "Test 02",
       "dpps": [],
       "notes": [
@@ -682,19 +729,36 @@
       ]
     },
     {
-      "id": 13,
+      "id": 14,
+      "chapter": "Test 03",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Practice Test - 03 Syllabus (01-08-2021) - Test Syllabus -converted (1).pdf"
+      ]
+    },
+    {
+      "id": 15,
       "chapter": "The Living World",
       "dpps": [
-        "DPP 01 Living World DPP 01 - DPP-1_Arjuna (NEET)_Living world_(16-07-2021)_Biswajit Sir_Mohit DTP.pdf"
+        "DPP 01 Living World DPP 01 - DPP-1_Arjuna (NEET)_Living world_(16-07-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 02 Living World DPP 02 - DPP-2_Arjuna (NEET)_Living world_(19-07-2021)_Biswajit Sir_Mohit DTP.pdf",
+        "DPP 03 Living World DPP 03 - DPP-3_Arjuna (NEET)_Living world_(20-07-2021)_Biswajit Sir_Mohit DTP.pdf"
       ],
       "notes": [
         "DPP-SOL 01 Living World DPP 01 Solution Notes - The Living World DPP-1 (Biswajit Sir) Arjuna NEET_compressed.pdf",
-        "NOTES 01 Living World 01 Classnotes - Thrnluving World zlec 01 (Biswajit Sir).pdf"
+        "DPP-SOL 02 Living World DPP 02 Solution Notes - Living World DPP-2 (Biswajit Sir) Arjuna NEET_compressed.pdf",
+        "DPP-SOL 03 Living World DPP 03 Solution Notes - DPP 03 Living World (Biswajit Sir)_compressed.pdf",
+        "NOTES 01 Living World 01 Classnotes - Thrnluving World zlec 01 (Biswajit Sir).pdf",
+        "NOTES 02 Living World 02 Classnotes - Living World Lec-2 (Biswajit Sir) Arjuna NEET.pdf",
+        "NOTES 03 Living World 03 Classnotes - Living World 01 (Biswajit Sir) Arjuna NEET.pdf",
+        "NOTES 04 Living World 04 Classnotes - Living World lec-4 (Biswajit Sir) Arjuna NEET final (1).pdf",
+        "NOTES H01 The Living World.pdf"
       ],
       "other": []
     }
   ],
-  "last_update": "18/7/2021",
+  "last_update": "24/7/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
