@@ -99,6 +99,25 @@
     },
     {
       "id": 4,
+      "chapter": "Motion in a Plane",
+      "dpps": [
+        "DPP 01 Motion in a Plane DPP 01 (of Lec 02) - Motion in plane_DPP-01_Arjuna (NEET).pdf",
+        "DPP 02 Motion in a Plane DPP 02 (of Lec 03) - Motion in plane_DPP-02_Arjuna (NEET) (1).pdf",
+        "DPP 03 Motion in a Plane DPP 03 (of Lec 04) - Motion in plane_DPP-03_Arjuna (NEET).pdf"
+      ],
+      "notes": [
+        "DPP-SOL 01 Motion in a Plane DPP 01 Solution Notes - Motion in Plane DPP 01 Discussion.pdf",
+        "DPP-SOL 02 Motion in a Plane DPP 02 Solution Notes - Motion in Plane DPP 02 Discussion.pdf",
+        "DPP-SOL 03 Motion in a Plane DPP 03 Solution Notes - Motion in Plane DPP-03 Solution notes.pdf",
+        "NOTES 01 Motion in a Plane 01 Classnotes - motion in plane 1_compressed (1).pdf8.pdf",
+        "NOTES 02 Motion in a Plane 02 Classnotes - arjuna prtojectyilre.pdf",
+        "NOTES 03 Motion in a Plane 03 Classnotes - projectile motion _2 arjuna_compressed (1).pdf",
+        "NOTES 04 Motion in a Plane 04 Classnotes - Horizontal Projectile Motion relative Motion in a plane (MR Sir) ARJUN NEET (1)_compressed.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 5,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -108,7 +127,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Units and Dimensions",
       "dpps": [
         "DPP 01 Units and Dimensions.pdf",
@@ -142,7 +161,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Units and Dimensions PW Module",
       "dpps": [],
       "notes": [],
@@ -160,6 +179,21 @@
   "chemistry": [
     {
       "id": 1,
+      "chapter": "Handwritten- bewise",
+      "dpps": [],
+      "notes": [
+        "Chemical Bonding Notes BeWIse Classes.pdf",
+        "Mole Concept Notes.pdf"
+      ],
+      "other": [
+        "3. Periodic Table.pdf",
+        "Atomic Structure.pdf",
+        "IUPAC Nomenclature.pdf",
+        "S block.pdf"
+      ]
+    },
+    {
+      "id": 2,
       "chapter": "Mole Concept",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -186,7 +220,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "chapter": "Nomenclature",
       "dpps": [
         "DPP 01 DPP-01.pdf"
@@ -205,7 +239,9 @@
         "NOTES 11 Rules_for_Selection_of_Longest_Chain__II_with_anno.pdf",
         "NOTES 12 Doubt_Clearing_Session_with_anno.pdf",
         "NOTES 13 Naming_of_Functional_Group__I_with_anno.pdf",
-        "NOTES 14 Naming_of_Functional_Group__II_with_anno.pdf"
+        "NOTES 14 Naming_of_Functional_Group__II_with_anno.pdf",
+        "NOTES 15 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 16 Naming_of_Functional_Group__III_with_anno.pdf"
       ],
       "other": [
         "01-NOMENCLATUREANDCOMMONNAME_AnswerKey.pdf",
@@ -217,7 +253,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -227,12 +263,15 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "chapter": "Periodic Properties",
       "dpps": [
         "COLLOIDS-SPECIAL_DPP_NUTURE.pdf"
       ],
       "notes": [
+        "NOTES B01 Electronegativity__I_with_anno.pdf",
+        "NOTES B02 Electronegativity__II_with_anno.pdf",
+        "NOTES B03 Ionisation_Energy__III_with_anno.pdf",
         "NOTES R1 Periodicpropertiesragister.pdf",
         "NOTES R2 Perodictable.pdf"
       ],
@@ -244,7 +283,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
@@ -253,7 +292,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Quantum Number",
       "dpps": [],
       "notes": [
@@ -263,7 +302,7 @@
       "other": []
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "S-block",
       "dpps": [],
       "notes": [
@@ -285,7 +324,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Some Basic Concepts of Chemistry Physics Wallah",
       "dpps": [
         "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
@@ -310,7 +349,7 @@
       "other": []
     },
     {
-      "id": 9,
+      "id": 10,
       "chapter": "Some Basic Concepts of Chemistry PW Module",
       "dpps": [],
       "notes": [],
@@ -322,7 +361,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "chapter": "Some Basic Concepts of Chemistry Unacademy",
       "dpps": [
         "DPP 01 DPP-01_PC.pdf",
@@ -339,17 +378,6 @@
       ]
     },
     {
-      "id": 11,
-      "chapter": "State of Matter PW Dolly mam",
-      "dpps": [
-        "DPP 01 State of Matter DPP-01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf"
-      ],
-      "notes": [
-        "NOTES 01 State of Matter 01 Classnotes - State of matter lec-1 Dolly mamArjuna neet_compressed.pdf"
-      ],
-      "other": []
-    },
-    {
       "id": 12,
       "chapter": "States of Matter",
       "dpps": [
@@ -361,8 +389,15 @@
       "notes": [
         "NOTES 01 Ideal_Gas_Equation_with_anno.pdf",
         "NOTES 02 Graphical_Representation_of_pV__nRT_with_anno.pdf",
-        "NOTES 03 Doubt_Clearing_Session_with_anno.pdf",
-        "NOTES 04 Daltons_Law_Amagat_Law_of_Partial_Volume_with_anno.pdf"
+        "NOTES 05 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 06 Daltons_Law_Amagat_Law_of_Partial_Volume_with_anno.pdf",
+        "NOTES 07 Grahams_Law_of_Effusion_with_anno.pdf",
+        "NOTES 08 Problems_related_with_Container_with_anno.pdf",
+        "NOTES 09 Introduction_Barometer_Manometer_with_anno.pdf",
+        "NOTES 10 Kinetic_Theory_of_Gases_with_anno.pdf",
+        "NOTES 11 Maxwell_Distribution_of_Molecular_Speed_with_anno.pdf",
+        "NOTES 12 Problems_Related_with_Mercury_Tube__SPM_with_anno.pdf",
+        "NOTES 13 Doubt_Clearing_Session_with_anno.pdf"
       ],
       "other": [
         "NURTURE_UNP-1_AkshaySIR9-8-2020.pdf",
@@ -418,6 +453,25 @@
   "biology": [
     {
       "id": 1,
+      "chapter": "Body Fluids and Circulation",
+      "dpps": [
+        "DPP 01 Body Fluids & It’s Circulation DPP 01 - Body Fluids and Its Circulation_DPP-01_Arjuna NEET (1).pdf",
+        "DPP 02 Body Fluids & It’s Circulation DPP 02 - Body Fluids and Its Circulation_DPP-02_Arjuna NEET .pdf",
+        "DPP 03 Body Fluids & It’s Circulation DPP 03 - Body Fluids and It’s Circulation_DPP-3_Arjuna (NEET).pdf",
+        "DPP 04 Body Fluids & It’s Circulation DPP 04 - Body Fluids and It’s Circulation_DPP-4_Arjuna (NEET) (1).pdf"
+      ],
+      "notes": [
+        "DPP-SOL 01 Body Fluids & It’s Circulation DPP 01 Solution Notes - DPP 1.pdf",
+        "DPP-SOL 02 Body Fluids & It’s Circulation DPP 02 Solution Notes - DPP 2 SOLUTION.pdf",
+        "DPP-SOL 03 Body Fluids & It’s Circulation DPP 03 Solution Notes - DPP 3 SOLUTION.pdf",
+        "DPP-SOL 04 Body Fluids & It’s Circulation DPP 04 Solution Notes - DPP 4 SOLUTION.pdf",
+        "NOTES 01 Body Fluids & It’s Circulation 01 Classnotes - Body Fluids & Cibrculations (Samapti mam) Arjuna Neet_compressed.pdf",
+        "NOTES 02 Body Fluids & It’s Circulation 02 Classnotes - Body Fluid Lec-02 (Samapti mam) (1)_compressed.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 2,
       "chapter": "Breathing and Exchange of Gases",
       "dpps": [
         "DPP 01 Breathing and Exchange of Gases DPP 01 - Breathing and Exchange of Gases_Arjuna NEET (1).pdf",
@@ -443,7 +497,17 @@
       "other": []
     },
     {
-      "id": 2,
+      "id": 3,
+      "chapter": "Breathing and Exchange of Gases - Self",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "#1.notebook",
+        "#2.notebook"
+      ]
+    },
+    {
+      "id": 4,
       "chapter": "Cell Cycle and Cell Division",
       "dpps": [
         "DPP 01 Cell Cycle and Cell Division DPP 01 _ - Arjuna NEET - DPP-1_Arjuna (NEET)_Cell cycle and cell division_(29-06-2021)_Biswajit Sir_Mohit DTP.pdf",
@@ -475,7 +539,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 5,
       "chapter": "Cell Cycle and Cell Division Module",
       "dpps": [],
       "notes": [],
@@ -489,7 +553,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 6,
       "chapter": "Cell The Unit of Life",
       "dpps": [
         "DPP 01 Cell The Unit of Life.pdf",
@@ -553,7 +617,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "chapter": "Cell The Unit of Life PW Module",
       "dpps": [],
       "notes": [],
@@ -567,7 +631,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 8,
       "chapter": "Digestion and Absorption",
       "dpps": [
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
@@ -590,7 +654,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 9,
       "chapter": "Digestion and Absorption - Self",
       "dpps": [],
       "notes": [],
@@ -618,7 +682,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 10,
       "chapter": "Digestion and Absorption PW Module",
       "dpps": [],
       "notes": [],
@@ -632,9 +696,11 @@
       ]
     },
     {
-      "id": 9,
+      "id": 11,
       "chapter": "Other",
-      "dpps": [],
+      "dpps": [
+        "dpp session.notebook"
+      ],
       "notes": [],
       "other": [
         "12-07-2021 PLANNER Revised Planner (Biology) - Arjuna_NEET (Biology).pdf",
@@ -646,11 +712,44 @@
         "NEET-UG 2019 Question Paper Code P1 (PYQ- Previous Year Question) (Vedantu).pdf",
         "NEW LECTURE SCHEDULE - Arjuna NEET - Lecture Schedule - ARJUNA NEET.pdf",
         "Revised Planner (Biology) - Arjuna_NEET (Biology).pdf",
-        "Toppers books.pdf"
+        "Toppers books.pdf",
+        "[31 July 2021] Revised Lecture Planner Biology - Arjuna NEET Planner - Bio.pdf"
       ]
     },
     {
-      "id": 10,
+      "id": 12,
+      "chapter": "Previous Year Question Papers",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "2020 English E1.pdf",
+        "2020 English E2.pdf",
+        "2020 English E3.pdf",
+        "2020 English E4.pdf",
+        "2020 English E5.pdf",
+        "2020 English E6.pdf",
+        "2020 English F1.pdf",
+        "2020 English F2.pdf",
+        "2020 English F3.pdf",
+        "2020 English F4.pdf",
+        "2020 English F5.pdf",
+        "2020 English F6.pdf",
+        "2020 English G1.pdf",
+        "2020 English G2.pdf",
+        "2020 English G3.pdf",
+        "2020 English G4.pdf",
+        "2020 English G5.pdf",
+        "2020 English G6.pdf",
+        "2020 English H1.pdf",
+        "2020 English H2.pdf",
+        "2020 English H3.pdf",
+        "2020 English H4.pdf",
+        "2020 English H5.pdf",
+        "2020 English H6.pdf"
+      ]
+    },
+    {
+      "id": 13,
       "chapter": "Structural Organisation in Animals",
       "dpps": [
         "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
@@ -680,11 +779,12 @@
         "NOTES N1 NCERT Structural Organization of Animals Lec-01 Classnotes - structural Organization in animals Lec1 NCERT Dis._compressed.pdf"
       ],
       "other": [
-        "doubts"
+        "doubts",
+        "Tricks.txt"
       ]
     },
     {
-      "id": 11,
+      "id": 14,
       "chapter": "Structural Organisation in Animals PW Module",
       "dpps": [],
       "notes": [],
@@ -694,7 +794,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 15,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
@@ -711,7 +811,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 16,
       "chapter": "Test 02",
       "dpps": [],
       "notes": [
@@ -729,7 +829,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 17,
       "chapter": "Test 03",
       "dpps": [],
       "notes": [],
@@ -738,7 +838,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 18,
       "chapter": "The Living World",
       "dpps": [
         "DPP 01 Living World DPP 01 - DPP-1_Arjuna (NEET)_Living world_(16-07-2021)_Biswajit Sir_Mohit DTP.pdf",
@@ -753,12 +853,13 @@
         "NOTES 02 Living World 02 Classnotes - Living World Lec-2 (Biswajit Sir) Arjuna NEET.pdf",
         "NOTES 03 Living World 03 Classnotes - Living World 01 (Biswajit Sir) Arjuna NEET.pdf",
         "NOTES 04 Living World 04 Classnotes - Living World lec-4 (Biswajit Sir) Arjuna NEET final (1).pdf",
+        "NOTES 05 Living World 05 Classnotes - Living World Lec-5 (Biswajit sir).pdf",
         "NOTES H01 The Living World.pdf"
       ],
       "other": []
     }
   ],
-  "last_update": "24/7/2021",
+  "last_update": "2/8/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
