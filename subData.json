@@ -112,12 +112,23 @@
         "NOTES 01 Motion in a Plane 01 Classnotes - motion in plane 1_compressed (1).pdf8.pdf",
         "NOTES 02 Motion in a Plane 02 Classnotes - arjuna prtojectyilre.pdf",
         "NOTES 03 Motion in a Plane 03 Classnotes - projectile motion _2 arjuna_compressed (1).pdf",
-        "NOTES 04 Motion in a Plane 04 Classnotes - Horizontal Projectile Motion relative Motion in a plane (MR Sir) ARJUN NEET (1)_compressed.pdf"
+        "NOTES 04 Motion in a Plane 04 Classnotes - Horizontal Projectile Motion relative Motion in a plane (MR Sir) ARJUN NEET (1)_compressed.pdf",
+        "NOTES 05 Motion in a Plane 05 Classnotes - river man problem arjuna.pdf"
       ],
       "other": []
     },
     {
       "id": 5,
+      "chapter": "Motion in a Plane PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Module 02 Kinematics - Physics ARJUNA NEET Class-XI MOTION IN A STRAIGHT LINE.pdf",
+        "Module 02 Solution Kinematics - Physics Arjuna NEET Class-XI Explanations MOTION IN A STRAIGHT LINE.pdf"
+      ]
+    },
+    {
+      "id": 6,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -127,7 +138,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Units and Dimensions",
       "dpps": [
         "DPP 01 Units and Dimensions.pdf",
@@ -161,7 +172,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "Units and Dimensions PW Module",
       "dpps": [],
       "notes": [],
@@ -405,7 +416,8 @@
         "Sheet Real Gas Only Questions.pdf",
         "SHEET_IDEALGAS.pdf",
         "SHEET_REALGAS.pdf",
-        "SolutionofIDEALGASsheet.pdf"
+        "SolutionofIDEALGASsheet.pdf",
+        "Urms.notebook"
       ]
     },
     {
@@ -441,11 +453,42 @@
       "chapter": "Structure of Atom PW",
       "dpps": [
         "DPP 01 Structure of Atom DPP 01 - Arjuna (NEET)_DPP 1_Structure of Atom_(06-06-2021)_Dolly Mam_Mohit DTP.pdf",
-        "DPP 02 Structure of Atom DPP 02 - Arjuna (NEET)_DPP 2_Structure of Atom_(06-07-2021)_Dolly Mam_Mohit DTP (1).pdf"
+        "DPP 02 Structure of Atom DPP 02 - Arjuna (NEET)_DPP 2_Structure of Atom_(06-07-2021)_Dolly Mam_Mohit DTP (1).pdf",
+        "DPP 03 Structure of Atom DPP 03 (of Lec 04) - Arjuna (NEET)_DPP 3_Structure of Atom_(12-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 04 Structure of Atom DPP 04 (of Lec 05) - Arjuna (NEET)_DPP 4_Structure of Atom_(14-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 05 Structure of Atom DPP 05 (of Lec 06) - Arjuna (NEET)_DPP 5_Structure of Atom_(15-07-2021)_Dolly Mam_Mohit DTP (1).pdf",
+        "DPP 06 Structure of Atom DPP 06 (of Lec 07) - Arjuna (NEET)_DPP 6_Atomic Structure_(21-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 07 Structure of Atom DPP 07 (of Lec 08) - Arjuna (NEET)_DPP 7_Atomic Structure_(23-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 08 Structure of Atom DPP 08 (of Lec 09) - Arjuna (NEET)_DPP 8_Structure of Atom_(25-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 09 Structure of Atom DPP 09 (of Lec 10) - Arjuna (NEET)_DPP 9_Structure of Atom_(26-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 10 Structure of Atom DPP 10 (of Lec 11) - Arjuna (NEET)_DPP 10_Structure of Atom_(26-07-2021)_Dolly Mam_Mohit DTP.pdf",
+        "DPP 11 Structure of Atom DPP 11 (of Lec 12) - Arjuna (NEET)_DPP 11_Structure of Atom_(28-07-2021)_Dolly Mam_Mohit DTP.pdf"
       ],
       "notes": [
+        "DPP-SOL 01 Structure of Atom DPP 01 Solution Notes - Arjuna (NEET)_DPP 1_Structure of Atom_(06-06-2021)_Dolly Mam_Mohit DTP (1).pdf",
+        "DPP-SOL 02 Structure of Atom DPP 02 Solution Notes - Structure of Atom (PPT-02) ARJUNA NEET (Chemistry).pdf",
+        "DPP-SOL 03 Structure of Atom DPP 03 Solution Notes - Structure of Atom_DPP-03_PPT_Arjuna (NEET).pdf",
+        "DPP-SOL 04 Structure of Atom DPP 04 Solution Notes - Arjuna (NEET) - 4 Structure of Atom.pdf",
+        "DPP-SOL 05 Structure of Atom DPP 05 Solution Notes - Arjuna (NEET) - 5 Structure of Atom - (1).pdf",
+        "DPP-SOL 07 Structure of Atom DPP 07 Solution Notes - Arjuna (NEET)_DPP 7_Atomic Structure_24.07.20221 (1).pdf",
+        "DPP-SOL 08 Structure of Atom DPP 08 Solution Notes - Arjuna (NEET)_DPP 8_Structure of Atom.pdf",
+        "DPP-SOL 09 Structure of Atom DPP 09 Solution Notes - Arjuna (NEET)_PPT Atomic Structure_27.07.21 (1).pdf",
+        "DPP-SOL 10 Structure of Atom DPP 10 Solution Notes - STRUCTURE OF ATOM_Chemistry_Arjuna (NEET) Batch.pdf",
+        "DPP-SOL 11 Structure of Atom DPP 11 Solution Notes - Structure of atom DPP-11(Assignment) (Dolly mam) Arjuna NEET_compressed.pdf",
         "NOTES 01 Structure of Atom 01 Classnotes - Structure of Atom Lec 1 (Dolly Mam)_compressed.pdf",
-        "NOTES 02 Structure of Atom 02 Classnotes - Structure of Atom Lec-2 (Dolly mam) Arjuna NEET_compressed.pdf"
+        "NOTES 02 Structure of Atom 02 Classnotes - Structure of Atom Lec-2 (Dolly mam) Arjuna NEET_compressed.pdf",
+        "NOTES 03 Structure of Atom 03 Classnotes - structure Of Atom lec-03 (Dolly mam) Arjuna neet_compressed.pdf",
+        "NOTES 04 Structure of Atom 04 Classnotes - Structure of Atom Lec-04 (Dolly Mam) Arjuna NEET_compressed.pdf",
+        "NOTES 05 Structure of Atom 05 Classnotes - Structure of Atom Lec-5(Dolly Mam) Arjuna NEET_compressed.pdf",
+        "NOTES 06 Structure of Atom 06 Classnotes - structure Of Atom lec-06 (Dolly mam) Arjuna neet_compressed.pdf",
+        "NOTES 07 Structure of Atom 07 Classnotes - structure Of Atom lec-07 (Dolly mam) Arjuna neet_compressed.pdf",
+        "NOTES 08 Structure of Atom 08 Classnotes - structure Of Atom lec-08 (Dolly mam) Arjuna neet_compressed.pdf",
+        "NOTES 09 Structure of Atom 09 Classnotes - Structure Of Atom 09 (Dolly mam)_compressed.pdf",
+        "NOTES 10 Structure of Atom 10 Classnotes - Structure of Atom Lec_10 (Dolly mam) Arjuna NEET_compressed.pdf",
+        "NOTES 11 Structure of Atom 11 Classnotes - Structure of atom-Lecture-11 (Dolly mam) Arjuna NEET (1)_compressed.pdf",
+        "NOTES 12 Structure of Atom 12 Classnotes - Structure of Atom Lec-12 Shapes of Subshells Previous Year (Dolly Mam) Arjuna NEET_compressed.pdf",
+        "NOTES 13 Structure of Atom 13 Classnotes - Structure of Atom Lec-13 (Dolly Mam) Arjuna NEET (1)_compressed.pdf",
+        "SPP-SOL 06 Structure of Atom DPP 06 Solution Notes - Arjuna (NEET) - 4 Structure of Atom (1) (2).pdf"
       ],
       "other": []
     }
@@ -458,7 +501,8 @@
         "DPP 01 Body Fluids & It’s Circulation DPP 01 - Body Fluids and Its Circulation_DPP-01_Arjuna NEET (1).pdf",
         "DPP 02 Body Fluids & It’s Circulation DPP 02 - Body Fluids and Its Circulation_DPP-02_Arjuna NEET .pdf",
         "DPP 03 Body Fluids & It’s Circulation DPP 03 - Body Fluids and It’s Circulation_DPP-3_Arjuna (NEET).pdf",
-        "DPP 04 Body Fluids & It’s Circulation DPP 04 - Body Fluids and It’s Circulation_DPP-4_Arjuna (NEET) (1).pdf"
+        "DPP 04 Body Fluids & It’s Circulation DPP 04 - Body Fluids and It’s Circulation_DPP-4_Arjuna (NEET) (1).pdf",
+        "DPP 05 Body Fluids & It’s Circulation DPP 05 (of Lec 06) - Body Fluids and It’s Circulation_DPP-5_Arjuna (NEET).pdf"
       ],
       "notes": [
         "DPP-SOL 01 Body Fluids & It’s Circulation DPP 01 Solution Notes - DPP 1.pdf",
@@ -466,7 +510,11 @@
         "DPP-SOL 03 Body Fluids & It’s Circulation DPP 03 Solution Notes - DPP 3 SOLUTION.pdf",
         "DPP-SOL 04 Body Fluids & It’s Circulation DPP 04 Solution Notes - DPP 4 SOLUTION.pdf",
         "NOTES 01 Body Fluids & It’s Circulation 01 Classnotes - Body Fluids & Cibrculations (Samapti mam) Arjuna Neet_compressed.pdf",
-        "NOTES 02 Body Fluids & It’s Circulation 02 Classnotes - Body Fluid Lec-02 (Samapti mam) (1)_compressed.pdf"
+        "NOTES 02 Body Fluids & It’s Circulation 02 Classnotes - Body Fluid Lec-02 (Samapti mam) (1)_compressed.pdf",
+        "NOTES 03 Body Fluids & It’s Circulation 03 Classnotes - Blood Grouping Lymph (Samapti Mam) Arjuna NEET (2).pdf",
+        "NOTES 04 Body Fluids & It’s Circulation 04 Classnotes - Body fluids and it’s circulation Lec-4 (Samapti mam) Arjuna Neet_compressed.pdf",
+        "NOTES 05 Body Fluids & It’s Circulation 05 Classnotes - Body Fluids and it’s Circulation Lec-5 (Samapti mam) Arjuna Neet.enb.pdf",
+        "NOTES 06 Body Fluids & It’s Circulation 06 Classnotes - Body Fluids and it’s Circulation Lec-6 (Samapti mam) Arjuna Neet.enb.pdf"
       ],
       "other": []
     },
@@ -508,6 +556,16 @@
     },
     {
       "id": 4,
+      "chapter": "Breathing and Exchange of Gases PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Module 05 Breathing and Exchange of Gases - Arjuna neet bio Breathing nd exchange of gasses.pdf",
+        "Module 05 Solution Breathing and Exchange of Gases - Arjuna neet bio Breathing and Exchange of Gases solution.pdf"
+      ]
+    },
+    {
+      "id": 5,
       "chapter": "Cell Cycle and Cell Division",
       "dpps": [
         "DPP 01 Cell Cycle and Cell Division DPP 01 _ - Arjuna NEET - DPP-1_Arjuna (NEET)_Cell cycle and cell division_(29-06-2021)_Biswajit Sir_Mohit DTP.pdf",
@@ -532,14 +590,15 @@
         "NOTES H01 Cell Cycle and Cell Division 01 _ Handwritten notes - Arjuna NEET - CamScanner 06-29-2021 14.49.30.pdf",
         "NOTES H02 Cell Cycle and Cell Division 02 _ Handwritten Notes - CamScanner 06-29-2021 14.49.30 (1).pdf",
         "NOTES H04 Cell Cycle and Cell Division 04 Handwritten Notes - CamScanner 06-29-2021 14.49.30 (2).pdf",
-        "NOTES H06 Cell Cycle and Cell Division 06 Handwritten Notes - CamScanner 06-29-2021 14.49.30.pdf"
+        "NOTES H06 Cell Cycle and Cell Division 06 Handwritten Notes - CamScanner 06-29-2021 14.49.30.pdf",
+        "NOTES OWN Cell cycle and cell division handwritten notes.pdf"
       ],
       "other": [
         "NCERT 01 Cell Cycle and Cell Division NCERT Discussion - NCERT Discussion (Biswajit Sir) Arjuna NEET_compressed.pdf"
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Cell Cycle and Cell Division Module",
       "dpps": [],
       "notes": [],
@@ -553,7 +612,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Cell The Unit of Life",
       "dpps": [
         "DPP 01 Cell The Unit of Life.pdf",
@@ -617,7 +676,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "chapter": "Cell The Unit of Life PW Module",
       "dpps": [],
       "notes": [],
@@ -631,7 +690,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "chapter": "Digestion and Absorption",
       "dpps": [
         "DPP 01 Digestion and Absorption DPP 01 - Digestion andAbsorption_DPP 01-Arjuna Batch.pdf",
@@ -654,7 +713,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "chapter": "Digestion and Absorption - Self",
       "dpps": [],
       "notes": [],
@@ -682,7 +741,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "chapter": "Digestion and Absorption PW Module",
       "dpps": [],
       "notes": [],
@@ -696,7 +755,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 12,
       "chapter": "Other",
       "dpps": [
         "dpp session.notebook"
@@ -717,7 +776,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "chapter": "Previous Year Question Papers",
       "dpps": [],
       "notes": [],
@@ -749,7 +808,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 14,
       "chapter": "Structural Organisation in Animals",
       "dpps": [
         "DPP 01 Structural  Organisation in Animals DPP 01 - DPP-01__Structural organisation in animals_Arjuna (NEET).pdf",
@@ -784,7 +843,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 15,
       "chapter": "Structural Organisation in Animals PW Module",
       "dpps": [],
       "notes": [],
@@ -794,7 +853,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 16,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
@@ -811,7 +870,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 17,
       "chapter": "Test 02",
       "dpps": [],
       "notes": [
@@ -829,16 +888,24 @@
       ]
     },
     {
-      "id": 17,
+      "id": 18,
       "chapter": "Test 03",
       "dpps": [],
-      "notes": [],
+      "notes": [
+        "Practice Test 03 (Botany) Solution Notes - _Biology_Practice Test-03_Arjuna (NEET)_29-07-2021_Biswajit sir_compressed.pdf",
+        "Practice Test 03 (Chemistry) Solution Notes - Practice Test-03_Chemistry_Arjuna NEET Batch PPT (1).pdf",
+        "Practice Test 03 (Physics) Solution Notes - Arjuna NEET Practice Test-03_Physics_(01.08.2021) khikhikhi (1)_compressed.pdf",
+        "Practice Test 03 (Zoology) Solution Notes - Arjuna Neet Test Paper(3).pdf"
+      ],
       "other": [
-        "Practice Test - 03 Syllabus (01-08-2021) - Test Syllabus -converted (1).pdf"
+        "Practice Test - 03 Syllabus (01-08-2021) - Test Syllabus -converted (1).pdf",
+        "Practice Test 03 (Botany) - Biology_Practice Test-03_Arjuna (NEET)_26-07-2021_Biswajit sir_Mohit DTP.pdf",
+        "Practice Test 03 (Chemistry) - Practice Test-03_Arjuna (NEET)_(Chemistry)_23-07-2021_Dolly Mam_Mohit DTP (3).pdf",
+        "Practice Test 03 (Physics) - Arjuna NEET Practice Test-03_Physics_(01.08.2021).pdf"
       ]
     },
     {
-      "id": 18,
+      "id": 19,
       "chapter": "The Living World",
       "dpps": [
         "DPP 01 Living World DPP 01 - DPP-1_Arjuna (NEET)_Living world_(16-07-2021)_Biswajit Sir_Mohit DTP.pdf",
@@ -857,9 +924,19 @@
         "NOTES H01 The Living World.pdf"
       ],
       "other": []
+    },
+    {
+      "id": 20,
+      "chapter": "The Living World PW Module",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "Module 06 Living World - Arjuna neet bio Living world.pdf",
+        "Module 06 Solution Living World - Arjuna neet bio Living world solution.pdf"
+      ]
     }
   ],
-  "last_update": "2/8/2021",
+  "last_update": "3/8/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
