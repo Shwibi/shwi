@@ -55,7 +55,8 @@
         "NOTES 04 Unit and Dimensions 04 - PSS on dimensional analysis Classnotes - udm 4 ques on dimention.pdf",
         "NOTES 05 Unit and Dimensions 05 Classnotes - udm 5_compressed.pdf",
         "NOTES 06 Unit and Dimensions 06 Classnotes - instrument.pdf",
-        "NOTES 07 Unit and Dimensions 07 Classnotes - udm lec 7.pdf"
+        "NOTES 07 Unit and Dimensions 07 Classnotes - udm lec 7.pdf",
+        "NOTES B01 Unit & Dimensions 01 Classnotes (Backlog Express) - Backlog_Ch-1_Units&Dim (1).pdf"
       ],
       "other": [
         "ASSIGNMENT 01 Unit and Measurement Assignment-01 - 1. Unit and Measurement_Arjuna Batch_Assignment.pdf",
@@ -100,6 +101,7 @@
         "DPP-SOL 11 Kinematics DPP 11 Solution notes - Kinematics_DPP-11_Arjuna (NEET) khikhi.pdf",
         "DPP-SOL 12 Kinematics DPP 12 Solution notes - Kinematics DPP 12 Discussion.pdf",
         "DPP-SOL 13 Kinematics DPP 13 Solution notes - Kinematics DPP 13 Solution.pdf",
+        "NCERT 01 Kinematics NCERT Discussion Classnotes - KINEMATICS NCERT DISCUSSION.pdf",
         "NOTES 01 Kinematics 01 Classnotes - Kinematics Lec-1 (MR sir) Arjuna NEET_compressed.pdf",
         "NOTES 01.2 Kinematics 01 Extra Lecture Classnotes - kinematicds lecture 1 extra.pdf",
         "NOTES 02 Kinematics 02 Classnotes - kinematics _2_compressed.pdf",
@@ -146,6 +148,7 @@
         "DPP-SOL 04 Motion in a Plane DPP 04 Solution Notes - Motion in Plane_PPT-04_Arjuna (NEET)khikhikhi.pdf",
         "DPP-SOL 05 Motion in a Plane DPP 05 Solution Notes - Motion in Plane_PPT-05_Arjuna (NEET)khikhi.pdf",
         "DPP-SOL 06 Motion in a Plane DPP 06 Solution Notes - Motion in Plane_PPT-06_Arjuna (NEET)khikhikhi.pdf",
+        "NCERT 01 Motion in a Plane NCERT Discussion Classnotes - 5_6100149974723461948.pdf",
         "NOTES 01 Motion in a Plane 01 Classnotes - motion in plane 1_compressed (1).pdf8.pdf",
         "NOTES 02 Motion in a Plane 02 Classnotes - arjuna prtojectyilre.pdf",
         "NOTES 03 Motion in a Plane 03 Classnotes - projectile motion _2 arjuna_compressed (1).pdf",
@@ -164,10 +167,17 @@
       "id": 5,
       "chapter": "Ch-05 Newton's Laws of Motion",
       "dpps": [
-        "DPP 01 Newton's Laws of Motion DPP 01 - Newton's Laws of Motion_DPP-01 Arjuna (NEET).pdf"
+        "DPP 01 Newton's Laws of Motion DPP 01 - Newton's Laws of Motion_DPP-01 Arjuna (NEET).pdf",
+        "DPP 02 Newton's Laws of Motion DPP 02 (of Lec 03) - Newton's Laws of Motion_DPP-02 Arjuna (NEET).pdf",
+        "DPP 03 Newton's Laws of Motion DPP 03 (of Lec 04) - Newton's Laws of Motion_DPP-03 Arjuna (NEET).pdf"
       ],
       "notes": [
-        "NOTES 01 Newton's Laws of Motion 01 Classnotes - nlm 1 arjuna (1).pdf"
+        "DPP-SOL 01 Newton's Laws of Motion DPP 01 Solution Notes - Newton's Laws of Motion_DPP-01 Arjuna (NEET) khikhikhi (1).pdf",
+        "DPP-SOL 02 Newton's Laws of Motion DPP 02 Solution Notes - DPP-02 Discussion.pdf",
+        "NOTES 01 Newton's Laws of Motion 01 Classnotes - nlm 1 arjuna (1).pdf",
+        "NOTES 02 Newton's Laws of Motion 02 Classnotes - arjuna nlm 2_compressed.pdf",
+        "NOTES 03 Newton's Laws of Motion 03 Classnotes - nlm 32arjuna_compressed.pdf",
+        "NOTES 04 Newton's Laws of Motion 04 Classnotes - nlm _ -4 arjuna_compressed.pdf"
       ],
       "other": []
     },
@@ -212,7 +222,24 @@
     },
     {
       "id": 2,
-      "chapter": "Ch-01 Some Basic Concepts of Chemistry Physics Wallah",
+      "chapter": "Ch-01 Some Basic Concepts of Chemistry",
+      "dpps": [
+        "DPP 01 DPP-01_PC.pdf",
+        "DPP 02 Dpp-2Question.pdf",
+        "DPP-SOL 01 DPP-01-WithAns.pdf",
+        "DPP-SOL 02 Dpp-2Solution.pdf"
+      ],
+      "notes": [
+        "NOTES 01 Introduction_of_Concentration_Terms_with_anno.pdf"
+      ],
+      "other": [
+        "SHEET CONCENTRATIONTERMSA4.pdf",
+        "SHEET SOLUTIONConcentrationTerms.pdf"
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "Ch-01 Some Basic Concepts of Chemistry (PW)",
       "dpps": [
         "DPP 01 Some Basics Concepts of Chemistry DPP-01 - Arjuna (NEET)_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
         "DPP 02 Some Basics Concepts of Chemistry DPP-02 - Arjuna (NEET)_DPP 2_Some Basic Concepts of Che_(09-05-2001)_Dolly Mam.pdf",
@@ -231,15 +258,9 @@
         "NOTES 07 Some Basic Concepts of Chemistry 07 Classnotes - Some Basic concepts of Chemistry Lec-7 Homework (Dolly mam) Arjuna NEET.pdf",
         "NOTES 08 Some Basic Concepts of Chemistry 08 Classnotes - Some Basic Concept Lec-8 (Dolly mam) Arjuna Neet_compressed.pdf",
         "NOTES 10 Some Basic Concepts of Chemistry 10 Classnotes - Some Basic Concept (Dolly mam) Arjuna Neet Lec-10_compressed (1).pdf",
-        "NOTES 14 Some Basics Concepts of Chemistry 14 Classnotes - Some basic concept of chemistry leC-14 (Dolly mam)arjuna neet_compressed.pdf"
+        "NOTES 14 Some Basics Concepts of Chemistry 14 Classnotes - Some basic concept of chemistry leC-14 (Dolly mam)arjuna neet_compressed.pdf",
+        "NOTES B01 Some Basics Concepts of Chemistry 01 Classnotes (Backlog Express) - Some Basic Concept of Chemist.pdf"
       ],
-      "other": []
-    },
-    {
-      "id": 3,
-      "chapter": "Ch-01 Some Basic Concepts of Chemistry PW Module",
-      "dpps": [],
-      "notes": [],
       "other": [
         "Module 01- Some Basic Concepts of Chemistry Multi-Concept Questions - Multi-Concept Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
         "Module 01- Some Basic Concepts of Chemistry NCERT Based Questions - NCERT Based Questions of NEET Chemistry CLASS-XI (Module-1)-Chapter 1.pdf",
@@ -249,24 +270,7 @@
     },
     {
       "id": 4,
-      "chapter": "Ch-01 Some Basic Concepts of Chemistry Unacademy",
-      "dpps": [
-        "DPP 01 DPP-01_PC.pdf",
-        "DPP 02 Dpp-2Question.pdf",
-        "DPP-SOL 01 DPP-01-WithAns.pdf",
-        "DPP-SOL 02 Dpp-2Solution.pdf"
-      ],
-      "notes": [
-        "NOTES 01 Introduction_of_Concentration_Terms_with_anno.pdf"
-      ],
-      "other": [
-        "SHEET CONCENTRATIONTERMSA4.pdf",
-        "SHEET SOLUTIONConcentrationTerms.pdf"
-      ]
-    },
-    {
-      "id": 5,
-      "chapter": "Ch-03 Periodic Properties",
+      "chapter": "Ch-03 Classification of Elements and Periodicity in Properties",
       "dpps": [
         "COLLOIDS-SPECIAL_DPP_NUTURE.pdf"
       ],
@@ -283,6 +287,38 @@
         "Electronegativity__I_no_anno.pdf",
         "Periodic table.txt"
       ]
+    },
+    {
+      "id": 5,
+      "chapter": "Ch-03 Classification of Elements and Periodicity in Properties (PW)",
+      "dpps": [
+        "DPP 01 Classification of Elements and Periodicity in Properties DPP 01 - DPP-1_Classification.pdf",
+        "DPP 02 Classification of Elements and Periodicity in Properties DPP 02 - DPP-2_Classification.pdf",
+        "DPP 03 Classification of Elements and Periodicity in Properties DPP 03 - DPP-3_Classification.pdf",
+        "DPP 04 Classification of Elements and Periodicity in Properties DPP 04 - DPP-4_Classification.pdf",
+        "DPP 05 Classification of Elements and Periodicity in Properties DPP 05 - DPP-5_Classification.pdf",
+        "DPP 06 Classification of Elements and Periodicity in Properties DPP 06 - DPP-6_Classification.pdf",
+        "DPP 07 Classification of Elements and Periodicity in Properties DPP 07 - DPP-7_Classification.pdf"
+      ],
+      "notes": [
+        "DPP-SOL 01 Classification of Elements and Periodicity in Properties DPP 01 Solution Notes - Cl.pdf",
+        "DPP-SOL 02 Classification of Elements and Periodicity in Properties DPP 02 Solution Notes - Cl.pdf",
+        "DPP-SOL 03 Classification of Elements and Periodicity in Properties DPP 03 Solution Notes - Cl.pdf",
+        "DPP-SOL 04 Classification of Elements and Periodicity in Properties DPP 04 Solution Notes - Cl.pdf",
+        "DPP-SOL 05 Classification of Elements and Periodicity in Properties DPP 05 Solution Notes - Cl.pdf",
+        "DPP-SOL 06 Classification of Elements and Periodicity in Properties DPP 06 Solution Notes - Cl.pdf",
+        "DPP-SOL 07 Classification of Elements and Periodicity in Properties DPP 07 Solution Notes - C.pdf",
+        "NOTES 01 Classification of Elements and Periodicity in Properties 01 Classnotes - classificat.pdf",
+        "NOTES 02 Classification of Elements and Periodicity in Properties 02 Classnotes - Classificat.pdf",
+        "NOTES 03 Classification of Elements and Periodicity in Properties 03 Classnotes - Classificat.pdf",
+        "NOTES 04.1 Classification of Elements and Periodicity in Properties 04 Classnotes - Classific.pdf",
+        "NOTES 04.2 Classification of Elements and Periodicity in Properties Extra Lecture Classnotes .pdf",
+        "NOTES 05 Classification of Elements and Periodicity in Properties 05 Classnotes - classificat.pdf",
+        "NOTES 06 Classification of Elements and Periodicity in Properties 06 Classnotes - classificat.pdf",
+        "NOTES 07 Classification of Elements and Periodicity in Properties 07 Classnotes - Classificat.pdf",
+        "NOTES 08 Classification of Elements and Periodicity in Properties 08 Classnotes - Periodic Cl.pdf"
+      ],
+      "other": []
     },
     {
       "id": 6,
@@ -328,7 +364,7 @@
     },
     {
       "id": 8,
-      "chapter": "Ch-05 States of Matter PW",
+      "chapter": "Ch-05 States of Matter (PW)",
       "dpps": [
         "DPP 01 State of Matter DPP 01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf",
         "DPP 02 State of Matter DPP 02 - State of matter DPP 0 2 Arjuna Batch.pdf",
@@ -356,7 +392,7 @@
     },
     {
       "id": 9,
-      "chapter": "Ch-05 Structure of Atom PW",
+      "chapter": "Ch-05 Structure of Atom (PW)",
       "dpps": [
         "DPP 01 Structure of Atom DPP 01 - Arjuna (NEET)_DPP 1_Structure of Atom_(06-06-2021)_Dolly Mam_Mohit DTP.pdf",
         "DPP 02 Structure of Atom DPP 02 - Arjuna (NEET)_DPP 2_Structure of Atom_(06-07-2021)_Dolly Mam_Mohit DTP (1).pdf",
@@ -575,6 +611,7 @@
         "NOTES 07 Structural Organisation in Animals 07 Classnotes - structural organisation animal lec-7.pdf",
         "NOTES 08 Structural Organization of Animal 08 Classnotes - STRUCTURAL ORGANISATION IN ANIMALS- LECTURE 8.pdf",
         "NOTES 09 Structural Organisation in Animal 09 Classnotes - STRUCTURAL ORGANISATION IN ANIMALS- LECTURE -9 (Samapti mam) Arjuna Neet_compressed.pdf",
+        "NOTES B01 Structural Organisation in Animals 01 Classnotes (Backlog Express) - Structural Organization in Animals (Samapti.pdf",
         "NOTES N1 NCERT Structural Organization of Animals Lec-01 Classnotes - structural Organization in animals Lec1 NCERT Dis._compressed.pdf"
       ],
       "other": [
@@ -920,7 +957,7 @@
       ]
     }
   ],
-  "last_update": "13/8/2021",
+  "last_update": "16/8/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
