@@ -131,6 +131,40 @@
     },
     {
       "id": 4,
+      "chapter": "Ch-03 Kinematics [PJ Sir]",
+      "dpps": [
+        "DPP-1-Kinematics-SpeedVelocityDistanceandDisplacement.pdf",
+        "DPP-2-Kinematics-Equationofkinematics.pdf",
+        "DPP-3-Kinematics-Motionundergravity.pdf",
+        "DPP-4-Kinematics-PositionVelocityandAccelerationGraph.pdf",
+        "DPP-5-Kinematics-ProjectileMotion.pdf",
+        "DPP-6-Kinematics-ProjectileMotiononinclinedplane.pdf",
+        "DPP-7-Kinematics-RelativemotioninOne-Dimension.pdf",
+        "DPP-8-Kinematics-RelativemotionRiver-Boatproblems.pdf",
+        "DPP-9-Kinematics-RelativemotionRain-Manproblems.pdf",
+        "SolutionDPP-1-Kinematics-SpeedVelocityDistanceandDisplacement.pdf",
+        "SolutionDPP-2-Kinematics-Equationofkinematics.pdf",
+        "SolutionDPP-3-Kinematics-Motionundergravity.pdf",
+        "SolutionDPP-4-Kinematics-PositionVelocityandAccelerationGraph.pdf",
+        "SolutionDPP-5-Kinematics-ProjectileMotion.pdf",
+        "SolutionDPP-6-Kinematics-ProjectileMotiononinclinedplane.pdf",
+        "SolutionDPP-7-Kinematics-RelativemotioninOne-Dimension.pdf",
+        "SolutionDPP-8-Kinematics-RelativemotionRiver-Boatproblems.pdf",
+        "SolutionDPP-9-Kinematics-RelativemotionRain-Manproblems.pdf"
+      ],
+      "notes": [],
+      "other": [
+        "Ex.1-Kinematics-1D-SingleCorrectL-1.pdf",
+        "Ex.1-Kinematics-2D-SingleCorrectL-1.pdf",
+        "Ex.4-Kinematics-1D-S-L-1.pdf",
+        "Ex.4-Kinematics-2D-S-L-1.pdf",
+        "Solution-SheetEx.1-Kinematics-1D-SingleCorrectL-1.pdf",
+        "SolutionSheetEx.4-Kinematics-1D-S-L-1.pdf",
+        "SolutionSheetExercise-1Kinematics-2DL-1.pdf"
+      ]
+    },
+    {
+      "id": 5,
       "chapter": "Ch-04 Motion in a Plane",
       "dpps": [
         "DPP 01 Motion in a Plane DPP 01 (of Lec 02) - Motion in plane_DPP-01_Arjuna (NEET).pdf",
@@ -164,13 +198,15 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Ch-05 Newton's Laws of Motion",
       "dpps": [
         "DPP 01 Newton's Laws of Motion DPP 01 - Newton's Laws of Motion_DPP-01 Arjuna (NEET).pdf",
         "DPP 02 Newton's Laws of Motion DPP 02 (of Lec 03) - Newton's Laws of Motion_DPP-02 Arjuna (NEET).pdf",
         "DPP 03 Newton's Laws of Motion DPP 03 (of Lec 04) - Newton's Laws of Motion_DPP-03 Arjuna (NEET).pdf",
-        "DPP 04 Newton's Laws of Motion DPP 04 (of Lec 05) - Newton's Laws of Motion_DPP-04 Arjuna (NEET) (1).pdf"
+        "DPP 04 Newton's Laws of Motion DPP 04 (of Lec 05) - Newton's Laws of Motion_DPP-04 Arjuna (NEET) (1).pdf",
+        "DPP 05 Newton's Laws of Motion DPP 05 (Of Lec 07) - Newton's Laws of Motion_DPP-05 Arjuna (NEET).pdf",
+        "DPP 06 Newton's Laws of Motion DPP 06 (Of Lec 08) - Newton's Laws of Motion_DPP-06 Arjuna (NEET).pdf"
       ],
       "notes": [
         "DPP-SOL 01 Newton's Laws of Motion DPP 01 Solution Notes - Newton's Laws of Motion_DPP-01 Arjuna (NEET) khikhikhi (1).pdf",
@@ -181,12 +217,15 @@
         "NOTES 02 Newton's Laws of Motion 02 Classnotes - arjuna nlm 2_compressed.pdf",
         "NOTES 03 Newton's Laws of Motion 03 Classnotes - nlm 32arjuna_compressed.pdf",
         "NOTES 04 Newton's Laws of Motion 04 Classnotes - nlm _ -4 arjuna_compressed.pdf",
-        "NOTES 05 Newton's Laws of Motion 05 Classnotes - nlm 5 arjuna_compressed.pdf"
+        "NOTES 05 Newton's Laws of Motion 05 Classnotes - nlm 5 arjuna_compressed.pdf",
+        "NOTES 06 Newton's Laws of Motion 06 Classnotes - nlm _6 arjuna.pdf",
+        "NOTES 07 Newton's Laws of Motion-07 Classnotes - nom arjuna_compressed_organized.pdf",
+        "NOTES 08 Newton's Laws of Motion 08 Classnotes - arjuna nlm 8 ,_compressed (1).pdf"
       ],
       "other": []
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -274,6 +313,16 @@
     },
     {
       "id": 4,
+      "chapter": "Ch-02 Strcture of Atom",
+      "dpps": [],
+      "notes": [
+        "NOTES 01 Introduction_Rutherford_Experiment_with_anno.pdf",
+        "NOTES 02 Waves_Nature_of_Light_Electromagnetic_Wave_with_anno.pdf"
+      ],
+      "other": []
+    },
+    {
+      "id": 5,
       "chapter": "Ch-03 Classification of Elements and Periodicity in Properties",
       "dpps": [
         "COLLOIDS-SPECIAL_DPP_NUTURE.pdf"
@@ -293,7 +342,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "chapter": "Ch-03 Classification of Elements and Periodicity in Properties (PW)",
       "dpps": [
         "DPP 01 Classification of Elements and Periodicity in Properties DPP 01 - DPP-1_Classification.pdf",
@@ -325,7 +374,7 @@
       "other": []
     },
     {
-      "id": 6,
+      "id": 7,
       "chapter": "Ch-03 Quantum Number",
       "dpps": [],
       "notes": [
@@ -335,7 +384,25 @@
       "other": []
     },
     {
-      "id": 7,
+      "id": 8,
+      "chapter": "Ch-04 Chemical Bonding",
+      "dpps": [],
+      "notes": [
+        "NOTES 01 Introduction_of_Chemical_Bonding_with_anno.pdf",
+        "NOTES 02 Oxidation_and_Covalency_with_anno.pdf",
+        "NOTES 03 Lewis_Structures_with_anno.pdf",
+        "NOTES 04 Hypovalent_Hypervalent_and_type_of_Lewis_Acid_and_Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 05 VBT_with_anno.pdf",
+        "NOTES 06 Bond_Strength_Catenation_Atomicity_with_anno.pdf",
+        "NOTES 07 Hybridisation__II_with_anno.pdf"
+      ],
+      "other": [
+        "Chemicalbonding.pdf",
+        "PuzzleRaceRace01-13.pdf"
+      ]
+    },
+    {
+      "id": 9,
       "chapter": "Ch-05 States of Matter",
       "dpps": [
         "DPP 10 DPP-10PC.pdf",
@@ -354,7 +421,15 @@
         "NOTES 10 Kinetic_Theory_of_Gases_with_anno.pdf",
         "NOTES 11 Maxwell_Distribution_of_Molecular_Speed_with_anno.pdf",
         "NOTES 12 Problems_Related_with_Mercury_Tube__SPM_with_anno.pdf",
-        "NOTES 13 Doubt_Clearing_Session_with_anno.pdf"
+        "NOTES 13 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 14 No_of_Bimolecular_Collision_with_anno.pdf",
+        "NOTES 15 Problems_and_Sheet_Discussion_with_anno.pdf",
+        "NOTES 16 Vander_Waals_Equation_with_anno.pdf",
+        "NOTES 17 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 18 Compressibility_Boyles_Temperature_with_anno.pdf",
+        "NOTES 19 Liquifaction_Tc_Pc_Vc_with_anno.pdf",
+        "NOTES 20 Problems_and_Sheet_Discussion_with_anno.pdf",
+        "NOTES 21 Doubt_Clearing_Session_with_anno.pdf"
       ],
       "other": [
         "NURTURE_UNP-1_AkshaySIR9-8-2020.pdf",
@@ -367,7 +442,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 10,
       "chapter": "Ch-05 States of Matter (PW)",
       "dpps": [
         "DPP 01 State of Matter DPP 01 - Arjuna (NEET)_DPP 1_States of Matter_(10-06-2021)_Dolly Mam_Mohit DTP.pdf",
@@ -395,7 +470,7 @@
       "other": []
     },
     {
-      "id": 9,
+      "id": 11,
       "chapter": "Ch-05 Structure of Atom (PW)",
       "dpps": [
         "DPP 01 Structure of Atom DPP 01 - Arjuna (NEET)_DPP 1_Structure of Atom_(06-06-2021)_Dolly Mam_Mohit DTP.pdf",
@@ -439,7 +514,7 @@
       "other": []
     },
     {
-      "id": 10,
+      "id": 12,
       "chapter": "Ch-10 S-block",
       "dpps": [],
       "notes": [
@@ -461,17 +536,24 @@
       ]
     },
     {
-      "id": 11,
+      "id": 13,
       "chapter": "Ch-12 General Organic Chemistry",
       "dpps": [],
       "notes": [
         "NOTES 01 Introduction_of_GOC_Bond_Breaking_Types_of_Effect_and_Inductive_Effect_with_anno.pdf",
-        "NOTES 02 I_and_I_Series_and_Introduction_of_Resonance__I_with_anno.pdf"
+        "NOTES 02 I_and_I_Series_and_Introduction_of_Resonance__I_with_anno.pdf",
+        "NOTES 03 Introduction_of_Resonance__II_with_anno.pdf",
+        "NOTES 04 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 05 Orbital_Energy_Diagram_for_Organic_Compounds_with_anno.pdf",
+        "NOTES 06 Rules_for_Drawing_Resonating_Structures__I_with_anno.pdf",
+        "NOTES 07 Doubt_Clearing_Session_with_anno.pdf",
+        "NOTES 08 Rules_for_Stability_of_Resonating_Structures_and_ResonanceMesomeric_Effect_with_anno.pdf",
+        "NOTES 10 Resonance_Energy_Sigma_Resonance_Stearic_Inhibition_of_Resonance_Effect_SIR_Effect_with_anno.pdf"
       ],
       "other": []
     },
     {
-      "id": 12,
+      "id": 14,
       "chapter": "Ch-12 Nomenclature",
       "dpps": [
         "DPP 01 DPP-01.pdf"
@@ -504,7 +586,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 15,
       "chapter": "Handwritten- bewise",
       "dpps": [],
       "notes": [
@@ -519,7 +601,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 16,
       "chapter": "Other",
       "dpps": [],
       "notes": [],
@@ -529,7 +611,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 17,
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
@@ -583,12 +665,14 @@
         "DPP-SOL 04 Biological Classification DPP 04 Solution Notes - DPP 4 solution of Biological Classification 4.pdf",
         "DPP-SOL 05 Biological Classification DPP 05 Solution Notes - Biological Classification DPP-5 (Biswajit sir) Arjuna NEET (1).pdf",
         "DPP-SOL 06 Biological Classification DPP 06 Solution Notes - dpp 6 biological classification.pdf",
+        "DPP-SOL 07 Biological Classification DPP 07 Solution Notes - Biological Classification DPP-7 (Biswajit sir) Arjuna NEET.pdf",
         "NOTES 01 Biological Classification 01 Classnotes - Biological Classification Lec-1 (Biswajit sir) Arjuna NEET.pdf",
         "NOTES 02 Biological Classification 02 Classnotes - Biological Classification Lec-2(Biswajit Sir) Arjuna NEET.pdf",
         "NOTES 03 Biological Classification 03 Classnotes - BisWajit sir.pdf",
         "NOTES 04 Biological Classification 04 Classnotes - Biological classification lec 4 (biswajit sir).pdf",
         "NOTES 07 Biological Classification-07 Classnotes - Biological Classification Lec-7 (Biswajit Sir) Arjuna NEET.pdf",
         "NOTES 08 Biological Classification 08 Classnotes - Biological Classification 08 (Biswajit sir) Arjuna NEET_compressed.pdf",
+        "NOTES 09 Biological Classification 09 Classnotes - Biological Classification Lec-9 (Biswajit Sir) Arjuna NEET.pdf",
         "NOTES H01 Biological Classification 01 Hadwritten Notes - CamScanner 08-06-2021 14.54.30.pdf",
         "NOTES H03 Biological Classification 03 Handwritten Notes - CamScanner 08-10-2021 19.17.28_page-0001.pdf"
       ],
@@ -694,13 +778,15 @@
         "NOTES H13 Cell Structure Handwritten Notes - pk cell structure.pdf"
       ],
       "other": [
+        "Cell 1.pdf",
         "Module - 02 Cell Unit of Life Answer Key and Explanations - Answer Key and Explanations of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
         "Module - 02 Cell Unit of Life Multi-Concept Questions - Multi-Concept Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
         "Module - 02 Cell Unit of Life NCERT Based Questions - NCERT Based Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
         "Module - 02 Cell Unit of Life NEET Past 10 Year Questions - NEET Past 10 Year Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
         "Module - 02 Cell Unit of Life Theory and Explanation - Theory and Explanation of NEET Biology CLASS-XI (Module-2)-Chapter 8.pdf",
         "Module - 02 Cell Unit of Life Topicwise Questions - Topicwise Questions of NEET Biology CLASS-XI (Module-2)-Chapter 8-1.pdf",
-        "NCERT 02 Cell Unit of Life NCERT Discussion Part - 02 - NCERT Discussion (Biswajit Sir)_compressed.pdf"
+        "NCERT 02 Cell Unit of Life NCERT Discussion Part - 02 - NCERT Discussion (Biswajit Sir)_compressed.pdf",
+        "notebook- digi.notebook"
       ]
     },
     {
@@ -855,6 +941,30 @@
     },
     {
       "id": 9,
+      "chapter": "Ch-19 Excretory Products and their Elimination",
+      "dpps": [],
+      "notes": [
+        "NOTES 01 Excretory_Products__their_Elimination__Introduction_with_anno.pdf",
+        "NOTES 02 Excretory_Products__their_Elimination__II_with_anno.pdf",
+        "NOTES 03 Excretory_Products__their_Elimination__III_with_anno.pdf"
+      ],
+      "other": [
+        "ExcretoryProductstheirElimination.pdf",
+        "ExcretorySystemHINDI1.pdf"
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "Mock Papers",
+      "dpps": [],
+      "notes": [],
+      "other": [
+        "1.pdf",
+        "1_ans.jpg"
+      ]
+    },
+    {
+      "id": 11,
       "chapter": "Other",
       "dpps": [
         "dpp session.notebook"
@@ -879,7 +989,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 12,
       "chapter": "Previous Year Question Papers",
       "dpps": [],
       "notes": [],
@@ -911,7 +1021,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 13,
       "chapter": "Test 01",
       "dpps": [],
       "notes": [
@@ -928,7 +1038,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 14,
       "chapter": "Test 02",
       "dpps": [],
       "notes": [
@@ -946,7 +1056,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 15,
       "chapter": "Test 03",
       "dpps": [],
       "notes": [
@@ -963,7 +1073,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 16,
       "chapter": "Test 04",
       "dpps": [],
       "notes": [],
@@ -972,7 +1082,7 @@
       ]
     }
   ],
-  "last_update": "20/8/2021",
+  "last_update": "26/8/2021",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
