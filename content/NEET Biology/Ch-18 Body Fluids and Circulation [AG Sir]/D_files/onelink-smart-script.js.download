@@ -1,0 +1,152 @@
+if (!window.AF && !window.OneLinkUrlGenerator) {
+  class e {
+    constructor({
+      oneLinkURL: e,
+      pidKeysList: a = [],
+      pidStaticValue: t = null,
+      campaignKeysList: r = [],
+      campaignStaticValue: n = null,
+      pidOverrideList: i = [],
+      gclIdParam: s = 'af_sub5'
+    } = {}) {
+      if (
+        (console.debug('Constructing OneLink URL generator'),
+        void 0 === e || 'string' != typeof e || '' === e)
+      )
+        return (
+          console.error('OneLinkUrlGenerator: oneLinkURL arg invalid'), null
+        );
+      (this.oneLinkURL = e),
+        (this.pidOverrideList = i),
+        (this.gclIdParam = s),
+        (this.pidKeysList = a),
+        (this.pidStaticValue = t),
+        (this.campaignKeysList = r),
+        (this.campaignStaticValue = n),
+        (this.campaign = getCampaignValue(
+          this.campaignKeysList,
+          this.campaignStaticValue
+        )),
+        (this.mediaSource = getMediaSourceValue(
+          this.pidKeysList,
+          this.pidStaticValue,
+          this.pidOverrideList
+        )),
+        (this.afParams = { af_js_web: 'true' });
+    }
+    generateUrl() {
+      if (null == this.mediaSource)
+        return (
+          console.debug('No valid pid value was found. URL will no be changed'),
+          null
+        );
+      if (getParameterFromURL('af_redirect'))
+        return (
+          console.debug(
+            'This user comes from AppsFlyer by redirection and is ready to be attributed. \nKeep direct app store links.'
+          ),
+          null
+        );
+      if (isFacebook())
+        return (
+          console.debug(
+            "This user comes from a paid Facebook ad - don't do anything. \nKeep direct app store links."
+          ),
+          null
+        );
+      let e = this.mediaSource;
+      const a = getParameterFromURL('gclid');
+      if (a) {
+        (this.afParams[this.gclIdParam] = a),
+          console.debug('This user comes from Google AdWords');
+        const e = getParameterFromURL('keyword');
+        e &&
+          ((this.afParams.af_keywords = e),
+          console.debug('There is a keyword associated with the ad'));
+      } else console.debug('This user comes from SRN or custom network ');
+      const t =
+        this.oneLinkURL +
+        '?pid=' +
+        e +
+        '&c=' +
+        this.campaign +
+        stringifyAfParameters(this.afParams);
+      return console.debug(`Generated OneLink URL ${t}`), t;
+    }
+    setDeepLinkValue(e, a = null) {
+      setGenericParameter(this.afParams, 'deep_link_value', e, a);
+    }
+    setChannel(e, a = null) {
+      setGenericParameter(this.afParams, 'af_channel', e, a);
+    }
+    setAdset(e, a = null) {
+      setGenericParameter(this.afParams, 'af_adset', e, a);
+    }
+    setAd(e, a = null) {
+      setGenericParameter(this.afParams, 'af_ad', e, a);
+    }
+    setAfSub1(e, a = null) {
+      setGenericParameter(this.afParams, 'af_sub1', e, a);
+    }
+    setAfSub2(e, a = null) {
+      setGenericParameter(this.afParams, 'this.afParams, af_sub2', e, a);
+    }
+    setAfSub3(e, a = null) {
+      setGenericParameter(this.afParams, 'af_sub3', e, a);
+    }
+    setAfSub4(e, a = null) {
+      setGenericParameter(this.afParams, 'af_sub4', e, a);
+    }
+    setAfSub5(e, a = null) {
+      setGenericParameter(this.afParams, 'af_sub5', e, a);
+    }
+    setCustomParameter(e, a, t = null) {
+      setGenericParameter(this.afParams, a, e, t);
+    }
+  }
+  function isFacebook() {
+    return (
+      !(!document.referrer || '' == document.referrer) &&
+      document.referrer.toLowerCase().includes('facebook')
+    );
+  }
+  function getParameterFromURL(e) {
+    const a = window.location.href;
+    e = e.replace(/[\[\]]/g, '\\$&');
+    var t = new RegExp('[?&]' + e + '(=([^&#]*)|&|#|$)').exec(a);
+    return t
+      ? t[2]
+        ? decodeURIComponent(t[2].replace(/\+/g, ' '))
+        : ''
+      : null;
+  }
+  function getMediaSourceValue(e, a, t) {
+    let r = null;
+    for (let a of e)
+      null != a && getParameterFromURL(a) && (r = getParameterFromURL(a));
+    return null != r ? t.hasOwnProperty(r) && (r = t[r]) : (r = a), r;
+  }
+  function getCampaignValue(e, a) {
+    for (let a of e) if (getParameterFromURL(a)) return getParameterFromURL(a);
+    return null != a
+      ? a
+      : document.getElementsByTagName('title')[0]
+      ? document.getElementsByTagName('title')[0].innerText
+      : 'unknown';
+  }
+  function stringifyAfParameters(e) {
+    let a = '';
+    for (var t of Object.keys(e))
+      console.debug(t + '->' + e[t]), null != e[t] && (a += `&${t}=${e[t]}`);
+    return a;
+  }
+  function setGenericParameter(e, a, t, r = null) {
+    const n = getParameterFromURL(t);
+    n
+      ? ((e[a] = n), console.debug(`${t} found. ${a} = ${n}`))
+      : null != r
+      ? ((e[a] = r), console.debug(`${t} not found. ${a} = ${r}`))
+      : console.debug(`${t} not found and newParamValue is null. Skipping.`);
+  }
+  window.AF = Object.assign(window.AF || {}, { OneLinkUrlGenerator: e });
+}

@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Averta-Std;
+  src: url('https://static.uacdn.net/prod/fonts/avertastd-regular.otf');
+}
+@font-face {
+  font-family: Averta-Bold;
+  src: url('https://static.uacdn.net/prod/fonts/avertastd-bold.otf');
+}
+.chat-container {
+   background: #FCFCFC !important;
+}
+.chat-head {
+  font-family: Averta-Bold;
+}
+@media (max-width: 540px) {
+  .chat-head {
+    display: none !important;
+  }
+}
+.chat-container .fbots-chat-header-title .title-chat {
+   color: #FFFFFF; !important;
+}
+
+.chat-container .fbots-chat-header-subtitle .title-chat {
+    color: #FFFFFF; !important;
+}
+
+.chat-container .chat-header .right-brand-icon { display: none !important; }
+.chat-container .joe-menu-btn { display: none !important; }
+
+.chat-container .right-icon-container {
+    position: absolute !important;
+    right: 16px !important;
+}
+.chat-body {
+  font-family: Averta-Std;
+  background: #FCFCFC !important;
+}
+.left-joe-icon { display: none }
+.fbots-chat-header-title {
+  font-weight: normal;
+  font-size: 14px !important;
+  line-height: 150%;
+}
+.fbots-chat-header-subtitle {
+font-size: 24px;
+line-height: 120%;
+}
+.joe-message, .multi-message {
+   background: #FFFFFF !important;
+   border-radius: 16px 16px 16px 0px;
+   color: #3C4852 !important;
+}
+.my-message, .multi-message {
+    background: #3C4852 !important;
+    border-radius: 16px 16px 0px 16px;
+    color: #FFFFFF !important;
+}
+.chat-container .chat-history .my-message {
+   color: #FFFFFF !important;
+}
+.chat-container .joe-agent-pic {
+   border: none !important;
+}
+.chat-container .my-message a {
+   color: #FFFFFF !important;     
+}
+.chat-container .other-message a {
+   color: #3c4852 !important;
+}
+.chat-container .chat-history .other-message, .shadow-box {
+   box-shadow: 0px 16px 32px #F0F4F7 !important;
+}
+.chat-container .chat-history .my-message .multi-message {
+   padding: 0px !important;
+   margin: 0px !important;
+}
+#joe-bubble-unread {
+   font-size: 12px !important;
+   line-height: 1.7 !important;
+   right: -28px !important;
+   top: 20px !important;
+   height: 22px !important;
+   width: 22px !important;
+}

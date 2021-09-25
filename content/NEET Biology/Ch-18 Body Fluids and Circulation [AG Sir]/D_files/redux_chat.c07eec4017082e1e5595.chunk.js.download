@@ -1,0 +1,2 @@
+(this["webpackJsonpunacademy-live"]=this["webpackJsonpunacademy-live"]||[]).push([[16],{Z4su:function(e,n,i){"use strict";i.d(n,"a",(function(){return s}));var s=function(e){var n=e.getIn(["videoPlayControls","isLiveDVR"]),i=e.getIn(["videoPlayControls","isVideoPaused"]),s=e.getIn(["videoPlayControls","isLivePaused"]),a=e.getIn(["app","isReplay"]);return n||a?i:s}}}]);
+//# sourceMappingURL=redux~chat.c07eec4017082e1e5595.chunk.js.map
