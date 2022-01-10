@@ -258,10 +258,7 @@
         "NOTES 11 Problems_related_with_Mixing_of_Solution_with_anno.pdf",
         "NOTES 12 Volume_Strength_of_H2O2__labelling_of_Oleum_with_anno.pdf"
       ],
-      "other": [
-        "CONCENTRATIONTERMSA4.pdf",
-        "SOLUTIONConcentrationTerms.pdf"
-      ]
+      "other": ["CONCENTRATIONTERMSA4.pdf", "SOLUTIONConcentrationTerms.pdf"]
     },
     {
       "id": 2,
@@ -272,9 +269,7 @@
         "DPP-SOL 01 DPP-01-WithAns.pdf",
         "DPP-SOL 02 Dpp-2Solution.pdf"
       ],
-      "notes": [
-        "NOTES 01 Introduction_of_Concentration_Terms_with_anno.pdf"
-      ],
+      "notes": ["NOTES 01 Introduction_of_Concentration_Terms_with_anno.pdf"],
       "other": [
         "SHEET CONCENTRATIONTERMSA4.pdf",
         "SHEET SOLUTIONConcentrationTerms.pdf"
@@ -324,9 +319,7 @@
     {
       "id": 5,
       "chapter": "Ch-03 Classification of Elements and Periodicity in Properties",
-      "dpps": [
-        "COLLOIDS-SPECIAL_DPP_NUTURE.pdf"
-      ],
+      "dpps": ["COLLOIDS-SPECIAL_DPP_NUTURE.pdf"],
       "notes": [
         "NOTES B01 Electronegativity__I_with_anno.pdf",
         "NOTES B02 Electronegativity__II_with_anno.pdf",
@@ -396,10 +389,7 @@
         "NOTES 06 Bond_Strength_Catenation_Atomicity_with_anno.pdf",
         "NOTES 07 Hybridisation__II_with_anno.pdf"
       ],
-      "other": [
-        "Chemicalbonding.pdf",
-        "PuzzleRaceRace01-13.pdf"
-      ]
+      "other": ["Chemicalbonding.pdf", "PuzzleRaceRace01-13.pdf"]
     },
     {
       "id": 9,
@@ -555,9 +545,7 @@
     {
       "id": 14,
       "chapter": "Ch-12 Nomenclature",
-      "dpps": [
-        "DPP 01 DPP-01.pdf"
-      ],
+      "dpps": ["DPP 01 DPP-01.pdf"],
       "notes": [
         "NOTES 01 History_of_Organic_Chemistry_Bond_Line_Formula_with_anno.pdf",
         "NOTES 02 Types_of_Carbon_and_Hydrogen_Degree_of_Unsaturation__I_with_anno.pdf",
@@ -615,9 +603,7 @@
       "chapter": "PR Series",
       "dpps": [],
       "notes": [],
-      "other": [
-        "Series.txt"
-      ]
+      "other": ["Series.txt"]
     }
   ],
   "biology": [
@@ -958,17 +944,12 @@
       "chapter": "Mock Papers",
       "dpps": [],
       "notes": [],
-      "other": [
-        "1.pdf",
-        "1_ans.jpg"
-      ]
+      "other": ["1.pdf", "1_ans.jpg"]
     },
     {
       "id": 11,
       "chapter": "Other",
-      "dpps": [
-        "dpp session.notebook"
-      ],
+      "dpps": ["dpp session.notebook"],
       "notes": [],
       "other": [
         "12-07-2021 PLANNER Revised Planner (Biology) - Arjuna_NEET (Biology).pdf",
@@ -1082,7 +1063,7 @@
       ]
     }
   ],
-  "last_update": "26/8/2021",
+  "last_update": "10/01/2022",
   "specials": [
     {
       "name": "Chemistry//Inorganic Chemistry//IOC Book, Problems and solutions in Inorganic Chemistry by Vishal Joshi (VJ) Sir 4th Edition 4E",
